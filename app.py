@@ -16,7 +16,7 @@ from PIL import Image
 
 def main():
     st.set_page_config(
-        page_title="SARS-COV-2 Dashboard - Genomics Africa ",
+        page_title="CLIMADE Dashboard - Genomics Africa ",
         layout="wide",
         initial_sidebar_state="expanded",
         page_icon="img/cropped-ceri_branco-01-150x150.png"
@@ -34,7 +34,7 @@ def main():
     last_update = datetime.today().strftime("%Y-%m-%d")
 
     ## Add sidebar to the app
-    st.sidebar.title("GENOMICS AFRICA")
+    st.sidebar.title("CLIMADE AFRICA")
     st.sidebar.subheader("Last update: %s" % last_update)
 
     # Sidebar filter data
