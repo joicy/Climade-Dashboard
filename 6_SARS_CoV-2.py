@@ -16,7 +16,7 @@ from PIL import Image
 
 def main():
     st.set_page_config(
-        page_title="CLIMADE Dashboard - Genomics Africa ",
+        page_title="cs Africa ",
         layout="wide",
         initial_sidebar_state="expanded",
         page_icon="img/cropped-ceri_branco-01-150x150.png"
