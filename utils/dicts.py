@@ -1,52 +1,12 @@
 ##### Palette colors #####
-main_lineages_color_scheme = {'A': '#6c483a', 'A.23.1': '#9f8377',
-                              # more: https://coolors.co/6c483a-9f8377-aea198-b9b8ae-cdcfc8
-                              'B.1': '#586f6b', 'B.1.1': '#7f9183', 'B.1.1.1': '#b8b8aa', 'B.1.1.318/AZ.x': '#cfc0bd',
-                              'B.1.16': '#DDD5D0',
-                              'B.1.1.448': '#d4baca', 'B.1.1.54': '#e69ac8', 'Omicron (BA.1)': '#e83368',  # pink
-                              'Omicron': '#e83368', 'Omicron (BA.2)': '#91b508', 'Omicron (BA.3)': '#e05780',
-                              'Omicron (BA.4)': '#2a85c9', 'Omicron (BA.5)': '#002337', 'Omicron (BQ.*)': '#ffb703',
-                              'Omicron (XBB.1.5)': '#fb8500', 'Omicron (XBB.*)': '#8338ec', 'Other Omicron': '#b5179e',
-                              'B.1.1.7 (Alpha)': '#696969', 'Alpha': '#696969',
-                              # more: https://coolors.co/696969-c9c9c9 grey
-                              'B.1.237': '#faf0ca', 'B.1.351 (Beta)': '#ffe45e', 'Beta': '#ffe45e',
-                              'B.1.351': '#ffe45e',  # yellow
-                              'B.1.525 (Eta)': '#cdb4db', 'B.1.540': '#c7e8f3', 'B.1.549': '#FFDDD2',
-                              'B.1.617.2/AY.x (Delta)': '#2a9d8f', 'Delta': '#2a9d8f',
-                              'C.1/C.1.1/C.1.2': '#0D5789', 'C.16': '#3B98C6', 'C.36/C.36.3': '#3B98C6',
-                              # more: https://coolors.co/0d5789-3b98c6-edf6f9-ffddd2-e29578
-                              'Other Lineages': '#EDF6F9',
-                              'Gamma': '#E29578'
-                              }
+main_lineages_color_scheme = {}
 ##### Dictionary to convert names of variants #####
-variant_names = {'B.1.1.7': 'Alpha', 'B.1.1.7 (Alpha)': 'Alpha',
-                 'VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK': 'Alpha',
-                 'B.1.351': 'Beta', 'B.1.351.2': 'Beta', 'B.1.351.3': 'Beta', 'B.1.351 (Beta)': 'Beta',
-                 'VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa': 'Beta',
-                 'P.1': 'Gamma', 'P.1.1': 'Gamma',
-                 'VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan': 'Gamma',
-                 'B.1.617.2/AY.x': 'Delta', 'B.1.617.2': 'Delta', 'B.1.617.2/AY.x (Delta)': 'Delta',
-                 'VOC Delta GK (B.1.617.2+AY.*) first detected in India': 'Delta',
-                 'B.1.525 (Eta)': 'B.1.525', 'B.1.1.529 (Omicron)': 'Omicron',
-                 'B.1.1.529': 'Omicron', 'BA.1': 'Omicron', 'BA.1.1': 'Omicron',
-                 'BA.1.1.11': 'Omicron', 'BA.1.15': 'Omicron',
-                 'BA.2': 'Omicron', 'BA.3': 'Omicron', 'BA.1.1.1': 'Omicron', 'BA.1.1.4': 'Omicron', 'BA.1.1.6': 'Omicron',
-                 'BA.1.1.9': 'Omicron', 'BA.1.17.2': 'Omicron', 'BA.1.18': 'Omicron', 'BA.1.14': 'Omicron',
-                 'BA.1.13': 'Omicron', 'BA.1.17': 'Omicron', 'BA.1.1.14': 'Omicron', 'BA.1.16': 'Omicron',
-                 'VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa': 'Omicron',
-                 }
+variant_names = {}
 
-# Concerned variants based on WHO Feb 16
-concerned_variants = ['Alpha', 'Beta', 'Gamma', 'Delta', 'Omicron (BA.1)', 'Omicron (BA.2)',
-                      'Omicron (BA.4)', 'Omicron (BA.5)', 'Omicron (BQ.*)', 'Omicron (XBB.*)',
-                      'Omicron (XBB.1.5)', 'Other Lineages']
+# Variant cutoffs
+variant_cutoffs = {}
 
-# Variant cutoffs (based on first importated data from Pango Report)
-variant_cutoffs = {"Alpha": "2020-09-03", "Beta": "2020-09-01", "Gamma": "2020-10-01", "Delta": "2021-03-01",
-                   "Omicron (BA.1)": "2021-11-20", "Omicron (BA.2)": "2022-02-15", "Omicron (BA.3)": "2022-11-18",
-                   "Omicron (BA.4)": "2022-01-10", "Omicron (BA.5)": "2022-01-10", "Other Lineages": "",
-                   "Omicron (BQ.*)": "2021-12-28", "Omicron (XBB.*)": "2022-08-10", "Omicron (XBB.1.5)": "2023-01-10",
-                   "Other Omicron": "2021-11-20"}
+concerned_variants = {}
 
 ###### Dictionary to standardize duplicated countries ####
 standardize_country_names = {'Republic of Burundi': 'Burundi', 'Republic of Cameroon': 'Cameroon',
@@ -103,7 +63,8 @@ missing_country_codes = {'Guinea-Bissau': 'GNB', 'Mauritius': 'MUS', 'Republic o
                          'Eswatini': 'SWZ', 'Tanzania': 'TZA', 'South Sudan': 'SSD'}
 
 #https://plotly.com/python/builtin-colorscales/#discrete-color-sequences
-vocs_color_pallet = {'Alpha': 'Greys', 'Beta': 'YlOrBr', 'Gamma': 'Oranges', 'Delta': 'algae', 'Omicron': 'RdPu',
-                     'Omicron (BA.2)': 'RdPu', 'Omicron (BA.1)': 'RdPu', 'Omicron (BA.3)': 'YlOrRd',
-                     'Omicron (BA.4)': 'RdPu', 'Omicron (BA.5)': 'RdPu', 'Omicron (BQ.*)': 'Oranges',
-                     'Omicron (XBB.*)': 'dense', 'Omicron (XBB.1.5)': 'Purp', 'Other Lineages': 'Blues'}
+vocs_color_pallet = {'DENV': 'Greys', 'DENV 1': 'YlOrBr', 'DENV 2': 'Oranges', 'DENV 3': 'algae', 'DENV 4': 'RdPu'}
+
+
+##### CLIMADE dicts ########
+dengue_variants = {"DENV", "DENV 1", "DENV 2", "DENV 3", "DENV 4"}
