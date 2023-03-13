@@ -128,11 +128,11 @@ def process_data_from_gisaid_api(base_url, username, password):
 
 
 def process_data_from_gisaid_metadata():
-    df_path = "../data/metadata.csv"
+    df_path = "../data/dengue/metadata.csv"
     df = pd.read_csv(df_path)
-    #TODO: mudar colunas para pegar as originais dos metadados e padronizar com as
-    df = df[df.pangolin_lineage != 'None']
-    df['variant'] = df['pangolin_lineage']
+
+    df = df[df.lineage != 'None']
+    df['variant'] = df['lineage']
     df.replace({"variant": variant_names}, inplace=True)
 
     # saving file
