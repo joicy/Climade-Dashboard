@@ -19,7 +19,7 @@ def main():
     remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
 
     ## Getting the data
-    df_africa = load_data('data/dengue/metadata.csv')
+    df_africa = load_data('data/dengue/metadata-all-serotypes.csv')
 
     ##### CHECK LAST UPDATE #####
     with open('last_update.txt', 'r') as f:
