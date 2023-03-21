@@ -63,8 +63,8 @@ missing_country_codes = {'Guinea-Bissau': 'GNB', 'Mauritius': 'MUS', 'Republic o
                          'Eswatini': 'SWZ', 'Tanzania': 'TZA', 'South Sudan': 'SSD'}
 
 #https://plotly.com/python/builtin-colorscales/#discrete-color-sequences
-vocs_color_pallet = {'DENV': 'Greys', 'DENV 1': 'YlOrBr', 'DENV 2': 'Oranges', 'DENV 3': 'algae', 'DENV 4': 'RdPu'}
+vocs_color_pallet = {'Unassigned': 'Greys', 'DENV-1': 'YlOrBr', 'DENV-2': 'Oranges', 'DENV-3': 'algae', 'DENV-4': 'RdPu'}
 
 
 ##### CLIMADE dicts ########
-dengue_variants = {"DENV", "DENV 1", "DENV 2", "DENV 3", "DENV 4"}
+dengue_variants = {"Unassigned", "DENV-1", "DENV-2", "DENV-3", "DENV-4"}
