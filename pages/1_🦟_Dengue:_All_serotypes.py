@@ -1,5 +1,5 @@
 from config import *
-from source.pages import sidebar as sd
+from source.pages import sidebar_dengue_all_serotypes as sd
 from source.pages.header import *
 from source.graphs.africa_map import *
 from source.graphs.variants_proportion import variants_bar_plot
