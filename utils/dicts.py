@@ -69,4 +69,4 @@ vocs_color_pallet = {'Unassigned': 'Greys', 'DENV-1': 'YlOrBr', 'DENV-2': 'Orang
 ##### CLIMADE dicts ########
 dengue_variants = {"Unassigned", "DENV-1", "DENV-2", "DENV-3", "DENV-4"}
 
-dengue_variants_genotypes = {"Genotype I", "Genotype II", "Genotype III", "Genotype IV", "Genotype V"}
+dengue_variants_genotypes = {"Genotype I", "Genotype II", "Genotype III", "Genotype IV", "Genotype V", "Genotype VI"}
