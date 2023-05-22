@@ -40,7 +40,7 @@ standardize_country_names = {'Republic of Burundi': 'Burundi', 'Republic of Came
                              'Republic of Senegal': 'Senegal',
                              'Republic of Sierra Leone': 'Sierra Leone', 'Togolese': 'Togo',
                              'Togolese Republic': 'Togo', 'La Reunion': 'Reunion',
-                             'DR Congo': 'Democratic Republic of the Congo', 'Congo':'Republic of the Congo'}
+                             'DR Congo': 'Democratic Republic of the Congo', 'Congo': 'Republic of the Congo'}
 
 ###### Dictionary to select countries per region ####
 countries_regions = {'Central Africa': {'Burundi', 'Cameroon', 'Central African Republic', 'Chad',
@@ -70,3 +70,6 @@ vocs_color_pallet = {'Unassigned': 'Greys', 'DENV-1': 'YlOrBr', 'DENV-2': 'Orang
 dengue_variants = {"Unassigned", "DENV-1", "DENV-2", "DENV-3", "DENV-4"}
 
 dengue_variants_genotypes = {"Genotype I", "Genotype II", "Genotype III", "Genotype IV", "Genotype V", "Genotype VI"}
+
+chikv_lineages = {"East-Central-South-African", "West African", "Asian Urban", "Indian Ocean", "Asian and Caribbean",
+                  "Unassigned"}

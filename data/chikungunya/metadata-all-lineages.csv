@@ -1,0 +1,346 @@
+Strain Name,Virus Species,GenBank Accession,collection_date,Host,GenBank Host,country,lineages,length,species,variant,date_2weeks
+Ross low-psg,Chikungunya virus,HM045811,1953-01-02,Human,Homo sapiens,Tanzania,East-Central-South-African,11775,Chikungunya virus,ECSA,1953-01-02
+'Vereeniging',Chikungunya virus,HM045792,1956-04-01,Human,Homo sapiens,South Africa,East-Central-South-African,11836,Chikungunya virus,ECSA,1956-04-01
+A301,Chikungunya virus,HM045821,1963-03-20,Bat,Chiroptera,Senegal,East-Central-South-African,11823,Chikungunya virus,ECSA,1963-03-20
+IbH35,Chikungunya virus,HM045786,1964-07-07,Human,Homo sapiens,Nigeria,West African,11844,Chikungunya virus,WA,1964-07-07
+IbAn4824,Chikungunya virus,HM045807,1965-04-13,Mouse,sentinel mouse,Nigeria,West African,11843,Chikungunya virus,WA,1965-04-13
+SH2830,Chikungunya virus,HM045798,1966-11-01,Human,Homo sapiens,Senegal,West African,11832,Chikungunya virus,WA,1966-11-01
+PM2951,Chikungunya virus,HM045785,1966-11-01,Mosquito,Aedes aegypti,Senegal,West African,11844,Chikungunya virus,WA,1966-11-01
+SH 3013,Chikungunya virus,HM045816,1966-11-23,Human,Homo sapiens,Senegal,West African,11823,Chikungunya virus,WA,1966-11-23
+ArD 30237,Chikungunya virus,HM045815,1979-02-01,Mosquito,Aedes luteocephalus,Senegal,West African,11823,Chikungunya virus,WA,1979-02-01
+UgAg4155,Chikungunya virus,HM045812,1982-01-01,Human,Homo sapiens,Uganda,East-Central-South-African,11774,Chikungunya virus,ECSA,1982-01-01
+CHIKV/Aedes furcifer/SEN/37937/1983,Chikungunya virus,KX262986,1983-01-01,Mosquito,Aedes furcifer,Senegal,West African,11707,Chikungunya virus,WA,1983-01-01
+Chikungunya virus/A.furcifer-wt/Senegal/1983/37997,Chikungunya virus,MK028837,1983-01-01,Mosquito,Aedes furcifer,Senegal,West African,12197,Chikungunya virus,WA,1983-01-01
+CHIKV/Aedes furcifer/SEN/37950/1983,Chikungunya virus,KX262995,1983-10-07,Mosquito,Aedes furcifer,Senegal,West African,11715,Chikungunya virus,WA,1983-10-07
+ArD 93229,Chikungunya virus,HM045819,1993-02-01,Mosquito,Aedes dalzieli,Senegal,West African,11860,Chikungunya virus,WA,1993-02-01
+L2,Chikungunya virus,KF283986,2005-01-01,Human,Homo sapiens,Comoros,East-Central-South-African,11537,Chikungunya virus,ECSA,2005-01-01
+S7,Chikungunya virus,KF283987,2005-01-01,Human,Homo sapiens,Comoros,East-Central-South-African,11712,Chikungunya virus,ECSA,2005-01-01
+Com5,Chikungunya virus,KP702297,2005-01-01,Human,Homo sapiens,Comoros,East-Central-South-African,11171,Chikungunya virus,ECSA,2005-01-01
+Reunion 223/05,Chikungunya virus,DQ309336,2005-01-01,Unknown,-N/A-,Reunion,East-Central-South-African,890,Chikungunya virus,ECSA,2005-01-01
+Chikungunya virus/A.aegypti-wt/Comoros/2005/Com125,Chikungunya virus,MK028836,2005-01-01,Mosquito,Aedes aegypti,Comoros,East-Central-South-African,11839,Chikungunya virus,ECSA,2005-01-01
+HD 180760,Chikungunya virus,HM045817,2005-11-01,Human,Homo sapiens,Senegal,West African,11832,Chikungunya virus,WA,2005-11-01
+BNI-CHIKV_899,Chikungunya virus,FJ959103,2006-01-01,Human,Homo sapiens,Mauritius,East-Central-South-African,11832,Chikungunya virus,ECSA,2006-01-01
+MADOPY1,Chikungunya virus,KP003808,2006-01-01,Human,Homo sapiens,Madagascar,East-Central-South-African,11562,Chikungunya virus,ECSA,2006-01-01
+BNI1162,Chikungunya virus,GU434109,2006-01-01,Human,Homo sapiens,Seychelles,East-Central-South-African,1269,Chikungunya virus,ECSA,2006-01-01
+Chik Cam 7079,Chikungunya virus,EF051584,2006-01-01,Human,Homo sapiens,Cameroon,East-Central-South-African,1202,Chikungunya virus,ECSA,2006-01-01
+BNI4590,Chikungunya virus,GU434111,2006-01-01,Human,Homo sapiens,Mauritius,East-Central-South-African,1269,Chikungunya virus,ECSA,2006-01-01
+BNI902,Chikungunya virus,GU434102,2006-01-01,Human,Homo sapiens,Mauritius,East-Central-South-African,1269,Chikungunya virus,ECSA,2006-01-01
+BNI236,Chikungunya virus,GU434101,2006-01-01,Human,Homo sapiens,Seychelles,East-Central-South-African,1263,Chikungunya virus,ECSA,2006-01-01
+BNI1074,Chikungunya virus,GU434105,2006-01-01,Human,Homo sapiens,Mauritius,East-Central-South-African,1269,Chikungunya virus,ECSA,2006-01-01
+BNI1446,Chikungunya virus,GU434106,2006-01-01,Human,Homo sapiens,Mauritius,East-Central-South-African,1269,Chikungunya virus,ECSA,2006-01-01
+BNI2998,Chikungunya virus,GU434112,2006-01-01,Human,Homo sapiens,Mauritius,East-Central-South-African,1269,Chikungunya virus,ECSA,2006-01-01
+BNI297,Chikungunya virus,GU434103,2006-01-01,Human,Homo sapiens,Seychelles,East-Central-South-African,1269,Chikungunya virus,ECSA,2006-01-01
+BNI967,Chikungunya virus,GU434104,2006-01-01,Human,Homo sapiens,Reunion,East-Central-South-African,1269,Chikungunya virus,ECSA,2006-01-01
+BNI1463,Chikungunya virus,GU434110,2006-01-01,Human,Homo sapiens,Mauritius,East-Central-South-African,1269,Chikungunya virus,ECSA,2006-01-01
+CHIKV/Homo sapiens/CMR/667/2006,Chikungunya virus,KX262996,2006-01-01,Human,Homo sapiens,Cameroon,East-Central-South-African,11570,Chikungunya virus,ECSA,2006-01-01
+6113879,Chikungunya virus,MH229986,2006-01-01,Unknown,-N/A-,Mauritius,East-Central-South-African,11929,Chikungunya virus,ECSA,2006-01-01
+TM25,Chikungunya virus,EU564334,2006-02-14,Human,Homo sapiens,Mauritius,East-Central-South-African,11772,Chikungunya virus,ECSA,2006-02-14
+D586/06,Chikungunya virus,EF193853,2006-03-01,Human,Homo sapiens,Mauritius,East-Central-South-African,570,Chikungunya virus,ECSA,2006-03-01
+ECSA,Chikungunya virus,MF696157,2006-03-31,Unknown,-N/A-,Reunion,East-Central-South-African,1386,Chikungunya virus,ECSA,2006-03-31
+D933/06,Chikungunya virus,EF193854,2006-04-01,Human,Homo sapiens,Seychelles,East-Central-South-African,570,Chikungunya virus,ECSA,2006-04-01
+D1355/06,Chikungunya virus,EF193855,2006-05-01,Human,Homo sapiens,Mauritius,East-Central-South-African,570,Chikungunya virus,ECSA,2006-05-01
+Madagascar 166/07,Chikungunya virus,EU244646,2007-01-01,Human,Homo sapiens,Madagascar,East-Central-South-African,923,Chikungunya virus,ECSA,2007-01-01
+GA_CHIKV,Chikungunya virus,JX080286,2007-01-01,Human,Homo sapiens,Gabon,East-Central-South-African,688,Chikungunya virus,ECSA,2007-01-01
+GABOPY1,Chikungunya virus,KP003812,2007-01-01,Human,Homo sapiens,Gabon,East-Central-South-African,11561,Chikungunya virus,ECSA,2007-01-01
+8847,Chikungunya virus,EF613342,2007-01-01,Human,Homo sapiens,Gabon,East-Central-South-African,1101,Chikungunya virus,ECSA,2007-01-01
+8849,Chikungunya virus,EF613344,2007-01-01,Human,Homo sapiens,Gabon,East-Central-South-African,1129,Chikungunya virus,ECSA,2007-01-01
+8848,Chikungunya virus,EF613343,2007-01-01,Human,Homo sapiens,Gabon,East-Central-South-African,1100,Chikungunya virus,ECSA,2007-01-01
+UNKNOWN-EU403052,Chikungunya virus,EU403052,2007-07-01,Mosquito,Aedes albopictus,Gabon,East-Central-South-African,1253,Chikungunya virus,ECSA,2007-07-01
+ArD196168,Chikungunya virus,JQ943698,2008-01-01,Unknown,-N/A-,Senegal,West African,1293,Chikungunya virus,WA,2008-01-01
+N009309,Chikungunya virus,JQ943716,2009-01-01,Human,Homo sapiens,Senegal,West African,1284,Chikungunya virus,WA,2009-01-01
+PM201813,Chikungunya virus,JQ943693,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+PM200828,Chikungunya virus,JQ943705,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+PM201822,Chikungunya virus,JQ943695,2009-01-01,Mosquito,mosquito,Senegal,West African,1317,Chikungunya virus,WA,2009-01-01
+Ke005609,Chikungunya virus,JQ943717,2009-01-01,Human,Homo sapiens,Senegal,West African,1242,Chikungunya virus,WA,2009-01-01
+PM201651,Chikungunya virus,JQ943711,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+PM201727,Chikungunya virus,JQ943704,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+B013909,Chikungunya virus,JQ943720,2009-01-01,Human,Homo sapiens,Senegal,West African,1233,Chikungunya virus,WA,2009-01-01
+PM202037,Chikungunya virus,JQ943699,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+PM200905,Chikungunya virus,JQ943706,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+PM201881,Chikungunya virus,JQ943690,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+PM201819,Chikungunya virus,JQ943694,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+K003809,Chikungunya virus,JQ943715,2009-01-01,Human,Homo sapiens,Senegal,West African,1254,Chikungunya virus,WA,2009-01-01
+PM201701,Chikungunya virus,JQ943703,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+K007909,Chikungunya virus,JQ943718,2009-01-01,Human,Homo sapiens,Senegal,West African,1245,Chikungunya virus,WA,2009-01-01
+K006709,Chikungunya virus,JQ943713,2009-01-01,Human,Homo sapiens,Senegal,West African,1311,Chikungunya virus,WA,2009-01-01
+PM200916,Chikungunya virus,JQ943710,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+PM200765,Chikungunya virus,JQ943707,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+B014309,Chikungunya virus,JQ943719,2009-01-01,Human,Homo sapiens,Senegal,West African,1242,Chikungunya virus,WA,2009-01-01
+PM203827,Chikungunya virus,JQ943696,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+PM202067,Chikungunya virus,JQ943701,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+PM200844,Chikungunya virus,JQ943708,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+PM200900,Chikungunya virus,JQ943687,2009-01-01,Mosquito,mosquito,Senegal,West African,1317,Chikungunya virus,WA,2009-01-01
+PM201991,Chikungunya virus,JQ943691,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+PM203816,Chikungunya virus,JQ943688,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+PM200862,Chikungunya virus,JQ943709,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+PM201811,Chikungunya virus,JQ943692,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+PM202059,Chikungunya virus,JQ943700,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+PM201800,Chikungunya virus,JQ943712,2009-01-01,Mosquito,mosquito,Senegal,West African,1317,Chikungunya virus,WA,2009-01-01
+K006809,Chikungunya virus,JQ943714,2009-01-01,Human,Homo sapiens,Senegal,West African,1245,Chikungunya virus,WA,2009-01-01
+PM200904,Chikungunya virus,JQ943697,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+PM203817,Chikungunya virus,JQ943702,2009-01-01,Mosquito,mosquito,Senegal,West African,1317,Chikungunya virus,WA,2009-01-01
+PM201841,Chikungunya virus,JQ943689,2009-01-01,Mosquito,mosquito,Senegal,West African,1293,Chikungunya virus,WA,2009-01-01
+GA12-1,Chikungunya virus,JX080287,2010-01-01,Human,Homo sapiens,Gabon,East-Central-South-African,691,Chikungunya virus,ECSA,2010-01-01
+GA3-18,Chikungunya virus,JX080288,2010-01-01,Human,Homo sapiens,Gabon,East-Central-South-African,691,Chikungunya virus,ECSA,2010-01-01
+PREDICT_GVF-CM-ECO50751,Chikungunya virus,MK355076,2010-01-28,Monkey,Papio hamadryas,Cameroon,Could not assign,134,Chikungunya virus,Unassigned,2010-01-28
+13V-2798_CHIK,Chikungunya virus,KJ508819,2013-05-20,Human,Homo sapiens,Cameroon,East-Central-South-African,921,Chikungunya virus,ECSA,2013-05-20
+13V-2713_CHIK,Chikungunya virus,KJ508820,2013-05-24,Human,Homo sapiens,Cameroon,East-Central-South-African,921,Chikungunya virus,ECSA,2013-05-24
+13V-2980_CHIK,Chikungunya virus,KJ508821,2013-05-26,Human,Homo sapiens,Cameroon,East-Central-South-African,921,Chikungunya virus,ECSA,2013-05-26
+CHIKV_2014_Angola,Chikungunya virus,AB908054,2014-01-14,Human,Homo sapiens,Angola,Could not assign,292,Chikungunya virus,Unassigned,2014-01-14
+KLF_67114,Chikungunya virus,MT526803,2014-05-23,Human,Homo sapiens,Kenya,East-Central-South-African,11788,Chikungunya virus,ECSA,2014-05-23
+KLF_69219,Chikungunya virus,MT526802,2014-08-20,Human,Homo sapiens,Kenya,East-Central-South-African,11789,Chikungunya virus,ECSA,2014-08-20
+KLF_75443,Chikungunya virus,MT526801,2015-02-09,Human,Homo sapiens,Kenya,East-Central-South-African,11792,Chikungunya virus,ECSA,2015-02-09
+KLF_3200,Chikungunya virus,MT526807,2016-01-26,Human,Homo sapiens,Kenya,East-Central-South-African,11797,Chikungunya virus,ECSA,2016-01-26
+2002/05/16,Chikungunya virus,MG902894,2016-07-05,Human,Homo sapiens,Kenya,East-Central-South-African,1159,Chikungunya virus,ECSA,2016-07-05
+2003/05/16,Chikungunya virus,MG902895,2016-07-05,Human,Homo sapiens,Kenya,East-Central-South-African,1159,Chikungunya virus,ECSA,2016-07-05
+2004/05/16,Chikungunya virus,MG902896,2016-07-05,Human,Homo sapiens,Kenya,East-Central-South-African,1161,Chikungunya virus,ECSA,2016-07-05
+2005/05/16,Chikungunya virus,MG902897,2016-07-05,Human,Homo sapiens,Kenya,East-Central-South-African,1156,Chikungunya virus,ECSA,2016-07-05
+2006/05/16,Chikungunya virus,MG902898,2016-07-05,Human,Homo sapiens,Kenya,East-Central-South-African,1156,Chikungunya virus,ECSA,2016-07-05
+027_16_S43,Chikungunya virus,MH423797,2016-07-05,Human,Homo sapiens,Kenya,East-Central-South-African,11562,Chikungunya virus,ECSA,2016-07-05
+028_16_S54,Chikungunya virus,MH423807,2016-07-05,Human,Homo sapiens,Kenya,East-Central-South-African,7052,Chikungunya virus,ECSA,2016-07-05
+2009/05/16,Chikungunya virus,MG902899,2016-08-05,Human,Homo sapiens,Kenya,East-Central-South-African,1159,Chikungunya virus,ECSA,2016-08-05
+031_16_S65,Chikungunya virus,MH423798,2016-08-05,Human,Homo sapiens,Kenya,East-Central-South-African,11513,Chikungunya virus,ECSA,2016-08-05
+032_16_S73,Chikungunya virus,MH423808,2016-08-05,Human,Homo sapiens,Kenya,East-Central-South-African,7104,Chikungunya virus,ECSA,2016-08-05
+CHIKV/Hu/Angola/NIID54/2016,Chikungunya virus,LC259094,2016-11-05,Human,Homo sapiens,Angola,East-Central-South-African,11825,Chikungunya virus,ECSA,2016-11-05
+2017/05/16,Chikungunya virus,MG902901,2016-05-13,Human,Homo sapiens,Kenya,East-Central-South-African,1151,Chikungunya virus,ECSA,2016-05-13
+2012/05/16,Chikungunya virus,MG902900,2016-05-17,Human,Homo sapiens,Kenya,East-Central-South-African,1161,Chikungunya virus,ECSA,2016-05-17
+2019/05/16,Chikungunya virus,MG902902,2016-05-17,Human,Homo sapiens,Kenya,East-Central-South-African,1153,Chikungunya virus,ECSA,2016-05-17
+2020/05/16,Chikungunya virus,MG902903,2016-05-19,Human,Homo sapiens,Kenya,East-Central-South-African,1158,Chikungunya virus,ECSA,2016-05-19
+2021/05/16,Chikungunya virus,MG902904,2016-05-24,Human,Homo sapiens,Kenya,East-Central-South-African,1153,Chikungunya virus,ECSA,2016-05-24
+2024/05/16,Chikungunya virus,MG902905,2016-05-24,Human,Homo sapiens,Kenya,East-Central-South-African,1156,Chikungunya virus,ECSA,2016-05-24
+2028/05/16,Chikungunya virus,MG902906,2016-05-31,Human,Homo sapiens,Kenya,East-Central-South-African,1156,Chikungunya virus,ECSA,2016-05-31
+057_16_S15,Chikungunya virus,MH423799,2016-05-31,Human,Homo sapiens,Kenya,East-Central-South-African,11535,Chikungunya virus,ECSA,2016-05-31
+058_16_S33,Chikungunya virus,MH423800,2016-05-31,Human,Homo sapiens,Kenya,East-Central-South-African,11472,Chikungunya virus,ECSA,2016-05-31
+063_16_S44,Chikungunya virus,MH423801,2016-05-31,Human,Homo sapiens,Kenya,East-Central-South-African,11528,Chikungunya virus,ECSA,2016-05-31
+068_16_S55,Chikungunya virus,MH423802,2016-05-31,Human,Homo sapiens,Kenya,East-Central-South-African,11572,Chikungunya virus,ECSA,2016-05-31
+086_16_S25,Chikungunya virus,MH423803,2016-05-31,Human,Homo sapiens,Kenya,East-Central-South-African,11547,Chikungunya virus,ECSA,2016-05-31
+069_16_S66,Chikungunya virus,MH423809,2016-05-31,Human,Homo sapiens,Kenya,East-Central-South-African,6762,Chikungunya virus,ECSA,2016-05-31
+082_16_S16,Chikungunya virus,MH423810,2016-05-31,Human,Homo sapiens,Kenya,East-Central-South-African,10718,Chikungunya virus,ECSA,2016-05-31
+070_16_S74,Chikungunya virus,MH423811,2016-05-31,Human,Homo sapiens,Kenya,East-Central-South-African,3661,Chikungunya virus,ECSA,2016-05-31
+087_16_S34,Chikungunya virus,MH423804,2016-01-06,Human,Homo sapiens,Kenya,East-Central-South-African,11530,Chikungunya virus,ECSA,2016-01-06
+100_16_S56,Chikungunya virus,MH423805,2016-01-06,Human,Homo sapiens,Kenya,East-Central-South-African,11515,Chikungunya virus,ECSA,2016-01-06
+106_16_S75,Chikungunya virus,MH423806,2016-01-06,Human,Homo sapiens,Kenya,East-Central-South-African,11443,Chikungunya virus,ECSA,2016-01-06
+1973/06/16,Chikungunya virus,MG902907,2016-02-06,Human,Homo sapiens,Kenya,East-Central-South-African,1161,Chikungunya virus,ECSA,2016-02-06
+1974/06/16,Chikungunya virus,MG902908,2016-02-06,Human,Homo sapiens,Kenya,East-Central-South-African,1159,Chikungunya virus,ECSA,2016-02-06
+1975/06/16,Chikungunya virus,MG902909,2016-02-06,Human,Homo sapiens,Kenya,East-Central-South-African,1159,Chikungunya virus,ECSA,2016-02-06
+1976/06/16,Chikungunya virus,MG902910,2016-02-06,Human,Homo sapiens,Kenya,East-Central-South-African,1159,Chikungunya virus,ECSA,2016-02-06
+1990/06/16,Chikungunya virus,MG902911,2016-07-06,Human,Homo sapiens,Kenya,East-Central-South-African,1157,Chikungunya virus,ECSA,2016-07-06
+CAM/2016/Yaounde,Chikungunya virus,MT666072,2016-10-20,Human,Homo sapiens,Cameroon,East-Central-South-African,11562,Chikungunya virus,ECSA,2016-10-20
+KLF_4908,Chikungunya virus,MT526806,2017-03-04,Human,Homo sapiens,Kenya,East-Central-South-African,11790,Chikungunya virus,ECSA,2017-03-04
+KLF_5188,Chikungunya virus,MT526805,2017-07-19,Human,Homo sapiens,Kenya,East-Central-South-African,11785,Chikungunya virus,ECSA,2017-07-19
+232_12_17,Chikungunya virus,MT380161,2017-12-01,Human,Homo sapiens,Kenya,East-Central-South-African,11514,Chikungunya virus,ECSA,2017-12-01
+KLF_5514,Chikungunya virus,MT526804,2017-05-12,Human,Homo sapiens,Kenya,East-Central-South-African,11787,Chikungunya virus,ECSA,2017-05-12
+KLF_84548,Chikungunya virus,MT526800,2017-12-13,Human,Homo sapiens,Kenya,East-Central-South-African,11831,Chikungunya virus,ECSA,2017-12-13
+226_01_18,Chikungunya virus,MT380148,2018-01-01,Human,Homo sapiens,Kenya,East-Central-South-African,10637,Chikungunya virus,ECSA,2018-01-01
+225_01_18,Chikungunya virus,MT380149,2018-01-01,Human,Homo sapiens,Kenya,East-Central-South-African,10579,Chikungunya virus,ECSA,2018-01-01
+322_01_18,Chikungunya virus,MT380150,2018-01-01,Human,Homo sapiens,Kenya,East-Central-South-African,10632,Chikungunya virus,ECSA,2018-01-01
+215_01_18,Chikungunya virus,MT380151,2018-01-01,Human,Homo sapiens,Kenya,East-Central-South-African,10624,Chikungunya virus,ECSA,2018-01-01
+285_01_18,Chikungunya virus,MT380152,2018-01-01,Human,Homo sapiens,Kenya,East-Central-South-African,10592,Chikungunya virus,ECSA,2018-01-01
+272_01_18,Chikungunya virus,MT380153,2018-01-01,Human,Homo sapiens,Kenya,East-Central-South-African,10618,Chikungunya virus,ECSA,2018-01-01
+VH49_R_1869,Chikungunya virus,MT992066,2018-01-01,Mosquito,mosquito,Kenya,East-Central-South-African,829,Chikungunya virus,ECSA,2018-01-01
+VH50_R_1604,Chikungunya virus,MT992067,2018-01-01,Mosquito,mosquito,Kenya,East-Central-South-African,829,Chikungunya virus,ECSA,2018-01-01
+VH51_R_1528,Chikungunya virus,MT992068,2018-01-01,Mosquito,mosquito,Kenya,East-Central-South-African,829,Chikungunya virus,ECSA,2018-01-01
+KLF_84717,Chikungunya virus,MT526799,2018-03-01,Human,Homo sapiens,Kenya,East-Central-South-African,11788,Chikungunya virus,ECSA,2018-03-01
+KLF_84807,Chikungunya virus,MT526798,2018-12-01,Human,Homo sapiens,Kenya,East-Central-South-African,11802,Chikungunya virus,ECSA,2018-12-01
+MSA_057,Chikungunya virus,MT526796,2018-01-15,Human,Homo sapiens,Kenya,East-Central-South-African,10725,Chikungunya virus,ECSA,2018-01-15
+013_02_18,Chikungunya virus,MT380146,2018-02-01,Human,Homo sapiens,Kenya,East-Central-South-African,10616,Chikungunya virus,ECSA,2018-02-01
+027_02_18,Chikungunya virus,MT380147,2018-02-01,Human,Homo sapiens,Kenya,East-Central-South-African,10602,Chikungunya virus,ECSA,2018-02-01
+064_04_18,Chikungunya virus,MT380154,2018-04-01,Human,Homo sapiens,Kenya,East-Central-South-African,10630,Chikungunya virus,ECSA,2018-04-01
+065_04_18,Chikungunya virus,MT380155,2018-04-01,Human,Homo sapiens,Kenya,East-Central-South-African,10588,Chikungunya virus,ECSA,2018-04-01
+083_04_18,Chikungunya virus,MT380156,2018-04-01,Human,Homo sapiens,Kenya,East-Central-South-African,10575,Chikungunya virus,ECSA,2018-04-01
+091_04_18,Chikungunya virus,MT380160,2018-04-01,Human,Homo sapiens,Kenya,East-Central-South-African,10659,Chikungunya virus,ECSA,2018-04-01
+062_04_18,Chikungunya virus,MT380162,2018-04-01,Human,Homo sapiens,Kenya,East-Central-South-African,10564,Chikungunya virus,ECSA,2018-04-01
+012_05_18,Chikungunya virus,MT380157,2018-05-01,Human,Homo sapiens,Kenya,East-Central-South-African,10547,Chikungunya virus,ECSA,2018-05-01
+014_05_18,Chikungunya virus,MT380158,2018-05-01,Human,Homo sapiens,Kenya,East-Central-South-African,10554,Chikungunya virus,ECSA,2018-05-01
+022_05_18,Chikungunya virus,MT380159,2018-05-01,Human,Homo sapiens,Kenya,East-Central-South-African,10574,Chikungunya virus,ECSA,2018-05-01
+KLF_148987,Chikungunya virus,MT526797,2018-05-15,Human,Homo sapiens,Kenya,East-Central-South-African,11343,Chikungunya virus,ECSA,2018-05-15
+CAM/2018/Mfuo,Chikungunya virus,MT666073,2018-06-28,Human,Homo sapiens,Cameroon,East-Central-South-African,11562,Chikungunya virus,ECSA,2018-06-28
+S5_SDG,Chikungunya virus,LC461588,2018-08-15,Human,Homo sapiens,Sudan,East-Central-South-African,184,Chikungunya virus,ECSA,2018-08-15
+15_SDG,Chikungunya virus,LC461589,2018-08-15,Human,Homo sapiens,Sudan,East-Central-South-African,184,Chikungunya virus,ECSA,2018-08-15
+16_SDG,Chikungunya virus,LC461590,2018-08-17,Human,Homo sapiens,Sudan,East-Central-South-African,184,Chikungunya virus,ECSA,2018-08-17
+19_SDG,Chikungunya virus,LC461591,2018-08-17,Human,Homo sapiens,Sudan,East-Central-South-African,184,Chikungunya virus,ECSA,2018-08-17
+75_SDG,Chikungunya virus,LC461592,2018-08-19,Human,Homo sapiens,Sudan,East-Central-South-African,184,Chikungunya virus,ECSA,2018-08-19
+130_SDG,Chikungunya virus,LC461593,2018-08-19,Human,Homo sapiens,Sudan,East-Central-South-African,184,Chikungunya virus,ECSA,2018-08-19
+160_SDG,Chikungunya virus,LC461594,2018-08-21,Human,Homo sapiens,Sudan,East-Central-South-African,184,Chikungunya virus,ECSA,2018-08-21
+190_SDG,Chikungunya virus,LC461595,2018-08-21,Human,Homo sapiens,Sudan,East-Central-South-African,184,Chikungunya virus,ECSA,2018-08-21
+9_SDG,Chikungunya virus,LC461596,2018-08-23,Human,Homo sapiens,Sudan,East-Central-South-African,184,Chikungunya virus,ECSA,2018-08-23
+J_SDG,Chikungunya virus,LC461597,2018-08-23,Human,Homo sapiens,Sudan,East-Central-South-African,184,Chikungunya virus,ECSA,2018-08-23
+CAM/2018/Yaounde,Chikungunya virus,MT666071,2018-09-17,Human,Homo sapiens,Cameroon,East-Central-South-African,11561,Chikungunya virus,ECSA,2018-09-17
+PHE-2018-Ex-Sudan,Chikungunya virus,MK163628,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11508,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan103/2018,Chikungunya virus,MW161364,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11045,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan104/2018,Chikungunya virus,MW161365,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan110/2018,Chikungunya virus,MW161366,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan112/2018,Chikungunya virus,MW161367,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan114/2018,Chikungunya virus,MW161368,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan116/2018,Chikungunya virus,MW161369,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10554,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan117/2018,Chikungunya virus,MW161370,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan118/2018,Chikungunya virus,MW161371,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11084,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan122/2018,Chikungunya virus,MW161372,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan124/2018,Chikungunya virus,MW161373,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan125/2018,Chikungunya virus,MW161374,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,9893,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan126/2018,Chikungunya virus,MW161375,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan127/2018,Chikungunya virus,MW161376,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10741,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan128/2018,Chikungunya virus,MW161377,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10618,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan130/2018,Chikungunya virus,MW161378,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10887,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan132/2018,Chikungunya virus,MW161379,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10717,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan141/2018,Chikungunya virus,MW161380,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan144/2018,Chikungunya virus,MW161381,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11234,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan150/2018,Chikungunya virus,MW161382,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan151/2018,Chikungunya virus,MW161383,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan152/2018,Chikungunya virus,MW161384,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan153/2018,Chikungunya virus,MW161385,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan154/2018,Chikungunya virus,MW161386,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10991,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan157/2018,Chikungunya virus,MW161387,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan160/2018,Chikungunya virus,MW161388,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan161/2018,Chikungunya virus,MW161389,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan163/2018,Chikungunya virus,MW161390,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10475,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan165/2018,Chikungunya virus,MW161391,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10661,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan167/2018,Chikungunya virus,MW161392,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan170/2018,Chikungunya virus,MW161393,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,9448,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan171/2018,Chikungunya virus,MW161394,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10094,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan173/2018,Chikungunya virus,MW161395,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10853,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan174/2018,Chikungunya virus,MW161396,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11084,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan175/2018,Chikungunya virus,MW161397,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11018,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan176/2018,Chikungunya virus,MW161398,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10780,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan177/2018,Chikungunya virus,MW161399,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11087,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan179/2018,Chikungunya virus,MW161400,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11096,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan181/2018,Chikungunya virus,MW161401,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan184/2018,Chikungunya virus,MW161402,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11051,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan186/2018,Chikungunya virus,MW161403,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan201/2018,Chikungunya virus,MW161404,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10946,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan305/2018,Chikungunya virus,MW161405,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11170,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan306/2018,Chikungunya virus,MW161406,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan307/2018,Chikungunya virus,MW161407,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan308/2018,Chikungunya virus,MW161408,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11024,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan311/2018,Chikungunya virus,MW161409,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10533,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan313/2018,Chikungunya virus,MW161410,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan314/2018,Chikungunya virus,MW161411,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan320/2018,Chikungunya virus,MW161412,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11073,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan317/2018,Chikungunya virus,MW161413,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan321/2018,Chikungunya virus,MW161414,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan323/2018,Chikungunya virus,MW161415,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan325/2018,Chikungunya virus,MW161416,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10978,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan329/2018,Chikungunya virus,MW161417,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10634,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan334/2018,Chikungunya virus,MW161418,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan335/2018,Chikungunya virus,MW161419,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11237,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan338/2018,Chikungunya virus,MW161420,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10895,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan123/2018,Chikungunya virus,MW161421,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10552,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan129/2018,Chikungunya virus,MW161422,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10660,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan200/2018,Chikungunya virus,MW161423,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10307,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan138/2018,Chikungunya virus,MW161424,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,9100,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan139/2018,Chikungunya virus,MW161425,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10418,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan140/2018,Chikungunya virus,MW161426,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,9643,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan142/2018,Chikungunya virus,MW161427,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10669,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan143/2018,Chikungunya virus,MW161428,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10612,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan155/2018,Chikungunya virus,MW161429,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11029,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan156/2018,Chikungunya virus,MW161430,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10974,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan159/2018,Chikungunya virus,MW161431,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11229,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan162/2018,Chikungunya virus,MW161432,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10660,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan166/2018,Chikungunya virus,MW161433,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11065,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan172/2018,Chikungunya virus,MW161434,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10909,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan178/2018,Chikungunya virus,MW161435,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11035,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan180/2018,Chikungunya virus,MW161436,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10984,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan182/2018,Chikungunya virus,MW161437,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11083,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan183/2018,Chikungunya virus,MW161438,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10696,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan189/2018,Chikungunya virus,MW161439,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10525,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan195/2018,Chikungunya virus,MW161440,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11220,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan196/2018,Chikungunya virus,MW161441,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11235,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan199/2018,Chikungunya virus,MW161442,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10922,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan309/2018,Chikungunya virus,MW161443,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10783,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan310/2018,Chikungunya virus,MW161444,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10624,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan312/2018,Chikungunya virus,MW161445,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10070,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan315/2018,Chikungunya virus,MW161446,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10669,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan316/2018,Chikungunya virus,MW161447,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11026,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan318/2018,Chikungunya virus,MW161448,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11086,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan319/2018,Chikungunya virus,MW161449,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11023,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan322/2018,Chikungunya virus,MW161450,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11008,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan324/2018,Chikungunya virus,MW161451,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10909,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan326/2018,Chikungunya virus,MW161452,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10859,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan327/2018,Chikungunya virus,MW161453,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10924,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan328/2018,Chikungunya virus,MW161454,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10895,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan330/2018,Chikungunya virus,MW161455,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10965,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan331/2018,Chikungunya virus,MW161456,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10937,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan332/2018,Chikungunya virus,MW161457,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11088,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan333/2018,Chikungunya virus,MW161458,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,11065,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan336/2018,Chikungunya virus,MW161459,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10670,Chikungunya virus,ECSA,2018-10-01
+CHIKV/Sudan337/2018,Chikungunya virus,MW161460,2018-10-01,Human,Homo sapiens,Sudan,East-Central-South-African,10843,Chikungunya virus,ECSA,2018-10-01
+RC_Diosso_2019,Chikungunya virus,MK690206,2019-01-01,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,11532,Chikungunya virus,ECSA,2019-01-01
+RC_Diosso_2019_9,Chikungunya virus,MK715489,2019-01-01,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,678,Chikungunya virus,ECSA,2019-01-01
+RC_Diosso_2019_31,Chikungunya virus,MK715490,2019-01-01,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,678,Chikungunya virus,ECSA,2019-01-01
+DRC_2019_MNFI024_HU,Chikungunya virus,MT636907,2019-07-01,Human,Homo sapiens,Democratic Republic of the Congo,East-Central-South-African,11531,Chikungunya virus,ECSA,2019-07-01
+DRC_2019_MNFI040_HU,Chikungunya virus,MT636908,2019-07-01,Human,Homo sapiens,Democratic Republic of the Congo,East-Central-South-African,11531,Chikungunya virus,ECSA,2019-07-01
+19CG01,Chikungunya virus,MN022226,2019-01-19,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,511,Chikungunya virus,ECSA,2019-01-19
+19CG08,Chikungunya virus,MN022227,2019-01-19,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,511,Chikungunya virus,ECSA,2019-01-19
+19CG01,Chikungunya virus,MN022233,2019-01-19,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,608,Chikungunya virus,ECSA,2019-01-19
+19CG08,Chikungunya virus,MN022234,2019-01-19,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,608,Chikungunya virus,ECSA,2019-01-19
+DRC_2019_MNFI114_HU,Chikungunya virus,MT636909,2019-01-21,Human,Homo sapiens,Democratic Republic of the Congo,East-Central-South-African,11531,Chikungunya virus,ECSA,2019-01-21
+DRC_2019_MNFII180_HU,Chikungunya virus,MT636910,2019-01-21,Human,Homo sapiens,Democratic Republic of the Congo,East-Central-South-African,11531,Chikungunya virus,ECSA,2019-01-21
+DRC_2019_MNFII188_HU,Chikungunya virus,MT636911,2019-01-21,Human,Homo sapiens,Democratic Republic of the Congo,East-Central-South-African,11531,Chikungunya virus,ECSA,2019-01-21
+19CG59,Chikungunya virus,MN022228,2019-01-25,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,511,Chikungunya virus,ECSA,2019-01-25
+19CG68,Chikungunya virus,MN022229,2019-01-25,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,511,Chikungunya virus,ECSA,2019-01-25
+19CG75,Chikungunya virus,MN022230,2019-01-25,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,511,Chikungunya virus,ECSA,2019-01-25
+19CG59,Chikungunya virus,MN022235,2019-01-25,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,608,Chikungunya virus,ECSA,2019-01-25
+19CG68,Chikungunya virus,MN022236,2019-01-25,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,608,Chikungunya virus,ECSA,2019-01-25
+19CG75,Chikungunya virus,MN022237,2019-01-25,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,608,Chikungunya virus,ECSA,2019-01-25
+DRC_2019_MAS236_HU,Chikungunya virus,MT636912,2019-01-02,Human,Homo sapiens,Democratic Republic of the Congo,East-Central-South-African,11531,Chikungunya virus,ECSA,2019-01-02
+DRC_2019_MNF029_AAEG,Chikungunya virus,MT636918,2019-02-01,Mosquito,Aedes aegypti,Democratic Republic of the Congo,East-Central-South-African,11531,Chikungunya virus,ECSA,2019-02-01
+19CG94,Chikungunya virus,MN022231,2019-05-02,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,511,Chikungunya virus,ECSA,2019-05-02
+19CG94,Chikungunya virus,MN022238,2019-05-02,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,608,Chikungunya virus,ECSA,2019-05-02
+DRC_2019_MAS325_HU,Chikungunya virus,MT636913,2019-06-02,Human,Homo sapiens,Democratic Republic of the Congo,East-Central-South-African,11531,Chikungunya virus,ECSA,2019-06-02
+19CG103,Chikungunya virus,MN022232,2019-02-19,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,511,Chikungunya virus,ECSA,2019-02-19
+19CG103,Chikungunya virus,MN022239,2019-02-19,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,608,Chikungunya virus,ECSA,2019-02-19
+CHIKV/PNRCNG/LNSP_INMI2-2019,Chikungunya virus,MK935344,2019-05-03,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,11787,Chikungunya virus,ECSA,2019-05-03
+CHIKV/PNRCNG/LNSP_INMI1-2019,Chikungunya virus,MK935343,2019-03-20,Human,Homo sapiens,Republic of the Congo,East-Central-South-African,11434,Chikungunya virus,ECSA,2019-03-20
+DRC_2019_MAT001_AALB,Chikungunya virus,MT636919,2019-03-20,Mosquito,Aedes albopictus,Democratic Republic of the Congo,East-Central-South-African,11531,Chikungunya virus,ECSA,2019-03-20
+DRC_2019_MAT010_AALBF,Chikungunya virus,MT636917,2019-03-21,Mosquito,Aedes albopictus,Democratic Republic of the Congo,East-Central-South-African,11531,Chikungunya virus,ECSA,2019-03-21
+DRC_2019_MAT005_AALBM,Chikungunya virus,MT636920,2019-03-21,Mosquito,Aedes albopictus,Democratic Republic of the Congo,East-Central-South-African,11531,Chikungunya virus,ECSA,2019-03-21
+DRC_2019_MAT009_AALBF,Chikungunya virus,MT636921,2019-03-21,Mosquito,Aedes albopictus,Democratic Republic of the Congo,East-Central-South-African,11531,Chikungunya virus,ECSA,2019-03-21
+DRC_2019_MAT011_AALBF,Chikungunya virus,MT636922,2019-03-22,Mosquito,Aedes albopictus,Democratic Republic of the Congo,East-Central-South-African,11531,Chikungunya virus,ECSA,2019-03-22
+DRC_2019_KAS002_AALBM,Chikungunya virus,MT636914,2019-03-26,Mosquito,Aedes albopictus,Democratic Republic of the Congo,East-Central-South-African,11531,Chikungunya virus,ECSA,2019-03-26
+DRC_2019_KAS003_AALBF,Chikungunya virus,MT636915,2019-03-26,Mosquito,Aedes albopictus,Democratic Republic of the Congo,East-Central-South-African,10428,Chikungunya virus,ECSA,2019-03-26
+DRC_2019_KAS004_AALBF,Chikungunya virus,MT636916,2019-03-26,Mosquito,Aedes albopictus,Democratic Republic of the Congo,East-Central-South-African,11531,Chikungunya virus,ECSA,2019-03-26
+UVE/CHIKV/Djibouti/2019/CNR53532,Chikungunya virus,MT023791,2019-12-15,Human,Homo sapiens,Djibouti,East-Central-South-African,11253,Chikungunya virus,ECSA,2019-12-15
+20V-14210_CHAD2020,Chikungunya virus,OL692740,2020-10-08,Human,Homo sapiens,Chad,East-Central-South-African,940,Chikungunya virus,ECSA,2020-10-08
+20V-14211_CHAD2020,Chikungunya virus,OL692741,2020-10-08,Human,Homo sapiens,Chad,East-Central-South-African,940,Chikungunya virus,ECSA,2020-10-08
+SYMAV-H0915,Chikungunya virus,LC707379,2021-06-15,Human,Homo sapiens,Gabon,East-Central-South-African,1295,Chikungunya virus,ECSA,2021-06-15
+06-049,Chikungunya virus,AM258994,,Unknown,-N/A-,Reunion,East-Central-South-African,11601,Chikungunya virus,ECSA,
+06-027,Chikungunya virus,AM258993,,Unknown,-N/A-,Reunion,East-Central-South-African,11598,Chikungunya virus,ECSA,
+05-115,Chikungunya virus,AM258990,,Unknown,-N/A-,Reunion,East-Central-South-African,11601,Chikungunya virus,ECSA,
+05-209,Chikungunya virus,AM258991,,Unknown,-N/A-,Seychelles,East-Central-South-African,11601,Chikungunya virus,ECSA,
+06-021,Chikungunya virus,AM258992,,Unknown,-N/A-,Reunion,East-Central-South-African,11601,Chikungunya virus,ECSA,
+D570/06,Chikungunya virus,EF012359,,Unknown,-N/A-,Mauritius,East-Central-South-African,11806,Chikungunya virus,ECSA,
+05-061,Chikungunya virus,AM258995,,Unknown,-N/A-,Reunion,East-Central-South-African,11601,Chikungunya virus,ECSA,
+37997,Chikungunya virus,AY726732,,Mosquito,Aedes furcifer,Senegal,West African,11881,Chikungunya virus,WA,
+Wuerzburg,Chikungunya virus,EU037962,,Unknown,-N/A-,Mauritius,East-Central-South-African,11805,Chikungunya virus,ECSA,
+IPD/A SH 2807,Chikungunya virus,HM045804,,Human,Homo sapiens,Senegal,West African,11847,Chikungunya virus,WA,
+LR2006_OPY1,Chikungunya virus,KT449801,,Human,Homo sapiens,Reunion,East-Central-South-African,11796,Chikungunya virus,ECSA,
+1088vi,Chikungunya virus,GQ387368,,Human,Homo sapiens,Equatorial Guinea,East-Central-South-African,434,Chikungunya virus,ECSA,
+LR2006-OPY2,Chikungunya virus,DQ451151,,Unknown,-N/A-,Reunion,East-Central-South-African,1044,Chikungunya virus,ECSA,
+EG641,Chikungunya virus,GQ387366,,Human,Homo sapiens,Equatorial Guinea,East-Central-South-African,434,Chikungunya virus,ECSA,
+S27,Chikungunya virus,AF339485,,Unknown,-N/A-,Tanzania,East-Central-South-African,4885,Chikungunya virus,ECSA,
+chik DRC1728,Chikungunya virus,AY549582,,Human,Homo sapiens,Democratic Republic of the Congo,East-Central-South-African,1125,Chikungunya virus,ECSA,
+chik DRC1725,Chikungunya virus,AY549581,,Human,Homo sapiens,Democratic Republic of the Congo,East-Central-South-African,1125,Chikungunya virus,ECSA,
+chik DRC1730,Chikungunya virus,AY549584,,Human,Homo sapiens,Democratic Republic of the Congo,East-Central-South-African,1125,Chikungunya virus,ECSA,
+chik DRC010,Chikungunya virus,AY549576,,Human,Homo sapiens,Democratic Republic of the Congo,East-Central-South-African,1125,Chikungunya virus,ECSA,
+chik RCA,Chikungunya virus,AY549583,,Human,Homo sapiens,Democratic Republic of the Congo,East-Central-South-African,1125,Chikungunya virus,ECSA,
+EG02,Chikungunya virus,DQ515987,,Human,Homo sapiens,Equatorial Guinea,Could not assign,147,Chikungunya virus,Unassigned,
+chik DRC1720,Chikungunya virus,AY549580,,Human,Homo sapiens,Democratic Republic of the Congo,East-Central-South-African,1125,Chikungunya virus,ECSA,
+chik DRC1718,Chikungunya virus,AY549578,,Human,Homo sapiens,Democratic Republic of the Congo,East-Central-South-African,1125,Chikungunya virus,ECSA,
+EG03,Chikungunya virus,DQ515988,,Human,Homo sapiens,Equatorial Guinea,Could not assign,147,Chikungunya virus,Unassigned,
+chik DRC027,Chikungunya virus,AY549577,,Human,Homo sapiens,Democratic Republic of the Congo,East-Central-South-African,1125,Chikungunya virus,ECSA,
+EG06,Chikungunya virus,DQ515991,,Human,Homo sapiens,Equatorial Guinea,Could not assign,147,Chikungunya virus,Unassigned,
+LR2006-OPY3,Chikungunya virus,DQ451149,,Unknown,-N/A-,Reunion,East-Central-South-African,1044,Chikungunya virus,ECSA,
+EG640,Chikungunya virus,GQ387365,,Human,Homo sapiens,Equatorial Guinea,East-Central-South-African,434,Chikungunya virus,ECSA,
+EG07,Chikungunya virus,DQ515985,,Human,Homo sapiens,Equatorial Guinea,Could not assign,147,Chikungunya virus,Unassigned,
+6113879,Chikungunya virus,EU404186,,Unknown,-N/A-,Mauritius,East-Central-South-African,559,Chikungunya virus,ECSA,
+EG05,Chikungunya virus,DQ515990,,Human,Homo sapiens,Equatorial Guinea,Could not assign,147,Chikungunya virus,Unassigned,
+EG01,Chikungunya virus,DQ515986,,Human,Homo sapiens,Equatorial Guinea,Could not assign,147,Chikungunya virus,Unassigned,
+chik DRC007,Chikungunya virus,AY549575,,Human,Homo sapiens,Democratic Republic of the Congo,East-Central-South-African,1125,Chikungunya virus,ECSA,
+EG04,Chikungunya virus,DQ515989,,Human,Homo sapiens,Equatorial Guinea,Could not assign,147,Chikungunya virus,Unassigned,
+chik DRC1719,Chikungunya virus,AY549579,,Human,Homo sapiens,Democratic Republic of the Congo,East-Central-South-African,1124,Chikungunya virus,ECSA,
+EG015,Chikungunya virus,GQ387367,,Human,Homo sapiens,Equatorial Guinea,East-Central-South-African,434,Chikungunya virus,ECSA,
+Ross_NH177,Chikungunya virus,ON009843,1953-01-01,Human,Homo sapiens,Tanzania,East-Central-South-African,11768,Chikungunya virus,ECSA,1953-01-01
+LSFS,Chikungunya virus,HM045809,1960-01-01,Human,Homo sapiens,Democratic Republic of the Congo,East-Central-South-African,11753,Chikungunya virus,ECSA,1960-01-01
+Angola M2022,Chikungunya virus,HM045823,1962-01-01,Unknown,-N/A-,Angola,East-Central-South-African,11754,Chikungunya virus,ECSA,1962-01-01
+AR 18211,Chikungunya virus,HM045805,1976-01-01,Mosquito,Aedes furcifer,South Africa,East-Central-South-African,11686,Chikungunya virus,ECSA,1976-01-01
+SAH2123,Chikungunya virus,HM045795,1976-01-01,Human,Homo sapiens,South Africa,East-Central-South-African,11693,Chikungunya virus,ECSA,1976-01-01
