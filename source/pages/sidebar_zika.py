@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-
 from utils.dicts import countries_regions, concerned_variants
 from utils.functions import get_img_with_href, warning_filter_data
 
@@ -46,10 +45,11 @@ def get_variants(df_africa):
 
 def get_lineages_choice(df_africa):
     variants = get_variants(df_africa)
-    lineages_selected = st.sidebar.multiselect("Select variants to show", variants,
+    lineages_selected = st.sidebar.multiselect("Select lineages to show", variants,
                                                default=sorted(variants), key='multiselect_variants',
                                                on_change=warning_filter_data)
     return lineages_selected
+
 
 @st.cache_data
 def get_dates(df_africa):
@@ -92,8 +92,9 @@ def build_df_count(df_africa):
 @st.cache_data
 def build_variant_percentage_df(df_count):
     variants_percentage = df_count.groupby(['date_2weeks', 'variant']).agg({'Count': 'sum'})
-    variants_percentage = variants_percentage.groupby(level=0).apply(lambda x: 100 * x / float(x.sum())).sort_values(by='Count',
-                                                                                                         ascending=False)
+    variants_percentage = variants_percentage.groupby(level=0).apply(lambda x: 100 * x / float(x.sum())).sort_values(
+        by='Count',
+        ascending=False)
     variants_percentage = variants_percentage.reset_index()
     return variants_percentage
 

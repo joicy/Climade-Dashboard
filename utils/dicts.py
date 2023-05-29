@@ -73,3 +73,5 @@ dengue_variants_genotypes = {"Genotype I", "Genotype II", "Genotype III", "Genot
 
 chikv_lineages = {"East-Central-South-African", "West African", "Asian Urban", "Indian Ocean", "Asian and Caribbean",
                   "Unassigned"}
+
+zika_lineages = {"African", "Asian"}

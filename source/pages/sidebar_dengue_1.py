@@ -6,7 +6,7 @@ from utils.dicts import countries_regions, concerned_variants
 from utils.functions import get_img_with_href, warning_filter_data
 
 
-@st.cache(allow_output_mutation=True)
+@st.cache_data
 def get_countries(df_africa):
     return df_africa['country'].unique()
 
@@ -39,20 +39,20 @@ def get_countries_choice(df_africa):
     return countries_selected, display_countries
 
 
-@st.cache(allow_output_mutation=True)
+@st.cache_data
 def get_variants(df_africa):
     return df_africa['variant'].unique()
 
 
 def get_lineages_choice(df_africa):
     variants = get_variants(df_africa)
-    lineages_selected = st.sidebar.multiselect("Select variants to show", variants,
+    lineages_selected = st.sidebar.multiselect("Select genotypes to show", variants,
                                                default=sorted(variants), key='multiselect_variants',
                                                on_change=warning_filter_data)
     return lineages_selected
 
 
-@st.cache(allow_output_mutation=True)
+@st.cache_data
 def get_dates(df_africa):
     # TODO: instead of dropna, check if there is information on colention date
     df_africa.dropna(subset=['date_2weeks'], inplace=True)
@@ -76,7 +76,7 @@ def get_dates_choice(df_africa):
     return start_date, end_date
 
 
-@st.cache(allow_output_mutation=True)
+@st.cache_data
 def build_variant_count_df(df_africa):
     # Building variant data frame
     variant_count = pd.DataFrame(df_africa.variant)
@@ -85,12 +85,12 @@ def build_variant_count_df(df_africa):
     return variant_count
 
 
-@st.cache(allow_output_mutation=True)
+@st.cache_data
 def build_df_count(df_africa):
     return df_africa.groupby(['country', 'variant', 'date_2weeks']).size().reset_index(name='Count')
 
 
-@st.cache(allow_output_mutation=True)
+@st.cache_data
 def build_variant_percentage_df(df_count):
     variants_percentage = df_count.groupby(['date_2weeks', 'variant']).agg({'Count': 'sum'})
     variants_percentage = variants_percentage.groupby(level=0).apply(lambda x: 100 * x / float(x.sum())).sort_values(by='Count',
@@ -127,8 +127,7 @@ def reset_filters(df):
     # caching.clear_singleton_cache()
     st.experimental_rerun()
 
-
-@st.cache()
+@st.cache_data
 def filter_df_africa(countries_choice, lineages_choice, start_date, end_date, df_africa):
     """
     Function to filter and return all dfs used in the visualizations
