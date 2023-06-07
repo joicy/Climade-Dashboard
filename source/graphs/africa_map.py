@@ -13,7 +13,7 @@ from utils.functions import *
 from utils.dicts import *
 
 
-@st.cache(allow_output_mutation=True)
+@st.cache_data
 def map_data(df):
     # function to map countrys to country code and gets initial and final dates from the set
 
@@ -54,7 +54,7 @@ def map_data(df):
     return df_map, initial_date, final_date
 
 
-@st.cache(allow_output_mutation=True)
+@st.cache_data
 def count_variants_per_country(df_map):
     countries_codes = df_map[['country', 'sov_a3']]
     countries_codes.drop_duplicates(inplace=True)
@@ -106,7 +106,7 @@ def insert_lat_long_columns(df):
     return df
 
 
-@st.cache(allow_output_mutation=True)
+@st.cache_data
 def map_synthetic_data_variant(df, initial_date, final_date):
     coloured_map = df
     synthetic_data = []
@@ -125,7 +125,7 @@ def map_synthetic_data_variant(df, initial_date, final_date):
     return coloured_map
 
 
-@st.cache(allow_output_mutation=True)
+@st.cache_data
 def map_synthetic_data(df, initial_date, final_date):
     """
     This function adds initial and final data for all countries and fill with NA the dates without information
@@ -171,7 +171,7 @@ def map_synthetic_data(df, initial_date, final_date):
     return coloured_map
 
 
-@st.cache(allow_output_mutation=True)
+@st.cache_data
 def map_fill_na_values(df, map_count_column):
     coloured_map = df
     counts = []
