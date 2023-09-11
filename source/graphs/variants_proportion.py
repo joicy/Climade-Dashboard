@@ -7,7 +7,7 @@ import plotly.graph_objs as go
 
 #TODO consertar esse gráfico pra calcular porcentagem para todas as variantes
 
-def variants_bar_plot(variants_percentage, column):
+def variants_bar_plot(variants_percentage, column, title):
     c = column
     variants_percentage['date_initial'] = pd.to_datetime(variants_percentage['date_2weeks']) - timedelta(days=14)
     variants_percentage['date_initial'] = variants_percentage['date_initial'].dt.strftime('%Y-%m-%d')
@@ -19,7 +19,7 @@ def variants_bar_plot(variants_percentage, column):
     # variants_percentage['variant'].cat.reorder_categories(variants_order, inplace=True)
 
     with st.container():
-        c.subheader("Circulating lineages and variants")
+        c.subheader(title)
         fig = px.bar(variants_percentage.sort_values(by='variant'), x='date_2weeks', y='Count',
                      color='variant', color_discrete_map=main_lineages_color_scheme,
                      barmode='stack',
