@@ -104,7 +104,7 @@ def main():
 
     ############ Second column ###############
     ####### Circulating lineages CHART ###########
-    variants_bar_plot(variants_percentage, c2)
+    variants_bar_plot(variants_percentage, c2, "Circulating lineages")
 
     ####### COUNTRIES WHITH SEQUENCE CHART #########
     countries_with_sequences_chart(df_count, c2)

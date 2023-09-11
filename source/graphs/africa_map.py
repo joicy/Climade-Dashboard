@@ -249,7 +249,7 @@ def colorpath_africa_map(df_africa, column, color_pallet):
                                   legend=dict(orientation='h')
                                   )
             fig_map.update_layout(title_y=0.2, annotations=[dict(x=1, y=0, xref='paper', yref='paper',
-                                                                 text='Countries in grey do not have any data submitted to GISAID',
+                                                                 text='Countries in grey do not have any data submitted to BV-BRC',
                                                                  showarrow=False)])
 
             # creating standardize hover template

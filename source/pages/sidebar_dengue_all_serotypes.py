@@ -46,7 +46,7 @@ def get_variants(df_africa):
 
 def get_lineages_choice(df_africa):
     variants = get_variants(df_africa)
-    lineages_selected = st.sidebar.multiselect("Select variants to show", variants,
+    lineages_selected = st.sidebar.multiselect("Select serotypes to show", variants,
                                                default=sorted(variants), key='multiselect_variants',
                                                on_change=warning_filter_data)
     return lineages_selected

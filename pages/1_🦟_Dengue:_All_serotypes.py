@@ -85,14 +85,14 @@ def main():
     c1.subheader("Genomes per country")
     map_option = c1.selectbox(
         'Metric',
-        ('Total of genomes', 'Genomes by variant'
+        ('Total of genomes', 'Genomes by serotype'
          # 'Variants proportion'
          ))
     if map_option == 'Total of genomes':
         colorpath_africa_map(df_count, column=c1, color_pallet="speed")
-    elif map_option == 'Genomes by variant':
+    elif map_option == 'Genomes by serotype':
         # Multiselect to choose variants to show
-        voc_selected = c1.selectbox("Choose VOC to show", dengue_variants)
+        voc_selected = c1.selectbox("Choose Serotype to show", dengue_variants)
         df_count_map = sd.build_df_count(df_africa[df_africa['variant'] == voc_selected])
         colorpath_africa_map(df_count_map, column=c1, color_pallet=vocs_color_pallet.get(voc_selected))
     # elif map_option == 'Variants proportion':
@@ -101,7 +101,7 @@ def main():
 
     ############ Second column ###############
     ####### Circulating lineages CHART ###########
-    variants_bar_plot(variants_percentage, c2)
+    variants_bar_plot(variants_percentage, c2, "Circulating Serotypes")
 
     ####### COUNTRIES WHITH SEQUENCE CHART #########
     countries_with_sequences_chart(df_count, c2)
