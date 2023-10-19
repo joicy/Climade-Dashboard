@@ -14,15 +14,14 @@ def variants_bar_plot(variants_percentage, column, title):
     variants_percentage['Count'] = variants_percentage['Count'].astype(int)
 
     # Reordering variant categories
-    variants_order = ['Omicron', 'Delta', 'Alpha', 'Beta', 'Gamma', 'Other Lineages']
     variants_percentage['variant'] = variants_percentage['variant'].astype('category')
-    # variants_percentage['variant'].cat.reorder_categories(variants_order, inplace=True)
 
     with st.container():
         c.subheader(title)
         fig = px.bar(variants_percentage.sort_values(by='variant'), x='date_2weeks', y='Count',
                      color='variant', color_discrete_map=main_lineages_color_scheme,
                      barmode='stack',
+                     title= 'Bar plot',
                      custom_data=['variant', 'Count', 'date_initial', 'date_2weeks'],
                      labels={'variant': 'Lineage', 'Count': 'Percentage', 'date_2weeks': 'Date'})
         fig.update_yaxes(title="Proportion of Genomes")
