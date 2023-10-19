@@ -9,7 +9,7 @@ from source.pages.tables import variant_summary_table as vst
 
 def main():
     st.set_page_config(
-        page_title="Dengue Africa Dashboard",
+        page_title="Dengue Virus 4 Africa Dashboard",
         layout="wide",
         initial_sidebar_state="expanded",
         page_icon="img/cropped-ceri_branco-01-150x150.png"
@@ -101,7 +101,7 @@ def main():
 
     ############ Second column ###############
     ####### Circulating lineages CHART ###########
-    variants_bar_plot(variants_percentage, c2, "Circulating lineages")
+    variants_bar_plot(variants_percentage, c2, "Circulating Genotypes")
 
     ####### COUNTRIES WHITH SEQUENCE CHART #########
     countries_with_sequences_chart(df_count, c2)
