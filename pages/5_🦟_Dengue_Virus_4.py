@@ -75,7 +75,7 @@ def main():
     # sd.acknowledgment_section(logo_path='img/gisaid_logo.png', link='https://www.gisaid.org/')
 
     # Add title and subtitle to the main interface of the app
-    main_title(display_countries)
+    main_title( "DENGUE VIRUS 4 - AFRICA DASHBOARD" ,display_countries)
 
     ### Layout of main page
     c1, c2 = st.columns((1.5, 1.9))

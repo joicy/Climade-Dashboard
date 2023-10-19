@@ -2,7 +2,7 @@ import streamlit.web.server.server
 
 from config import *
 from source.pages import sidebar_zika as sd
-from source.pages.header_zika import *
+from source.pages.header import *
 from source.graphs.africa_map import *
 from source.graphs.variants_proportion import variants_bar_plot
 from source.graphs.countries_sequences import countries_with_sequences_chart, countries_with_sequences_chart_one_variant
@@ -78,7 +78,7 @@ def main():
     # sd.acknowledgment_section(logo_path='img/gisaid_logo.png', link='https://www.gisaid.org/')
 
     # Add title and subtitle to the main interface of the app
-    main_title(display_countries)
+    main_title("ZIKA - AFRICA DASHBOARD", display_countries)
 
     ### Layout of main page
     c1, c2 = st.columns((1.5, 1.9))
