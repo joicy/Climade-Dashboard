@@ -158,11 +158,17 @@ def show_metrics(df_africa):
 
 def about_section():
     st.sidebar.info("""
-    Figures inspired by Wilkinson et al. Science 2021
-    
-    Contact email: joicy.xavier@ufvjm.edu.br / tulio@sun.ac.za
-    
+    CLIMADE Africa dashboard was built using the SARS-CoV-2 Africa dashboard computational architecture
     [Cite us](https://www.nature.com/articles/s41564-022-01276-9)
+    
+    CONTACT US:\n
+    21618488@sun.ac.za
+    joicy.xavier@ufvjm.edu.br 
+    
+    INTERPRET THIS DATA WITH CARE:\n
+    The data displayed on the dashboard is sourced from BV-BRC (https://www.bv-brc.org/)
+    
+    Figures inspired by Wilkinson et al. Science 2021
     """)
 
 

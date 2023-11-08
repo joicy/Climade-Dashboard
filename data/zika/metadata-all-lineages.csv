@@ -14,12 +14,9 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 64320.1418,Zika virus ZIKV/Homo_sapiens/CPV/2016/CV907u,Zika virus,2019-11-29T00:00:00Z,MK241417,2016-06-04,Cabo Verde,Africa,Human,10617,Zika virus,Asian,Asian,2016-06-04
 64320.143,Zika virus,Zika virus,2012-03-19T00:00:00Z,HQ234500,1968-01-01,Nigeria,Africa,Human,10251,Zika virus,African,African,1968-01-01
 64320.144,Zika virus,Zika virus,2012-03-19T00:00:00Z,HQ234501,1984-01-01,Senegal,Africa,Mosquito,10269,Zika virus,African,African,1984-01-01
-64320.145,Zika virus MR 766,Zika virus,2010-11-23T00:00:00Z,AY632535,,Uganda,Africa,,10794,Zika virus,African,African,
 64320.15,Zika virus MR-766,Zika virus,2016-06-22T00:00:00Z,KX377335,1947-04-01,Uganda,Africa,,10807,Zika virus,African,African,1947-04-01
 64320.153,Zika virus,Zika virus,2015-12-21T00:00:00Z,KF268948,1976-01-01,Central African Republic,Africa,Mosquito,10788,Zika virus,African,African,1976-01-01
 64320.1539,Zika virus Uganda1947_MR766,Zika virus,2017-02-01T00:00:00Z,KX421193,1947-01-01,Uganda,Africa,,10269,Zika virus,African,African,1947-01-01
-64320.154,Zika virus,Zika virus,2015-12-21T00:00:00Z,KF268949,,Central African Republic,Africa,,10776,Zika virus,African,African,
-64320.155,Zika virus,Zika virus,2015-12-21T00:00:00Z,KF268950,,Central African Republic,Africa,Mosquito,10755,Zika virus,African,African,
 64320.156,Zika virus CCB-870,Zika virus,2014-03-04T00:00:00Z,KF270886,2007-01-01,Gabon,Africa,Human,841,Zika virus,African,African,2007-01-01
 64320.157,Zika virus CCB-870,Zika virus,2014-03-04T00:00:00Z,KF270887,2007-01-01,Gabon,Africa,Human,772,Zika virus,African,African,2007-01-01
 64320.159,Zika virus ArD149810,Zika virus,2014-03-15T00:00:00Z,KF383015,2001-01-01,Senegal,Africa,,753,Zika virus,Related to but not part of African,African,2001-01-01
@@ -37,7 +34,6 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 64320.169,Zika virus ArD127707,Zika virus,2014-03-15T00:00:00Z,KF383025,1997-01-01,Senegal,Africa,,753,Zika virus,African,African,1997-01-01
 64320.17,Zika virus ArD127994,Zika virus,2014-03-15T00:00:00Z,KF383026,1997-01-01,Senegal,Africa,,753,Zika virus,African,African,1997-01-01
 64320.171,Zika virus ArD127710,Zika virus,2014-03-15T00:00:00Z,KF383027,1997-01-01,Senegal,Africa,,753,Zika virus,African,African,1997-01-01
-64320.171,Zika virus MR766-NIID,Zika virus,2014-09-12T00:00:00Z,LC002520,,Uganda,Africa,,10807,Zika virus,African,African,
 64320.172,Zika virus ArD165531,Zika virus,2014-03-15T00:00:00Z,KF383028,2002-01-01,Senegal,Africa,,753,Zika virus,African,African,2002-01-01
 64320.173,Zika virus ArD165522,Zika virus,2014-03-15T00:00:00Z,KF383029,2002-01-01,Senegal,Africa,,753,Zika virus,African,African,2002-01-01
 64320.174,Zika virus ArA2718,Zika virus,2014-03-15T00:00:00Z,KF383030,1981-01-01,Burkina Faso,Africa,,753,Zika virus,African,African,1981-01-01
@@ -113,9 +109,6 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 64320.285,Zika virus,Zika virus,2016-05-24T00:00:00Z,KU955595,1984-12-14,Senegal,Africa,Mosquito,10806,Zika virus,African,African,1984-12-14
 64320.289,Zika virus,Zika virus,2016-11-18T00:00:00Z,KU963573,1947-04-20,Uganda,Africa,Rhesus macaque,10787,Zika virus,African,African,1947-04-20
 64320.29,Zika virus,Zika virus,2016-11-18T00:00:00Z,KU963574,1968-09-09,Nigeria,Africa,Lab host,10775,Zika virus,African,African,1968-09-09
-64320.321,Zika virus MR 766,Zika virus,2009-12-24T00:00:00Z,DQ859059,,Uganda,Africa,,10254,Zika virus,African,African,
-64320.322,Zika virus MR 766,Zika virus,2016-07-26T00:00:00Z,EU074027,,Uganda,Africa,,232,Zika virus,African,African,
-64320.46,Zika virus MR 766,Zika virus,2019-08-01T00:00:00Z,NC_012532,,Uganda,Africa,,10794,Zika virus,African,African,
 64320.581,Zika virus MP1751,Zika virus,2016-12-25T00:00:00Z,KY288905,1962-11-01,Uganda,Africa,Mosquito,10752,Zika virus,African,African,1962-11-01
 64320.625,Zika virus DAK_AR_41524,Zika virus,2019-12-18T00:00:00Z,MN755616,1984-11-17,Senegal,Africa,,2382,Zika virus,African,African,1984-11-17
 64320.626,Zika virus IbH_30656,Zika virus,2019-12-18T00:00:00Z,MN755617,1968-09-09,Nigeria,Africa,,2364,Zika virus,African,African,1968-09-09
