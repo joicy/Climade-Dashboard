@@ -8,7 +8,6 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 11053.11988,Dengue virus 1 DENV-1/TAN/DAR-S3/2019,Dengue virus,2021-04-19T00:00:00Z,MT835386,2019-03-01,Tanzania,Africa,Homo sapiens,Human,482,DENV-1,Unassigned,2019-03-01
 11053.1199,Dengue virus 1 DENV-1/TAN/DAR-S2/2019,Dengue virus,2021-04-19T00:00:00Z,MT835385,2019-03-01,Tanzania,Africa,Homo sapiens,Human,482,DENV-1,Unassigned,2019-03-01
 11053.11991,Dengue virus 1 DENV-1/TAN/DAR-S1/2019,Dengue virus,2021-04-19T00:00:00Z,MT835384,2019-03-01,Tanzania,Africa,Homo sapiens,Human,482,DENV-1,Unassigned,2019-03-01
-11053.1255,Dengue virus 1 D1/H/IMTSSA/98/606,Dengue virus,2001-06-08T00:00:00Z,AF298808,,Djibouti,Africa,,,10721,DENV-1,DENV-1 Genotype I,
 11053.13253,Dengue virus 1 KAJP2_DENV1_Gambia_Western.Africa_2010,Dengue virus,2021-11-18T00:00:00Z,MZ857203,2010-01-01,Gambia,Africa,Homo sapiens,Human,10179,DENV-1,DENV-1 Genotype I,2010-01-01
 11053.13254,Dengue virus 1 KAJP5_DENV1_Angola_Central.Africa_2013,Dengue virus,2021-11-18T00:00:00Z,MZ857205,2013-01-01,Angola,Africa,Homo sapiens,Human,10179,DENV-1,Unassigned,2013-01-01
 11053.13255,Dengue virus 1 KAJP7_DENV1_Kenya_Eastern.Africa_2013,Dengue virus,2021-11-18T00:00:00Z,MZ857206,2013-01-01,Kenya,Africa,Homo sapiens,Human,10179,DENV-1,DENV-1 Genotype I,2013-01-01
@@ -252,7 +251,7 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 11053.14842,dengue virus type I D1/TAN/258/DAR/2019,Dengue virus,2023-04-19T00:00:00Z,OM920265,2019-05-06,Tanzania,Africa,Homo sapiens,Human,1485,DENV-1,DENV-1,2019-05-06
 11053.14843,dengue virus type I D1/TAN/243/DAR/2019,Dengue virus,2023-04-19T00:00:00Z,OM920266,2019-05-26,Tanzania,Africa,Homo sapiens,Human,1485,DENV-1,DENV-1,2019-05-26
 11053.14844,dengue virus type I D1/TAN/237/DAR/2019,Dengue virus,2023-04-19T00:00:00Z,OM920268,2019-05-20,Tanzania,Africa,Homo sapiens,Human,1485,DENV-1,DENV-1,2019-05-20
-11053.14845,dengue virus type I D1/TAN/242/DAR/2019,Dengue virus,2023-04-19T00:00:00Z,OM920267,2019-05-26,Tanzania,Africa,Homo sapiens,Human,1485,DENV-1,DENV-1,2019-05-26
+11053.14845,dengue virus type I D1/TAN/242/DAR/2019,Dengue virus,2023-04-19T00:00:00Z,OM920267,2019-05-26,Tanzania,Africa,Homo sapiens,Human,1485,DENV-1,Unassigned,2019-05-26
 11053.14846,dengue virus type I D1/TAN/225/DAR/2019,Dengue virus,2023-04-19T00:00:00Z,OM920271,2019-06-15,Tanzania,Africa,Homo sapiens,Human,1485,DENV-1,DENV-1,2019-06-15
 11053.14847,dengue virus type I D1/TAN/234/DAR/2019,Dengue virus,2023-04-19T00:00:00Z,OM920269,2019-05-20,Tanzania,Africa,Homo sapiens,Human,1485,DENV-1,DENV-1,2019-05-20
 11053.14848,dengue virus type I D1/TAN/229/DAR/2019,Dengue virus,2023-04-19T00:00:00Z,OM920270,2019-05-17,Tanzania,Africa,Homo sapiens,Human,1485,DENV-1,DENV-1,2019-05-17
@@ -400,10 +399,25 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 11053.14991,dengue virus type I D1/TAN/196/DAR/2019,Dengue virus,2023-04-19T00:00:00Z,OM920413,2019-06-05,Tanzania,Africa,Homo sapiens,Human,1485,DENV-1,DENV-1,2019-06-05
 11053.14992,dengue virus type I D1/TAN/195/DAR/2019,Dengue virus,2023-04-19T00:00:00Z,OM920414,2019-06-05,Tanzania,Africa,Homo sapiens,Human,1485,DENV-1,DENV-1,2019-06-05
 11053.14993,dengue virus type I D1/TAN/01/DAR/2019,Dengue virus,2023-04-19T00:00:00Z,OM920415,2019-01-12,Tanzania,Africa,Homo sapiens,Human,1485,DENV-1,DENV-1,2019-01-12
-11053.1685,Dengue virus 1 RIO H 36589,Dengue virus,2016-07-24T00:00:00Z,AF425610,,Angola,Africa,Homo sapiens,Human,1485,DENV-1,DENV-1 Genotype V,
-11053.1714,Dengue virus 1 IBH 28328,Dengue virus,2016-07-24T00:00:00Z,AF425625,,Nigeria,Africa,Homo sapiens,Human,1485,DENV-1,Unassigned,
-11053.1746,Dengue virus 1,Dengue virus,2016-07-25T00:00:00Z,AF426111,,Angola,Africa,Homo sapiens,Human,1044,DENV-1,DENV-1 Genotype V,
-11053.1772,Dengue virus 1,Dengue virus,2016-07-25T00:00:00Z,AF426124,,Nigeria,Africa,Homo sapiens,Human,1044,DENV-1,DENV-1,
+11053.15569,dengue virus type I CKO23-CERMEL -BIK-GAB 2021,Dengue virus,2023-06-19T00:00:00Z,OR135730,2020-05-12,Gabon,Africa,Homo sapiens,Human,1327,DENV-1,DENV-1,2020-05-12
+11053.1557,dengue virus type I CKO27-CERMEL -BIK-GAB 2021,Dengue virus,2023-06-19T00:00:00Z,OR135731,2020-05-16,Gabon,Africa,Homo sapiens,Human,1315,DENV-1,DENV-1,2020-05-16
+11053.15736,dengue virus type I DD-230-21,Dengue virus,2023-07-08T00:00:00Z,OR227076,2021-09-01,Ethiopia,Africa,Homo sapiens,Human,482,DENV-1,DENV-1 Genotype I,2021-09-01
+11053.15737,dengue virus type I GD-157-21,Dengue virus,2023-07-08T00:00:00Z,OR227074,2021-08-01,Ethiopia,Africa,Homo sapiens,Human,503,DENV-1,Unassigned,2021-08-01
+11053.15738,dengue virus type I GD-181-21,Dengue virus,2023-07-08T00:00:00Z,OR227075,2021-09-01,Ethiopia,Africa,Homo sapiens,Human,503,DENV-1,Unassigned,2021-09-01
+11053.15739,dengue virus type I GD-013-15,Dengue virus,2023-07-08T00:00:00Z,OR227068,2015-07-01,Ethiopia,Africa,Homo sapiens,Human,442,DENV-1,DENV-1 Genotype I,2015-07-01
+11053.1574,dengue virus type I GD-005-15,Dengue virus,2023-07-08T00:00:00Z,OR227066,2015-07-01,Ethiopia,Africa,Homo sapiens,Human,510,DENV-1,DENV-1 Genotype I,2015-07-01
+11053.15741,dengue virus type I GD-003-15,Dengue virus,2023-07-08T00:00:00Z,OR227065,2015-07-01,Ethiopia,Africa,Homo sapiens,Human,509,DENV-1,DENV-1 Genotype I,2015-07-01
+11053.15742,dengue virus type I DD-052-15,Dengue virus,2023-07-08T00:00:00Z,OR227063,2015-10-01,Ethiopia,Africa,Homo sapiens,Human,503,DENV-1,DENV-1 Genotype I,2015-10-01
+11053.15743,dengue virus type I DD-011-15,Dengue virus,2023-07-08T00:00:00Z,OR227060,2015-10-01,Ethiopia,Africa,Homo sapiens,Human,510,DENV-1,DENV-1 Genotype I,2015-10-01
+11053.15744,dengue virus type I DD-022-15,Dengue virus,2023-07-08T00:00:00Z,OR227061,2015-10-01,Ethiopia,Africa,Homo sapiens,Human,512,DENV-1,DENV-1 Genotype I,2015-10-01
+11053.15745,dengue virus type I DD-041-15,Dengue virus,2023-07-08T00:00:00Z,OR227062,2015-10-01,Ethiopia,Africa,Homo sapiens,Human,503,DENV-1,DENV-1 Genotype I,2015-10-01
+11053.15746,dengue virus type I DD-065-15,Dengue virus,2023-07-08T00:00:00Z,OR227064,2015-10-01,Ethiopia,Africa,Homo sapiens,Human,435,DENV-1,DENV-1 Genotype I,2015-10-01
+11053.15747,dengue virus type I GD-027-15,Dengue virus,2023-07-08T00:00:00Z,OR227071,2015-07-01,Ethiopia,Africa,Homo sapiens,Human,503,DENV-1,DENV-1 Genotype I,2015-07-01
+11053.15748,dengue virus type I GD-025-15,Dengue virus,2023-07-08T00:00:00Z,OR227070,2015-07-01,Ethiopia,Africa,Homo sapiens,Human,503,DENV-1,DENV-1 Genotype I,2015-07-01
+11053.15749,dengue virus type I GD-015-15,Dengue virus,2023-07-08T00:00:00Z,OR227069,2015-07-01,Ethiopia,Africa,Homo sapiens,Human,503,DENV-1,DENV-1 Genotype I,2015-07-01
+11053.1575,dengue virus type I DA-09-16,Dengue virus,2023-07-08T00:00:00Z,OR227072,2016-02-01,Ethiopia,Africa,Homo sapiens,Human,499,DENV-1,DENV-1 Genotype I,2016-02-01
+11053.15838,dengue virus type 1 RioH_36589,Dengue virus,2023-08-08T00:00:00Z,OR389006,1988-01-01,Angola,Africa,Homo sapiens,Human,10575,DENV-1,DENV-1 Genotype V,1988-01-01
+11053.15862,dengue virus type 1 RioH_36589,Dengue virus,2023-08-08T00:00:00Z,OR389270,1988-01-01,Angola,Africa,Homo sapiens,Human,10582,DENV-1,DENV-1 Genotype V,1988-01-01
 11053.18,Dengue virus 1,Dengue virus,2020-11-17T00:00:00Z,MW243050,2017-10-30,Burkina Faso,Africa,Homo sapiens,Human,10646,DENV-1,DENV-1,2017-10-30
 11053.208,Dengue virus 1,Dengue virus,2013-07-23T00:00:00Z,KC848576,2011-01-01,Somalia,Africa,C6/36,Lab host,1485,DENV-1,DENV-1 Genotype I,2011-01-01
 11053.209,Dengue virus 1,Dengue virus,2013-07-23T00:00:00Z,KC848577,2011-01-01,Somalia,Africa,C6/36,Lab host,1485,DENV-1,DENV-1 Genotype I,2011-01-01
@@ -518,7 +532,16 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 11060.12971,Dengue virus type 2 18062888,Dengue virus,2023-05-01T00:00:00Z,MZ130528,2018-06-24,Djibouti,Africa,Homo sapiens,Human,10597,DENV-2,Related to but not part of DENV-2 Genotype II,2018-06-24
 11060.12972,Dengue virus type 2 17050355,Dengue virus,2023-05-01T00:00:00Z,MZ130529,2017-04-30,Democratic Republic of the Congo,Africa,Homo sapiens,Human,10597,DENV-2,Related to but not part of DENV-2 Genotype II,2017-04-30
 11060.12981,Dengue virus type 2 310398,Dengue virus,2023-05-13T00:00:00Z,ON231305,2018-10-29,Senegal,Africa,Homo sapiens,Human,10176,DENV-2,Related to but not part of DENV-2 Genotype II,2018-10-29
-11060.1894,Dengue virus 2 Uganda 1993,Dengue virus,2016-07-26T00:00:00Z,AF410375,,Uganda,Africa,,,1485,DENV-2,Related to but not part of DENV-2 Genotype II,
+11060.13468,Dengue virus type 2 GD-010-15,Dengue virus,2023-07-08T00:00:00Z,OR227067,2015-07-01,Ethiopia,Africa,Homo sapiens,Human,503,DENV-2,Unassigned,2015-07-01
+11060.13469,Dengue virus type 2 GD-008-14,Dengue virus,2023-07-08T00:00:00Z,OR227059,2021-02-01,Ethiopia,Africa,Homo sapiens,Human,503,DENV-2,Unassigned,2021-02-01
+11060.1347,Dengue virus type 2 DA-11-16,Dengue virus,2023-07-08T00:00:00Z,OR227073,2016-02-01,Ethiopia,Africa,Homo sapiens,Human,503,DENV-2,Unassigned,2016-02-01
+11060.13519,dengue virus type 2 DAKAR A6894,Dengue virus,2023-08-08T00:00:00Z,OR389019,1986-01-01,Burkina Faso,Africa,Aedes aegypti,Yellow fever mosquito,10512,DENV-2,Related to but not part of DENV-2 Genotype II,1986-01-01
+11060.1352,dengue virus type 2 1349,Dengue virus,2023-08-08T00:00:00Z,OR389018,1982-01-01,Burkina Faso,Africa,Homo sapiens,Human,10512,DENV-2,Related to but not part of DENV-2 Genotype II,1982-01-01
+11060.13526,dengue virus type 2 PM 33974,Dengue virus,2023-08-08T00:00:00Z,OR389022,1981-01-01,Guinea,Africa,Aedes africanus,Mosquito,10512,DENV-2,DENV-2 Genotype VI,1981-01-01
+11060.13534,dengue virus type 2 DakArA_2022,Dengue virus,2023-08-08T00:00:00Z,OR389307,1980-01-01,Burkina Faso,Africa,Aedes africanus,Mosquito,10504,DENV-2,DENV-2 Genotype VI,1980-01-01
+11060.13554,dengue virus type 2 DakHD_765196,Dengue virus,2023-08-08T00:00:00Z,OR389326,1980-01-01,Senegal,Africa,Homo sapiens,Human,10512,DENV-2,DENV-2 Genotype IV,1980-01-01
+11060.13555,dengue virus type 2 HD_38210,Dengue virus,2023-08-08T00:00:00Z,OR389325,1984-01-01,Senegal,Africa,Homo sapiens,Human,10512,DENV-2,DENV-2 Genotype VI,1984-01-01
+11060.13556,dengue virus type 2 S_274,Dengue virus,2023-08-08T00:00:00Z,OR389327,1993-01-01,Somalia,Africa,Homo sapiens,Human,10512,DENV-2,Related to but not part of DENV-2 Genotype II,1993-01-01
 11060.2628,Dengue virus 2,Dengue virus,2009-11-11T00:00:00Z,GU131843,1986-01-01,Burkina Faso,Africa,Aedes aegypti,Yellow fever mosquito,10657,DENV-2,Related to but not part of DENV-2 Genotype II,1986-01-01
 11060.2741,Dengue virus 2,Dengue virus,2016-07-14T00:00:00Z,DQ917246,1980-01-01,Burkina Faso,Africa,,,1485,DENV-2,DENV-2 Genotype VI,1980-01-01
 11060.2742,Dengue virus 2,Dengue virus,2016-07-14T00:00:00Z,DQ917247,1980-01-01,Burkina Faso,Africa,,,1485,DENV-2,DENV-2 Genotype VI,1980-01-01
@@ -527,13 +550,10 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 11060.2761,Dengue virus 2 F32.D2.05,Dengue virus,2016-07-26T00:00:00Z,EU005258,2005-01-01,Ghana,Africa,Homo sapiens,Human,1485,DENV-2,Related to but not part of DENV-2 Genotype II,2005-01-01
 11060.3001,Dengue virus 2 G119VI05,Dengue virus,2016-07-24T00:00:00Z,FJ502917,1999-01-01,Djibouti,Africa,Homo sapiens,Human,219,DENV-2,Unassigned,1999-01-01
 11060.3441,Dengue virus 2 Dak Ar 2039,Dengue virus,2007-08-21T00:00:00Z,EF105382,1980-01-01,Burkina Faso,Africa,,,10722,DENV-2,DENV-2 Genotype VI,1980-01-01
-11060.3493,Dengue virus 2 Dak Ar 2039,Dengue virus,2007-08-21T00:00:00Z,EF105382,1980-01-01,Burkina Faso,Africa,,,10722,DENV-2,DENV-2 Genotype VI,1980-01-01
 11060.3442,Dengue virus 2 Dak HD 10674,Dengue virus,2007-08-21T00:00:00Z,EF105384,1970-01-01,Senegal,Africa,,,10724,DENV-2,DENV-2 Genotype VI,1970-01-01
 11060.3443,Dengue virus 2 Dak Ar D20761,Dengue virus,2007-08-21T00:00:00Z,EF105385,1974-01-01,Senegal,Africa,,,10724,DENV-2,DENV-2 Genotype VI,1974-01-01
 11060.3445,Dengue virus 2 IBH11208,Dengue virus,2007-08-21T00:00:00Z,EF105387,1966-01-01,Nigeria,Africa,,,10709,DENV-2,DENV-2 Genotype VI,1966-01-01
-11060.35,Dengue virus 2 IBH11208,Dengue virus,2007-08-21T00:00:00Z,EF105387,1966-01-01,Nigeria,Africa,,,10709,DENV-2,DENV-2 Genotype VI,1966-01-01
 11060.3446,Dengue virus 2 IBH11664,Dengue virus,2007-08-21T00:00:00Z,EF105388,1966-01-01,Nigeria,Africa,,,10711,DENV-2,DENV-2 Genotype VI,1966-01-01
-11060.3501,Dengue virus 2 IBH11664,Dengue virus,2007-08-21T00:00:00Z,EF105388,1966-01-01,Nigeria,Africa,,,10711,DENV-2,DENV-2 Genotype VI,1966-01-01
 11060.3447,Dengue virus 2 Dak Ar 141069,Dengue virus,2007-08-21T00:00:00Z,EF105389,1999-01-01,Senegal,Africa,,,10723,DENV-2,DENV-2 Genotype VI,1999-01-01
 11060.3448,Dengue virus 2 Dak Ar 141070,Dengue virus,2007-08-21T00:00:00Z,EF105390,1999-01-01,Senegal,Africa,,,10717,DENV-2,DENV-2 Genotype VI,1999-01-01
 11060.3486,Dengue virus 2 PM33974,Dengue virus,2007-08-21T00:00:00Z,EF105378,1981-01-01,Guinea,Africa,,,10722,DENV-2,DENV-2 Genotype VI,1981-01-01
@@ -544,7 +564,6 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 11060.356,Dengue virus 2,Dengue virus,2013-07-23T00:00:00Z,KC848584,2011-01-01,Somalia,Africa,C6/36,Lab host,1485,DENV-2,Related to but not part of DENV-2 Genotype II,2011-01-01
 11060.437,Dengue virus 2 DENV2-6478,Dengue virus,2017-01-25T00:00:00Z,KU509307,2014-01-01,Tanzania,Africa,Homo sapiens,Human,1485,DENV-2,DENV-2 Genotype II,2014-01-01
 11060.4393,Dengue virus 2 Dak Ar D75505,Dengue virus,2007-08-21T00:00:00Z,EF457904,1999-01-01,Senegal,Africa,,,10724,DENV-2,DENV-2 Genotype VI,1999-01-01
-11060.4412,Dengue virus 2 Dak Ar D75505,Dengue virus,2007-08-21T00:00:00Z,EF457904,1999-01-01,Senegal,Africa,,,10724,DENV-2,DENV-2 Genotype VI,1999-01-01
 11060.443,Dengue virus 2,Dengue virus,2017-11-01T00:00:00Z,MG189962,2014-06-01,Tanzania,Africa,Homo sapiens,Human,10665,DENV-2,DENV-2 Genotype II,2014-06-01
 11060.4734,Dengue virus 2 GA_DENV2,Dengue virus,2012-11-05T00:00:00Z,JX080289,2007-01-01,Gabon,Africa,Homo sapiens,Human,758,DENV-2,Related to but not part of DENV-2 Genotype II,2007-01-01
 11060.4735,Dengue virus 2 GA24-33a,Dengue virus,2012-11-05T00:00:00Z,JX080290,2010-01-01,Gabon,Africa,Homo sapiens,Human,758,DENV-2,Related to but not part of DENV-2 Genotype II,2010-01-01
@@ -569,7 +588,6 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 11060.4852,Dengue virus 2 065_5_13,Dengue virus,2020-08-01T00:00:00Z,MN577563,2013-05-01,Kenya,Africa,Homo sapiens,Human,10280,DENV-2,Related to but not part of DENV-2 Genotype II,2013-05-01
 11060.4853,Dengue virus 2 045_6_14,Dengue virus,2020-08-01T00:00:00Z,MN577564,2014-06-01,Kenya,Africa,Homo sapiens,Human,10276,DENV-2,Related to but not part of DENV-2 Genotype II,2014-06-01
 11060.4854,Dengue virus 2 020_1_14,Dengue virus,2020-08-01T00:00:00Z,MN577565,2014-01-01,Kenya,Africa,Homo sapiens,Human,9996,DENV-2,Related to but not part of DENV-2 Genotype II,2014-01-01
-11060.4855,Dengue virus 2 D2/Hu/BurkinaFaso/NIID125/2016,Dengue virus,2018-08-03T00:00:00Z,LC206003,,Burkina Faso,Africa,Homo sapiens,Human,1485,DENV-2,Related to but not part of DENV-2 Genotype II,
 11060.5382,Dengue virus 2 DENV2/KLF/001/2014,Dengue virus,2018-09-17T00:00:00Z,MH456892,2014-10-17,Kenya,Africa,Homo sapiens,Human,10093,DENV-2,Related to but not part of DENV-2 Genotype II,2014-10-17
 11060.5383,Dengue virus 2 DENV2/KLF/004/2014,Dengue virus,2018-09-17T00:00:00Z,MH456893,2014-11-25,Kenya,Africa,Homo sapiens,Human,10173,DENV-2,Related to but not part of DENV-2 Genotype II,2014-11-25
 11060.5384,Dengue virus 2 DENV2/KLF/006/2014,Dengue virus,2018-09-17T00:00:00Z,MH456894,2014-06-20,Kenya,Africa,Homo sapiens,Human,8372,DENV-2,Related to but not part of DENV-2 Genotype II,2014-06-20
@@ -657,9 +675,6 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 11060.7375,Dengue virus 2 LEKMA/GH/2017,Dengue virus,2018-08-14T00:00:00Z,MG937763,2017-05-05,Ghana,Africa,Homo sapiens,Human,442,DENV-2,Unassigned,2017-05-05
 11060.7376,Dengue virus 2 RUJul,Dengue virus,2019-10-03T00:00:00Z,MN272404,2018-03-01,Reunion,Africa,Homo sapiens,Human,10724,DENV-2,Related to but not part of DENV-2 Genotype II,2018-03-01
 11060.7377,Dengue virus 2 RU16417,Dengue virus,2019-10-03T00:00:00Z,MN272405,2016-05-07,Seychelles,Africa,Homo sapiens,Human,10724,DENV-2,Related to but not part of DENV-2 Genotype II,2016-05-07
-11060.7401,Dengue virus 2 Mombasa/2013/001,Dengue virus,2017-09-21T00:00:00Z,KT716076,,Kenya,Africa,Homo sapiens,Human,1485,DENV-2,Related to but not part of DENV-2 Genotype II,
-11060.7402,Dengue virus 2 Mombasa/2013/002,Dengue virus,2017-09-21T00:00:00Z,KT716077,,Kenya,Africa,Homo sapiens,Human,1485,DENV-2,Related to but not part of DENV-2 Genotype II,
-11060.7403,Dengue virus 2 Mombasa/2013/003,Dengue virus,2017-09-21T00:00:00Z,KT716078,,Kenya,Africa,Homo sapiens,Human,1485,DENV-2,Related to but not part of DENV-2 Genotype II,
 11060.7458,Dengue virus 2 AFI_MDH_243,Dengue virus,2020-02-20T00:00:00Z,MN335244,2017-05-29,Kenya,Africa,Homo sapiens,Human,10173,DENV-2,Related to but not part of DENV-2 Genotype II,2017-05-29
 11060.7459,Dengue virus 2 AFI_MDH_240,Dengue virus,2020-02-20T00:00:00Z,MN335245,2017-05-22,Kenya,Africa,Homo sapiens,Human,10173,DENV-2,Related to but not part of DENV-2 Genotype II,2017-05-22
 11060.746,Dengue virus 2 AFI_MDH_244,Dengue virus,2020-02-20T00:00:00Z,MN335246,2017-06-07,Kenya,Africa,Homo sapiens,Human,10165,DENV-2,Related to but not part of DENV-2 Genotype II,2017-06-07
@@ -763,7 +778,6 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 11069.441,Dengue virus 3,Dengue virus,2009-05-05T00:00:00Z,FJ882575,1985-01-01,Mozambique,Africa,Homo sapiens,Human,10663,DENV-3,DENV-3 Genotype III,1985-01-01
 11069.5148,Dengue virus 3 CNM213VI07,Dengue virus,2016-07-24T00:00:00Z,FJ502975,2007-01-01,Senegal,Africa,Homo sapiens,Human,220,DENV-3,DENV-3 Genotype III,2007-01-01
 11069.5164,Dengue virus 3 CNM775VI06,Dengue virus,2016-07-24T00:00:00Z,FJ502943,2006-01-01,Cameroon,Africa,Homo sapiens,Human,220,DENV-3,DENV-3 Genotype III,2006-01-01
-11069.526,Dengue virus 3 D3Mozambique85,Dengue virus,2016-07-26T00:00:00Z,AY665402,,Mozambique,Africa,,,1923,DENV-3,DENV-3 Genotype III,
 11069.602,Dengue virus 3 D3/Hu/Tanzania/08/2010NIID,Dengue virus,2017-03-30T00:00:00Z,AB549332,2010-02-01,Tanzania,Africa,,,1479,DENV-3,DENV-3 Genotype III,2010-02-01
 11069.6232,Dengue virus 3 KAJP3_DENV3_Kenya_Eastern.Africa_2011,Dengue virus,2021-11-18T00:00:00Z,MZ857204,2011-01-01,Kenya,Africa,Homo sapiens,Human,10171,DENV-3,DENV-3 Genotype III,2011-01-01
 11069.6276,Dengue virus 3 Dengue_Douala_isolate_NB03,Dengue virus,2021-10-04T00:00:00Z,MW979762,2020-09-14,Cameroon,Africa,Human,Human,1063,DENV-3,DENV-3 Genotype III,2020-09-14
@@ -842,15 +856,9 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 11070.263,Dengue virus 4 Denv4_2014_Angola,Dengue virus,2014-10-30T00:00:00Z,AB908053,2014-01-14,Angola,Africa,Homo sapiens,Human,452,DENV-4,DENV-4 Genotype II,2014-01-14
 11070.322,Dengue virus 4 DENV4-3_DAK_H_38550,Dengue virus,2022-01-04T00:00:00Z,OK605769,1983-01-01,Senegal,Africa,Homo sapiens,Human,10651,DENV-4,DENV-4 Genotype I,1983-01-01
 11070.3312,Dengue virus 4 D10,Dengue virus,2020-12-12T00:00:00Z,MW332572,2019-02-03,Nigeria,Africa,Homo sapiens,Human,1037,DENV-2,DENV-2 Genotype V,2019-02-03
-12637.1059,Dengue virus DENV2/Hu/Cote d'Ivoire/HMIMV/2017,Dengue virus,2018-10-21T00:00:00Z,MG727535,,Morocco,Africa,Homo sapiens,Human,1485,DENV-2,Related to but not part of DENV-2 Genotype II,
-12637.1231,Dengue virus CY 436 D1 606,Dengue virus,2016-07-26T00:00:00Z,EU073979,,Djibouti,Africa,,,232,DENV-1,DENV-1 Genotype I,
 12637.1447,Dengue virus DENV-2/TAN/IFM/2013,Dengue virus,2016-12-31T00:00:00Z,KM892493,2013-06-01,Tanzania,Africa,Homo sapiens,Human,500,DENV-2,DENV-2 Genotype II,2013-06-01
 12637.1448,Dengue virus DENV-2/TAN/Masaki/2014,Dengue virus,2016-12-31T00:00:00Z,KM892494,2014-02-01,Tanzania,Africa,Homo sapiens,Human,500,DENV-2,DENV-2 Genotype II,2014-02-01
 12637.1449,Dengue virus DENV-2/TAN/Muhimbili/2014,Dengue virus,2016-12-31T00:00:00Z,KM892496,2014-02-01,Tanzania,Africa,Homo sapiens,Human,500,DENV-2,DENV-2 Genotype II,2014-02-01
-12637.287,Dengue virus SD1,Dengue virus,2018-04-30T00:00:00Z,MF574722,,Sudan,Africa,Homo sapiens,Human,502,DENV-2,Related to but not part of DENV-2 Genotype II,
-12637.2871,Dengue virus SD2,Dengue virus,2018-04-30T00:00:00Z,MF574723,,Sudan,Africa,Homo sapiens,Human,502,DENV-2,Related to but not part of DENV-2 Genotype II,
-12637.2872,Dengue virus SD3,Dengue virus,2018-04-30T00:00:00Z,MF574724,,Sudan,Africa,Homo sapiens,Human,502,DENV-2,Related to but not part of DENV-2 Genotype II,
-12637.2873,Dengue virus SD4,Dengue virus,2018-04-30T00:00:00Z,MF574725,,Sudan,Africa,Homo sapiens,Human,502,DENV-2,Related to but not part of DENV-2 Genotype II,
 12637.3104,Dengue virus 2A,Dengue virus,2020-10-31T00:00:00Z,MK045280,2018-10-08,Nigeria,Africa,Homo sapiens,Human,346,Unassigned,Unassigned,2018-10-08
 12637.3127,Dengue virus LT.93,Dengue virus,2019-08-31T00:00:00Z,MH802053,2017-04-13,Cameroon,Africa,Homo-sapiens,Human,211,DENV-1,Unassigned,2017-04-13
 12637.3128,Dengue virus LT.88,Dengue virus,2019-08-31T00:00:00Z,MH802054,2017-04-12,Cameroon,Africa,Homo-sapiens,Human,211,DENV-1,Unassigned,2017-04-12
@@ -862,17 +870,13 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 12637.3486,Dengue virus 0711,Dengue virus,2017-09-30T00:00:00Z,KX812502,2011-07-01,Kenya,Africa,Homo sapiens,Human,259,DENV-3,DENV-3 Genotype III,2011-07-01
 12637.3487,Dengue virus 0911,Dengue virus,2017-09-30T00:00:00Z,KX812503,2011-09-01,Kenya,Africa,Homo sapiens,Human,231,DENV-3,DENV-3 Genotype III,2011-09-01
 12637.3488,Dengue virus 030713,Dengue virus,2017-09-30T00:00:00Z,KX812504,2013-07-01,Kenya,Africa,Homo sapiens,Human,230,DENV-3,DENV-3 Genotype III,2013-07-01
-12637.3489,Dengue virus 2330513,Dengue virus,2017-09-30T00:00:00Z,KX812506,2013-05-01,Kenya,Africa,Homo sapiens,Human,245,DENV-1,Unassigned,2013-05-01
+12637.3489,Dengue virus 2330513,Dengue virus,2017-09-30T00:00:00Z,KX812506,2013-05-01,Kenya,Africa,Homo sapiens,Human,245,DENV-1,DENV-1 Genotype I,2013-05-01
 12637.349,Dengue virus 0280114,Dengue virus,2017-09-30T00:00:00Z,KX812505,2014-01-01,Kenya,Africa,Homo sapiens,Human,231,DENV-3,DENV-3 Genotype III,2014-01-01
-12637.3491,Dengue virus 0220713,Dengue virus,2017-09-30T00:00:00Z,KX812507,2013-07-01,Kenya,Africa,Homo sapiens,Human,512,DENV-2,Related to but not part of DENV-2 Genotype II,2013-07-01
+12637.3491,Dengue virus 0220713,Dengue virus,2017-09-30T00:00:00Z,KX812507,2013-07-01,Kenya,Africa,Homo sapiens,Human,512,DENV-2,Unassigned,2013-07-01
 12637.3492,Dengue virus 1290413,Dengue virus,2017-09-30T00:00:00Z,KX812508,2013-04-01,Kenya,Africa,Homo sapiens,Human,513,DENV-2,Related to but not part of DENV-2 Genotype II,2013-04-01
 12637.3493,Dengue virus 1320413,Dengue virus,2017-09-30T00:00:00Z,KX812509,2013-04-01,Kenya,Africa,Homo sapiens,Human,513,DENV-2,Unassigned,2013-04-01
 12637.3494,Dengue virus 0040413,Dengue virus,2017-09-30T00:00:00Z,KX812510,2013-04-01,Kenya,Africa,Homo sapiens,Human,512,DENV-2,Unassigned,2013-04-01
 12637.3496,Dengue virus 0320413,Dengue virus,2017-09-30T00:00:00Z,KX812511,2013-04-01,Kenya,Africa,Homo sapiens,Human,513,DENV-3,DENV-3 Genotype III,2013-04-01
 12637.3773,Dengue virus Dakar HD 34460,Dengue virus,2014-11-20T00:00:00Z,KF907503,1953-01-01,Senegal,Africa,Homo sapiens,Human,10648,DENV-4,DENV-4 Genotype II,1953-01-01
-12637.3779,Dengue virus Dak HD 34 460,Dengue virus,2016-07-26T00:00:00Z,EU073983,,Senegal,Africa,,,232,DENV-4,DENV-4 Genotype II,
 12637.3781,Dengue virus DENV-2/TAN/IST/2014,Dengue virus,2016-12-31T00:00:00Z,KM892495,2014-02-01,Tanzania,Africa,Homo sapiens,Human,500,DENV-2,DENV-2 Genotype II,2014-02-01
 12637.623,Dengue virus DENV-2/TAN/KCMC/2014,Dengue virus,2018-03-01T00:00:00Z,KU886233,2014-06-01,Tanzania,Africa,Homo sapiens,Human,500,DENV-2,DENV-2 Genotype II,2014-06-01
-12637.727,Dengue virus,Dengue virus,2016-07-26T00:00:00Z,DQ016638,,Kenya,Africa,Homo sapiens,Human,306,DENV-1,DENV-1 Genotype I,
-12637.733,Dengue virus,Dengue virus,2016-07-26T00:00:00Z,DQ016641,,Kenya,Africa,Homo sapiens,Human,306,DENV-1,DENV-1 Genotype I,
-12637.737,Dengue virus,Dengue virus,2016-07-26T00:00:00Z,DQ016643,,Sudan,Africa,Homo sapiens,Human,306,DENV-2,DENV-2 Genotype V,

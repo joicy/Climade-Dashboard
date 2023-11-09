@@ -10,24 +10,7 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 37124.1138,Chikungunya virus 190_SDG,Chikungunya virus,2019-02-05T00:00:00Z,LC461595,2018-08-21,Sudan,Africa,Homo sapiens,Human,184,East-Central-South-African,ECSA,2018-08-21
 37124.1145,Chikungunya virus 9_SDG,Chikungunya virus,2019-02-05T00:00:00Z,LC461596,2018-08-23,Sudan,Africa,Homo sapiens,Human,184,East-Central-South-African,ECSA,2018-08-23
 37124.1149,Chikungunya virus J_SDG,Chikungunya virus,2019-02-05T00:00:00Z,LC461597,2018-08-23,Sudan,Africa,Homo sapiens,Human,184,East-Central-South-African,ECSA,2018-08-23
-37124.1406,Chikungunya virus 05-115,Chikungunya virus,2006-05-24T00:00:00Z,AM258990,,Reunion,Africa,,,11601,East-Central-South-African,ECSA,
-37124.1412,Chikungunya virus 05-209,Chikungunya virus,2006-06-04T00:00:00Z,AM258991,,Seychelles,Africa,,,11601,East-Central-South-African,ECSA,
-37124.1416,Chikungunya virus 06-021,Chikungunya virus,2006-06-04T00:00:00Z,AM258992,,Reunion,Africa,,,11601,East-Central-South-African,ECSA,
-37124.1423,Chikungunya virus 06-027,Chikungunya virus,2006-06-04T00:00:00Z,AM258993,,Reunion,Africa,,,11598,East-Central-South-African,ECSA,
-37124.1429,Chikungunya virus 06-049,Chikungunya virus,2006-06-04T00:00:00Z,AM258994,,Reunion,Africa,,,11601,East-Central-South-African,ECSA,
-37124.1433,Chikungunya virus 05-061,Chikungunya virus,2006-06-04T00:00:00Z,AM258995,,Reunion,Africa,,,11601,East-Central-South-African,ECSA,
 37124.1728,Chikungunya virus UVE/CHIKV/Djibouti/2019/CNR53532,Chikungunya virus,2020-11-30T00:00:00Z,MT023791,2019-12-15,Djibouti,Africa,C6/36,Lab host,11253,East-Central-South-African,ECSA,2019-12-15
-37124.1807,Chikungunya virus chik DRC007,Chikungunya virus,2016-07-26T00:00:00Z,AY549575,,Democratic Republic of the Congo,Africa,Homo sapiens,Human,1125,East-Central-South-African,ECSA,
-37124.1812,Chikungunya virus chik DRC010,Chikungunya virus,2016-07-26T00:00:00Z,AY549576,,Democratic Republic of the Congo,Africa,Homo sapiens,Human,1125,East-Central-South-African,ECSA,
-37124.1814,Chikungunya virus chik DRC027,Chikungunya virus,2016-07-26T00:00:00Z,AY549577,,Democratic Republic of the Congo,Africa,Homo sapiens,Human,1125,East-Central-South-African,ECSA,
-37124.1819,Chikungunya virus chik DRC1718,Chikungunya virus,2016-07-26T00:00:00Z,AY549578,,Democratic Republic of the Congo,Africa,Homo sapiens,Human,1125,East-Central-South-African,ECSA,
-37124.1822,Chikungunya virus chik DRC1719,Chikungunya virus,2016-07-26T00:00:00Z,AY549579,,Democratic Republic of the Congo,Africa,Homo sapiens,Human,1124,East-Central-South-African,ECSA,
-37124.1825,Chikungunya virus chik DRC1720,Chikungunya virus,2016-07-26T00:00:00Z,AY549580,,Democratic Republic of the Congo,Africa,Homo sapiens,Human,1125,East-Central-South-African,ECSA,
-37124.1829,Chikungunya virus chik DRC1725,Chikungunya virus,2016-07-26T00:00:00Z,AY549581,,Democratic Republic of the Congo,Africa,Homo sapiens,Human,1125,East-Central-South-African,ECSA,
-37124.1831,Chikungunya virus chik DRC1728,Chikungunya virus,2016-07-26T00:00:00Z,AY549582,,Democratic Republic of the Congo,Africa,Homo sapiens,Human,1125,East-Central-South-African,ECSA,
-37124.1835,Chikungunya virus chik RCA,Chikungunya virus,2016-07-26T00:00:00Z,AY549583,,Democratic Republic of the Congo,Africa,Homo sapiens,Human,1125,East-Central-South-African,ECSA,
-37124.184,Chikungunya virus chik DRC1730,Chikungunya virus,2016-07-26T00:00:00Z,AY549584,,Democratic Republic of the Congo,Africa,Homo sapiens,Human,1125,East-Central-South-African,ECSA,
-37124.1862,Chikungunya virus 37997,Chikungunya virus,2005-06-07T00:00:00Z,AY726732,,Senegal,Africa,Aedes furcifer,Mosquito,11881,West African,WA,
 37124.1863,Chikungunya virus MADOPY1,Chikungunya virus,2015-01-13T00:00:00Z,KP003808,2006-01-01,Madagascar,Africa,Homo sapiens,Human,11562,East-Central-South-African,ECSA,2006-01-01
 37124.187,Chikungunya virus GABOPY1,Chikungunya virus,2015-01-13T00:00:00Z,KP003812,2007-01-01,Gabon,Africa,Homo sapiens,Human,11561,East-Central-South-African,ECSA,2007-01-01
 37124.1874,Chikungunya virus BRAZZA_MRS1,Chikungunya virus,2017-08-11T00:00:00Z,KP003813,2011-01-01,Republic of the Congo,,Homo sapiens,Human,11268,East-Central-South-African,ECSA,2011-01-01
@@ -77,19 +60,7 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 37124.2427,Chikungunya virus DRC_2019_MAT009_AALBF,Chikungunya virus,2020-08-24T00:00:00Z,MT636921,2019-03-21,Democratic Republic of the Congo,Africa,Aedes albopictus,Asian tiger mosquito,11531,East-Central-South-African,ECSA,2019-03-21
 37124.2633,Chikungunya virus ECSA,Chikungunya virus,2018-01-29T00:00:00Z,MF696157,2006-03-31,Reunion,Africa,,,1386,East-Central-South-African,ECSA,2006-03-31
 37124.2646,Chikungunya virus Reunion 223/05,Chikungunya virus,2016-07-26T00:00:00Z,DQ309336,2005-01-01,Reunion,Africa,,,890,East-Central-South-African,ECSA,2005-01-01
-37124.2672,Chikungunya virus LR2006_OPY1,Chikungunya virus,2006-10-24T00:00:00Z,DQ443544,,Reunion,Africa,Homo sapiens,Human,11840,East-Central-South-African,ECSA,
-37124.2674,Chikungunya virus LR2006-OPY3,Chikungunya virus,2016-07-26T00:00:00Z,DQ451149,,Reunion,Africa,,,1044,East-Central-South-African,ECSA,
-37124.2682,Chikungunya virus LR2006-OPY2,Chikungunya virus,2016-07-26T00:00:00Z,DQ451151,,Reunion,Africa,,,1044,East-Central-South-African,ECSA,
 37124.3011,Chikungunya virus BNI-CHIKV_899,Chikungunya virus,2009-09-27T00:00:00Z,FJ959103,2006-01-01,Mauritius,Africa,Homo sapiens,Lab host,11832,East-Central-South-African,ECSA,2006-01-01
-37124.3035,Chikungunya virus EG07,Chikungunya virus,2016-07-26T00:00:00Z,DQ515985,,Equatorial Guinea,Africa,Homo sapiens,Human,147,Could not assign,Unassigned,
-37124.3042,Chikungunya virus EG01,Chikungunya virus,2016-07-26T00:00:00Z,DQ515986,,Equatorial Guinea,Africa,Homo sapiens,Human,147,Could not assign,Unassigned,
-37124.3045,Chikungunya virus EG02,Chikungunya virus,2016-07-26T00:00:00Z,DQ515987,,Equatorial Guinea,Africa,Homo sapiens,Human,147,Could not assign,Unassigned,
-37124.3049,Chikungunya virus EG03,Chikungunya virus,2016-07-26T00:00:00Z,DQ515988,,Equatorial Guinea,Africa,Homo sapiens,Human,147,Could not assign,Unassigned,
-37124.3052,Chikungunya virus EG04,Chikungunya virus,2016-07-26T00:00:00Z,DQ515989,,Equatorial Guinea,Africa,Homo sapiens,Human,147,Could not assign,Unassigned,
-37124.3056,Chikungunya virus EG05,Chikungunya virus,2016-07-26T00:00:00Z,DQ515990,,Equatorial Guinea,Africa,Homo sapiens,Human,147,Could not assign,Unassigned,
-37124.3063,Chikungunya virus EG06,Chikungunya virus,2016-07-26T00:00:00Z,DQ515991,,Equatorial Guinea,Africa,Homo sapiens,Human,147,Could not assign,Unassigned,
-37124.3304,Chikungunya virus LR2006_OPY1,Chikungunya virus,2015-09-16T00:00:00Z,KT449801,,Reunion,Africa,Homo sapiens,Human,11796,East-Central-South-African,ECSA,
-37124.3311,Chikungunya virus D570/06,Chikungunya virus,2007-07-24T00:00:00Z,EF012359,,Mauritius,Africa,,,11806,East-Central-South-African,ECSA,
 37124.3346,Chikungunya virus Chik Cam 7079,Chikungunya virus,2016-07-14T00:00:00Z,EF051584,2006-01-01,Cameroon,Africa,Homo sapiens,Human,1202,East-Central-South-African,ECSA,2006-01-01
 37124.3399,Chikungunya virus 02-05-16,Chikungunya virus,2018-10-03T00:00:00Z,MG902894,2016-05-07,Kenya,Africa,Homo sapiens,Human,1159,East-Central-South-African,ECSA,2016-05-07
 37124.3402,Chikungunya virus 04-05-16,Chikungunya virus,2018-10-03T00:00:00Z,MG902896,2016-05-07,Kenya,Africa,Homo sapiens,Human,1161,East-Central-South-African,ECSA,2016-05-07
@@ -134,13 +105,8 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 37124.3863,Chikungunya virus 070_16_S74,Chikungunya virus,2019-01-21T00:00:00Z,MH423811,2016-05-31,Kenya,Africa,Homo sapiens,Human,3661,East-Central-South-African,ECSA,2016-05-31
 37124.393,Chikungunya virus RC_Diosso_2019_9,Chikungunya virus,2019-05-26T00:00:00Z,MK715489,2019-01-01,Republic of the Congo,,Homo sapiens,Human,678,East-Central-South-African,ECSA,2019-01-01
 37124.398,Chikungunya virus RC_Diosso_2019_31,Chikungunya virus,2019-05-26T00:00:00Z,MK715490,2019-01-01,Republic of the Congo,,Homo sapiens,Human,678,East-Central-South-African,ECSA,2019-01-01
-37124.4135,Chikungunya virus EG640,Chikungunya virus,2016-07-25T00:00:00Z,GQ387365,,Equatorial Guinea,Africa,Homo sapiens,Human,434,East-Central-South-African,ECSA,
-37124.4139,Chikungunya virus EG641,Chikungunya virus,2016-07-25T00:00:00Z,GQ387366,,Equatorial Guinea,Africa,Homo sapiens,Human,434,East-Central-South-African,ECSA,
-37124.4143,Chikungunya virus EG015,Chikungunya virus,2016-07-25T00:00:00Z,GQ387367,,Equatorial Guinea,Africa,Homo sapiens,Human,434,East-Central-South-African,ECSA,
-37124.4147,Chikungunya virus 1088vi,Chikungunya virus,2016-07-25T00:00:00Z,GQ387368,,Equatorial Guinea,Africa,Homo sapiens,Human,434,East-Central-South-African,ECSA,
 37124.4263,Chikungunya virus Madagascar 166/07,Chikungunya virus,2016-07-26T00:00:00Z,EU244646,2007-01-01,Madagascar,Africa,Homo sapiens,Human,923,East-Central-South-African,ECSA,2007-01-01
 37124.4377,Chikungunya virus,Chikungunya virus,2016-07-26T00:00:00Z,EU403052,2007-07-01,Gabon,Africa,Aedes albopictus,Asian tiger mosquito,1253,East-Central-South-African,ECSA,2007-07-01
-37124.438,Chikungunya virus 06113879,Chikungunya virus,2016-07-26T00:00:00Z,EU404186,,Mauritius,Africa,,,559,East-Central-South-African,ECSA,
 37124.4631,Chikungunya virus PM200900,Chikungunya virus,2012-07-14T00:00:00Z,JQ943687,2009-01-01,Senegal,Africa,mosquito,Mosquito,1317,West African,WA,2009-01-01
 37124.4636,Chikungunya virus PM203816,Chikungunya virus,2012-07-14T00:00:00Z,JQ943688,2009-01-01,Senegal,Africa,mosquito,Mosquito,1293,West African,WA,2009-01-01
 37124.4639,Chikungunya virus PM201841,Chikungunya virus,2012-07-14T00:00:00Z,JQ943689,2009-01-01,Senegal,Africa,mosquito,Mosquito,1293,West African,WA,2009-01-01
@@ -215,10 +181,8 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 37124.5462,Chikungunya virus IbH35,Chikungunya virus,2010-12-28T00:00:00Z,HM045786,1964-07-07,Nigeria,Africa,Homo sapiens,Human,11844,West African,WA,1964-07-07
 37124.548,Chikungunya virus 19CG68,Chikungunya virus,2020-02-04T00:00:00Z,MN022236,2019-01-25,Republic of the Congo,,Homo sapiens,Human,608,East-Central-South-African,ECSA,2019-01-25
 37124.5482,Chikungunya virus Vereeniging,Chikungunya virus,2010-12-28T00:00:00Z,HM045792,1956-04-01,South Africa,Africa,Homo sapiens,Human,11836,East-Central-South-African,ECSA,1956-04-01
-37124.5484,Chikungunya virus CAR256,Chikungunya virus,2010-12-28T00:00:00Z,HM045793,,Central African Republic,Africa,,,11767,East-Central-South-African,ECSA,
 37124.5492,Chikungunya virus SAH2123,Chikungunya virus,2010-12-28T00:00:00Z,HM045795,1976-01-01,South Africa,Africa,Homo sapiens,Human,11693,East-Central-South-African,ECSA,1976-01-01
 37124.5504,Chikungunya virus SH2830,Chikungunya virus,2010-12-28T00:00:00Z,HM045798,1966-11-01,Senegal,Africa,Homo sapiens,Human,11832,West African,WA,1966-11-01
-37124.5526,Chikungunya virus IPD/A SH 2807,Chikungunya virus,2010-12-28T00:00:00Z,HM045804,,Senegal,Africa,Homo sapiens,Human,11847,West African,WA,
 37124.5529,Chikungunya virus AR 18211,Chikungunya virus,2010-12-28T00:00:00Z,HM045805,1976-01-01,South Africa,Africa,Aedes furcifer,Mosquito,11686,East-Central-South-African,ECSA,1976-01-01
 37124.5537,Chikungunya virus IbAn4824,Chikungunya virus,2010-12-28T00:00:00Z,HM045807,1965-04-13,Nigeria,Africa,sentinel mouse,Mouse,11843,West African,WA,1965-04-13
 37124.554,Chikungunya virus 19CG75,Chikungunya virus,2020-02-04T00:00:00Z,MN022237,2019-01-25,Republic of the Congo,,Homo sapiens,Human,608,East-Central-South-African,ECSA,2019-01-25
@@ -361,13 +325,14 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 37124.798,Chikungunya virus HB84P93,Chikungunya virus,2015-06-18T00:00:00Z,KF925298,1984-04-15,Central African Republic,Africa,Homo sapiens,Human,954,East-Central-South-African,ECSA,1984-04-15
 37124.8,Chikungunya virus HB84P119,Chikungunya virus,2015-06-18T00:00:00Z,KF925299,1984-04-15,Central African Republic,Africa,Homo sapiens,Human,943,East-Central-South-African,ECSA,1984-04-15
 37124.802,Chikungunya virus HB84P127,Chikungunya virus,2015-06-18T00:00:00Z,KF925300,1984-04-15,Central African Republic,Africa,Homo sapiens,Human,943,East-Central-South-African,ECSA,1984-04-15
+37124.802,Chikungunya virus NIV/60613/Tanzania/1952,Chikungunya virus,2023-09-25T00:00:00Z,OR344786,1952-01-01,Tanzania,Africa,Homo sapiens,Human,10958,East-Central-South-African,ECSA,1952-01-01
 37124.803,Chikungunya virus ArB6445,Chikungunya virus,2015-06-18T00:00:00Z,KF925301,1975-06-16,Central African Republic,Africa,Aedes opok,,718,East-Central-South-African,ECSA,1975-06-16
 37124.806,Chikungunya virus A6508,Chikungunya virus,2015-06-18T00:00:00Z,KF925302,1975-06-20,Central African Republic,Africa,Aedes africanus,Mosquito,708,East-Central-South-African,ECSA,1975-06-20
 37124.808,Chikungunya virus ArB10262,Chikungunya virus,2015-06-18T00:00:00Z,KF925303,1978-08-25,Central African Republic,Africa,Aedes africanus,Mosquito,708,East-Central-South-African,ECSA,1978-08-25
 37124.81,Chikungunya virus ArB10238,Chikungunya virus,2015-06-18T00:00:00Z,KF925304,1978-08-24,Central African Republic,Africa,Aedes opok,,718,East-Central-South-African,ECSA,1978-08-24
 37124.811,Chikungunya virus ArB18816,Chikungunya virus,2015-06-18T00:00:00Z,KF925305,1981-08-01,Central African Republic,Africa,Aedes africanus,Mosquito,713,East-Central-South-African,ECSA,1981-08-01
 37124.813,Chikungunya virus ArB18945,Chikungunya virus,2015-06-18T00:00:00Z,KF925306,1981-07-21,Central African Republic,Africa,Aedes opok,,709,East-Central-South-African,ECSA,1981-07-21
-37124.815,Chikungunya virus ArB16753,Chikungunya virus,2015-06-18T00:00:00Z,KF925307,1980-11-18,Central African Republic,Africa,Aedes africanus,Mosquito,716,Could not assign,Unassigned,1980-11-18
+37124.815,Chikungunya virus ArB16753,Chikungunya virus,2015-06-18T00:00:00Z,KF925307,1980-11-18,Central African Republic,Africa,Aedes africanus,Mosquito,716,East-Central-South-African,ECSA,1980-11-18
 37124.817,Chikungunya virus ArB20599,Chikungunya virus,2015-06-18T00:00:00Z,KF925308,1984-03-20,Central African Republic,Africa,Mansonia africana,Mosquito,712,East-Central-South-African,ECSA,1984-03-20
 37124.82,Chikungunya virus ArB20636,Chikungunya virus,2015-06-18T00:00:00Z,KF925309,1984-04-24,Central African Republic,Africa,Mansonia africana,Mosquito,700,East-Central-South-African,ECSA,1984-04-24
 37124.822,Chikungunya virus HB82P18,Chikungunya virus,2015-06-18T00:00:00Z,KF925310,1982-02-16,Central African Republic,Africa,Homo sapiens,Human,716,East-Central-South-African,ECSA,1982-02-16
@@ -376,8 +341,6 @@ Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,
 37124.827,Chikungunya virus HB84P93,Chikungunya virus,2015-06-18T00:00:00Z,KF925313,1984-04-15,Central African Republic,Africa,Homo sapiens,Human,713,East-Central-South-African,ECSA,1984-04-15
 37124.83,Chikungunya virus HB84P119,Chikungunya virus,2015-06-18T00:00:00Z,KF925314,1984-04-15,Central African Republic,Africa,Homo sapiens,Human,718,East-Central-South-African,ECSA,1984-04-15
 37124.832,Chikungunya virus HB84P127,Chikungunya virus,2015-06-18T00:00:00Z,KF925315,1984-04-15,Central African Republic,Africa,Homo sapiens,Human,707,East-Central-South-African,ECSA,1984-04-15
-37124.958,Chikungunya virus S27,Chikungunya virus,2016-07-24T00:00:00Z,AF339485,,Tanzania,Africa,,,4885,East-Central-South-African,ECSA,
 37124.971,Chikungunya virus 13V-2798_CHIK,Chikungunya virus,2016-01-12T00:00:00Z,KJ508819,2013-05-20,Cameroon,Africa,Homo sapiens,Human,921,East-Central-South-African,ECSA,2013-05-20
 37124.974,Chikungunya virus 13V-2713_CHIK,Chikungunya virus,2016-01-12T00:00:00Z,KJ508820,2013-05-24,Cameroon,Africa,Homo sapiens,Human,921,East-Central-South-African,ECSA,2013-05-24
 37124.978,Chikungunya virus 13V-2980_CHIK,Chikungunya virus,2016-01-12T00:00:00Z,KJ508821,2013-05-26,Cameroon,Africa,Homo sapiens,Human,921,East-Central-South-African,ECSA,2013-05-26
-466217.3,Chikungunya virus Wuerzburg 1,Chikungunya virus,2010-08-20T00:00:00Z,EU037962,,Mauritius,Africa,,,11805,East-Central-South-African,ECSA,
