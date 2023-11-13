@@ -3,7 +3,7 @@ from source.pages import sidebar_dengue_all_serotypes as sd
 from source.pages.header import *
 from source.graphs.africa_map import *
 from source.graphs.variants_proportion import variants_bar_plot
-from source.graphs.countries_sequences import countries_with_sequences_chart, countries_with_sequences_chart_one_variant
+from source.graphs.countries_sequences import countries_with_sequences_chart
 from source.pages.tables import variant_summary_table as vst
 
 
@@ -48,22 +48,32 @@ def main():
     ### Auxiliar dataframes ###
 
     # Couting variants
-    df_count = sd.build_df_count(df_africa)
+    df_count = sd.new_build_df_count(df_africa)
+    df_count_country = sd.new_build_df_count(df_africa, country=True)
 
+    variants_percentage, pivot_df = sd.new_build_variant_percentage(df_count)
+    
     # Building percentage dataframe
-    variants_percentage = sd.build_variant_percentage_df(df_count)
+    #ariants_percentage = sd.build_variant_percentage_df(df_count)
+
+    ###############################################################
+    ###############################################################
+    ###############################################################
 
     ### Filter and reset buttons ###
-    bt_col_1, bt_col_2 = st.sidebar.columns(2)
-    if bt_col_1.button("Reset filters", key='button_reset_filters'):
+    btn_col_1, btn_col_2 = st.sidebar.columns(2)
+    if btn_col_1.button("Reset filters", key='button_reset_filters'):
         sd.reset_filters(df_africa)
 
-    # # Button to call filtering function
-    if bt_col_2.button("Filter data", key='button_filter'):
+    if btn_col_2.button("Filter data", key='button_filter'):
         df_africa = sd.filter_df_africa(countries_choice, lineages_choice, start_date, end_date, df_africa)
-        variant_count = sd.build_variant_count_df(df_africa)
-        df_count = sd.build_df_count(df_africa)
-        variants_percentage = sd.build_variant_percentage_df(df_count)
+        df_count = sd.new_build_df_count(df_africa)
+        variants_percentage, pivot_df = sd.new_build_variant_percentage(df_count)
+
+
+    ###############################################################
+    ###############################################################
+    ###############################################################
 
     # Metrics
     sd.show_metrics(df_africa)
@@ -82,6 +92,7 @@ def main():
 
     ############ First column ###############
     ############## MAP CHART ################
+    
     c1.subheader("Genomes per country")
     map_option = c1.selectbox(
         'Metric',
@@ -89,11 +100,12 @@ def main():
          # 'Variants proportion'
          ))
     if map_option == 'Total of genomes':
-        colorpath_africa_map(df_count, column=c1, color_pallet="speed")
+        # df_count_countries = sd.new_build_df_count(df_africa, country=True);
+        colorpath_africa_map(df_count_country, column=c1, color_pallet="speed")
     elif map_option == 'Genomes by serotype':
         # Multiselect to choose variants to show
         voc_selected = c1.selectbox("Choose Serotype to show", dengue_variants)
-        df_count_map = sd.build_df_count(df_africa[df_africa['variant'] == voc_selected])
+        df_count_map = sd.new_build_df_count(df_africa[df_africa['variant'] == voc_selected], True)
         colorpath_africa_map(df_count_map, column=c1, color_pallet=vocs_color_pallet.get(voc_selected))
     # elif map_option == 'Variants proportion':
     #     c1.write(variants_percentage.head())
@@ -101,10 +113,10 @@ def main():
 
     ############ Second column ###############
     ####### Circulating lineages CHART ###########
-    variants_bar_plot(variants_percentage, c2, "Circulating Serotypes")
+    variants_bar_plot(variants_percentage, c2, "Circulating Serotypes", pivot_df)
 
     ####### COUNTRIES WHITH SEQUENCE CHART #########
-    countries_with_sequences_chart(df_count, c2)
+    countries_with_sequences_chart(df_count_country, c2)
 
 if __name__ == "__main__":
     main()

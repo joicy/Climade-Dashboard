@@ -83,21 +83,32 @@ def build_variant_count_df(df_africa):
                                                                                                     ascending=True)
     return variant_count
 
+def new_build_df_count(dataframe, country=False):
+    dataframe["date_2weeks"] = pd.to_datetime(dataframe["date_2weeks"])
+    dataframe["date_2weeks"] = dataframe["date_2weeks"].dt.strftime("%Y")
+    if country:
+        df_count = dataframe.groupby(['country','variant', 'date_2weeks']).size().reset_index(name='Count')
+    else:
+        df_count = dataframe.groupby(['variant', 'date_2weeks']).size().reset_index(name='Count')
+
+    return df_count
 
 @st.cache_data
-def build_df_count(df_africa):
-    return df_africa.groupby(['country', 'variant', 'date_2weeks']).size().reset_index(name='Count')
+def new_build_variant_percentage(df_count):
+    # creating an iterable list to use when creating the trace
+    variant = list(df_count["variant"].unique())
+    pivot_df = df_count.pivot(index = "date_2weeks", columns = "variant", values = "Count")
+    pivot_df.fillna(0, inplace = True)
+    # now we need to calculate the proportions but first we have to calculate the totals
+    pivot_df["Total"] = pivot_df.sum(axis = 1)
 
+    for v in variant:
+        pivot_df["percent_{}".format(v)] = pivot_df[v] / pivot_df["Total"]
 
-@st.cache_data
-def build_variant_percentage_df(df_count):
-    variants_percentage = df_count.groupby(['date_2weeks', 'variant']).agg({'Count': 'sum'})
-    variants_percentage = variants_percentage.groupby(level=0).apply(lambda x: 100 * x / float(x.sum())).sort_values(
-        by='Count',
-        ascending=False)
-    variants_percentage = variants_percentage.reset_index()
-    return variants_percentage
-
+    variants_percentage = ["percent_" + v for v in variant]
+    sort_key = dict(pivot_df[variants_percentage].sum())
+    variants_percentage = sorted(variants_percentage, key = lambda k:sort_key[k], reverse = True)
+    return variants_percentage, pivot_df
 
 def reset_filters(df):
     # Countries filters
