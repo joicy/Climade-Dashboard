@@ -57,7 +57,7 @@ def countries_with_sequences_chart(df_count, column):
         country_lineages = px.strip(df_country_lineages.sort_values('total_genomes', ascending=False),
                                     x="date_2weeks", y='country',
                                     color="prevalent_variant",
-                                    title= 'Jitter plot',
+                                    title= '    ',
                                     custom_data=['country','date_2weeks', 'prevalent_variant', 'total_genomes',
                                                  'genomes_per_variant', 'date_initial', 'date_final'],
                                     color_discrete_map=main_lineages_color_scheme,

@@ -51,10 +51,9 @@ def main():
     ### Auxiliar dataframes ###
 
     # Counting variants
-    df_count = sd.build_df_count(df_africa)
-
-    # Building percentage dataframe
-    variants_percentage = sd.build_variant_percentage_df(df_count)
+    df_count = sd.new_build_df_count(df_africa)
+    df_count_country = sd.new_build_df_count(df_africa, country=True)
+    variants_percentage, pivot_df = sd.new_build_variant_percentage(df_count)
 
     ### Filter and reset buttons ###
     bt_col_1, bt_col_2 = st.sidebar.columns(2)
@@ -64,9 +63,8 @@ def main():
     # # Button to call filtering function
     if bt_col_2.button("Filter data", key='button_filter'):
         df_africa = sd.filter_df_africa(countries_choice, lineages_choice, start_date, end_date, df_africa)
-        variant_count = sd.build_variant_count_df(df_africa)
-        df_count = sd.build_df_count(df_africa)
-        variants_percentage = sd.build_variant_percentage_df(df_count)
+        df_count = sd.new_build_df_count(df_africa)
+        variants_percentage, pivot_df = sd.new_build_variant_percentage(df_count)
 
     # Metrics
     sd.show_metrics(df_africa)
@@ -91,12 +89,13 @@ def main():
         ('Total of genomes', 'Genomes by lineage'
          # 'Variants proportion'
          ))
+    
     if map_option == 'Total of genomes':
-        colorpath_africa_map(df_count, column=c1, color_pallet="speed")
+        colorpath_africa_map(df_count_country, column=c1, color_pallet="speed")
     elif map_option == 'Genomes by lineage':
         # Multiselect to choose variants to show
         voc_selected = c1.selectbox("Choose lineages to show", zika_lineages)
-        df_count_map = sd.build_df_count(df_africa[df_africa['variant'] == voc_selected])
+        df_count_map = sd.new_build_df_count(df_africa[df_africa['variant'] == voc_selected], True)
         colorpath_africa_map(df_count_map, column=c1, color_pallet=vocs_color_pallet.get(voc_selected))
     # elif map_option == 'Variants proportion':
     #     c1.write(variants_percentage.head())
@@ -104,10 +103,10 @@ def main():
 
     ############ Second column ###############
     ####### Circulating lineages CHART ###########
-    variants_bar_plot(variants_percentage, c2, "Circulating Lineages")
+    variants_bar_plot(variants_percentage, c2, "Circulating Lineages", pivot_df)
 
     ####### COUNTRIES WHITH SEQUENCE CHART #########
-    countries_with_sequences_chart(df_count, c2)
+    countries_with_sequences_chart(df_count_country, c2)
 
 if __name__ == "__main__":
     main()
