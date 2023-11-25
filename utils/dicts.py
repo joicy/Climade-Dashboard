@@ -69,7 +69,12 @@ vocs_color_pallet = {'Unassigned': 'Greys', 'DENV-1': 'YlOrBr', 'DENV-2': 'Orang
 ##### CLIMADE dicts ########
 dengue_variants = {"Unassigned", "DENV-1", "DENV-2", "DENV-3", "DENV-4"}
 
-dengue_variants_genotypes = {"Genotype I", "Genotype II", "Genotype III", "Genotype IV", "Genotype V", "Genotype VI"}
+dengue_variants_genotypes = {'Genotype I' : 'dodgerblue',
+                            'Genotype II' : 'green',
+                            'Genotype III' : 'blueviolet',
+                            'Genotype IV' : 'salmon',
+                            'Genotype V' : 'mintcream',
+                            'Genotype VI' : 'peru'}
 
 chikv_lineages = {"East-Central-South-African", "West African", "Asian Urban", "Indian Ocean", "Asian and Caribbean",
                   "Unassigned"}

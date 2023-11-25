@@ -6,7 +6,7 @@ from datetime import timedelta, datetime
 from utils.dicts import main_lineages_color_scheme
 
 
-def countries_with_sequences_chart(df_count, column):
+def countries_with_sequences_chart(df_count, column, legend_title):
     c = column
     df_country_lineages = df_count.copy()
 
@@ -69,7 +69,7 @@ def countries_with_sequences_chart(df_count, column):
             y=1,
             xanchor="right",
             x=1
-        ), legend_title_text="Prevalent Variants")
+        ), legend_title_text=legend_title)
         country_lineages.update_layout(title=dict(y=1), yaxis={'categoryorder': 'category descending'})
         country_lineages.update_yaxes(title="Country")
         country_lineages.update_xaxes(title="Date", range=[df_country_lineages['date_2weeks'].min(), datetime.today()])

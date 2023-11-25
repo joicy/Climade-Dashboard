@@ -1,15 +1,15 @@
 Genome ID,Genome Name,Species,Completion Date,GenBank Accession,collection_date,country,Geographic Group,Host Name,Host Common Name,length,variant,lineage,date_2weeks
-11070.104,Dengue virus 4,Dengue virus,2016-08-08T00:00:00Z,KU577448,2014/01/01,Cabo Verde,Africa,Aedes aegypti,Yellow fever mosquito,223,DENV-4,DENV-4 Genotype II,2014/01/01
-11070.105,Dengue virus 4,Dengue virus,2016-08-08T00:00:00Z,KU577449,2014/01/01,Cabo Verde,Africa,Aedes aegypti,Yellow fever mosquito,223,DENV-4,DENV-4 Genotype II,2014/01/01
-11070.1182,Dengue virus 4 Dakar_HD_34460,Dengue virus,2018-04-18T00:00:00Z,MF004387,1981/01/01,Senegal,Africa,Homo sapiens,Lab host,10601,DENV-4,DENV-4 Genotype II,1981/01/01
-11070.1725,Dengue virus 4 KFA236,Dengue virus,2020-07-14T00:00:00Z,MT076955,2015/02/01,Kenya,Africa,Homo sapiens,Human,10648,DENV-4,DENV-4 Genotype II,2015/02/01
-11070.1726,Dengue virus 4 KFA567,Dengue virus,2020-07-14T00:00:00Z,MT076956,2016/02/01,Kenya,Africa,Homo sapiens,Human,755,DENV-4,DENV-4 Genotype II,2016/02/01
-11070.1727,Dengue virus 4 KFA574,Dengue virus,2020-07-14T00:00:00Z,MT076957,2016/02/01,Kenya,Africa,Homo sapiens,Human,1295,DENV-4,DENV-4 Genotype II,2016/02/01
-11070.1728,Dengue virus 4 KFA578,Dengue virus,2020-07-14T00:00:00Z,MT076958,2016/03/01,Kenya,Africa,Homo sapiens,Human,1306,DENV-4,DENV-4 Genotype II,2016/03/01
-11070.1729,Dengue virus 4 KFA762,Dengue virus,2020-07-14T00:00:00Z,MT076959,2016/09/01,Kenya,Africa,Homo sapiens,Human,1287,DENV-4,DENV-4 Genotype II,2016/09/01
-11070.173,Dengue virus 4 MFA1034,Dengue virus,2020-07-14T00:00:00Z,MT076960,2015/12/01,Kenya,Africa,Homo sapiens,Human,996,DENV-4,DENV-4 Genotype II,2015/12/01
-11070.1731,Dengue virus 4 MFA1046,Dengue virus,2020-07-14T00:00:00Z,MT076961,2015/12/01,Kenya,Africa,Homo sapiens,Human,1275,DENV-4,DENV-4 Genotype II,2015/12/01
-11070.1732,Dengue virus 4 RFA538,Dengue virus,2020-07-14T00:00:00Z,MT076962,2016/01/01,Kenya,Africa,Homo sapiens,Human,1287,DENV-4,DENV-4 Genotype II,2016/01/01
-11070.263,Dengue virus 4 Denv4_2014_Angola,Dengue virus,2014-10-30T00:00:00Z,AB908053,2014/01/14,Angola,Africa,Homo sapiens,Human,452,DENV-4,DENV-4 Genotype II,2014/01/14
-11070.322,Dengue virus 4 DENV4-3_DAK_H_38550,Dengue virus,2022-01-04T00:00:00Z,OK605769,1983/01/01,Senegal,Africa,Homo sapiens,Human,10651,DENV-4,DENV-4 Genotype I,1983/01/01
-12637.3773,Dengue virus Dakar HD 34460,Dengue virus,2014-11-20T00:00:00Z,KF907503,1953/01/01,Senegal,Africa,Homo sapiens,Human,10648,DENV-4,DENV-4 Genotype II,1953/01/01
+11070.104,Dengue virus 4,Dengue virus,2016-08-08T00:00:00Z,KU577448,2014-01-01,Cabo Verde,Africa,Aedes aegypti,Yellow fever mosquito,223,DENV-4,Genotype II,2014-01-01
+11070.105,Dengue virus 4,Dengue virus,2016-08-08T00:00:00Z,KU577449,2014-01-01,Cabo Verde,Africa,Aedes aegypti,Yellow fever mosquito,223,DENV-4,Genotype II,2014-01-01
+11070.1182,Dengue virus 4 Dakar_HD_34460,Dengue virus,2018-04-18T00:00:00Z,MF004387,1981-01-01,Senegal,Africa,Homo sapiens,Lab host,10601,DENV-4,Genotype II,1981-01-01
+11070.1725,Dengue virus 4 KFA236,Dengue virus,2020-07-14T00:00:00Z,MT076955,2015-02-01,Kenya,Africa,Homo sapiens,Human,10648,DENV-4,Genotype II,2015-02-01
+11070.1726,Dengue virus 4 KFA567,Dengue virus,2020-07-14T00:00:00Z,MT076956,2016-02-01,Kenya,Africa,Homo sapiens,Human,755,DENV-4,Genotype II,2016-02-01
+11070.1727,Dengue virus 4 KFA574,Dengue virus,2020-07-14T00:00:00Z,MT076957,2016-02-01,Kenya,Africa,Homo sapiens,Human,1295,DENV-4,Genotype II,2016-02-01
+11070.1728,Dengue virus 4 KFA578,Dengue virus,2020-07-14T00:00:00Z,MT076958,2016-03-01,Kenya,Africa,Homo sapiens,Human,1306,DENV-4,Genotype II,2016-03-01
+11070.1729,Dengue virus 4 KFA762,Dengue virus,2020-07-14T00:00:00Z,MT076959,2016-09-01,Kenya,Africa,Homo sapiens,Human,1287,DENV-4,Genotype II,2016-09-01
+11070.173,Dengue virus 4 MFA1034,Dengue virus,2020-07-14T00:00:00Z,MT076960,2015-12-01,Kenya,Africa,Homo sapiens,Human,996,DENV-4,Genotype II,2015-12-01
+11070.1731,Dengue virus 4 MFA1046,Dengue virus,2020-07-14T00:00:00Z,MT076961,2015-12-01,Kenya,Africa,Homo sapiens,Human,1275,DENV-4,Genotype II,2015-12-01
+11070.1732,Dengue virus 4 RFA538,Dengue virus,2020-07-14T00:00:00Z,MT076962,2016-01-01,Kenya,Africa,Homo sapiens,Human,1287,DENV-4,Genotype II,2016-01-01
+11070.263,Dengue virus 4 Denv4_2014_Angola,Dengue virus,2014-10-30T00:00:00Z,AB908053,2014-01-14,Angola,Africa,Homo sapiens,Human,452,DENV-4,Genotype II,2014-01-14
+11070.322,Dengue virus 4 DENV4-3_DAK_H_38550,Dengue virus,2022-01-04T00:00:00Z,OK605769,1983-01-01,Senegal,Africa,Homo sapiens,Human,10651,DENV-4,Genotype I,1983-01-01
+12637.3773,Dengue virus Dakar HD 34460,Dengue virus,2014-11-20T00:00:00Z,KF907503,1953-01-01,Senegal,Africa,Homo sapiens,Human,10648,DENV-4,Genotype II,1953-01-01

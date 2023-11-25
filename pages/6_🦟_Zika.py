@@ -103,10 +103,10 @@ def main():
 
     ############ Second column ###############
     ####### Circulating lineages CHART ###########
-    variants_bar_plot(variants_percentage, c2, "Circulating Lineages", pivot_df)
+    variants_bar_plot(variants_percentage, c2, "Circulating Lineages", pivot_df, "Lineage")
 
     ####### COUNTRIES WHITH SEQUENCE CHART #########
-    countries_with_sequences_chart(df_count_country, c2)
+    countries_with_sequences_chart(df_count_country, c2, "Lineage")
 
 if __name__ == "__main__":
     main()

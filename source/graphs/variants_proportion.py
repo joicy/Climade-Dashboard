@@ -9,14 +9,13 @@ import plotly.graph_objs as go
 import plotly.io as pio
 
 
-def variants_bar_plot(variants_percentage, column, title, pivot_df):
+def variants_bar_plot(variants_percentage, column, title, pivot_df, legend_title):
     c = column
 
     with st.container():
         c.subheader(title)
     
-        pio.renderers.default = "browser" 
-        # NOW WE CAN FINALLY MAKE THE CHART
+        pio.renderers.default = "browser"
         traces = []
         for v in variants_percentage:
             trace = go.Bar(
@@ -32,10 +31,10 @@ def variants_bar_plot(variants_percentage, column, title, pivot_df):
             barmode = "stack",
             xaxis = dict(title = "Year"),
             yaxis = dict(title = "Proportion of Genomes",
-                        tickformat = "%",
+                        tickformat = ".0%",
                         hoverformat = "%"),
             legend = dict(
-                title = dict(text = "Serotypes", font = dict(size = 16)))     
+                title = dict(text = legend_title, font = dict(size = 16)))
         )
 
         fig = go.Figure(traces, layout)
