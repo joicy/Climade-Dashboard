@@ -41,7 +41,7 @@ def get_countries_choice(df_africa):
 
 @st.cache_data
 def get_variants(df_africa):
-    return df_africa['variant'].unique()
+    return df_africa['lineage'].unique()
 
 
 def get_lineages_choice(df_africa):

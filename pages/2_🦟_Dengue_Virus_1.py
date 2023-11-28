@@ -3,7 +3,8 @@ from source.pages import sidebar_dengue_1 as sd
 from source.pages.header import *
 from source.graphs.africa_map import *
 from source.graphs.variants_proportion import variants_bar_plot
-from source.graphs.countries_sequences import countries_with_sequences_chart, countries_with_sequences_chart_one_variant
+from source.graphs.other_countries_sequences import other_countries_with_sequences_chart
+
 from source.pages.tables import variant_summary_table as vst
 
 
@@ -50,6 +51,7 @@ def main():
     # Couting variants
     df_count = sd.new_build_df_count(df_africa)
     df_count_country = sd.new_build_df_count(df_africa, country=True)
+    other_df_count_country = sd.other_build_df_count(df_africa, country=True)
     other_df_count = sd.other_build_df_count(df_africa)
     variants_percentage, pivot_df = sd.new_build_variant_percentage(other_df_count)
     
@@ -104,7 +106,7 @@ def main():
     variants_bar_plot(variants_percentage, c2, "Circulating Genotypes", pivot_df, "Genotype")
 
     ####### COUNTRIES WHITH SEQUENCE CHART #########
-    countries_with_sequences_chart(df_count_country, c2, "Genotype")
+    other_countries_with_sequences_chart(other_df_count_country, c2, "Genotype")
 
 if __name__ == "__main__":
     main()
