@@ -63,20 +63,61 @@ missing_country_codes = {'Guinea-Bissau': 'GNB', 'Mauritius': 'MUS', 'Republic o
                          'Eswatini': 'SWZ', 'Tanzania': 'TZA', 'South Sudan': 'SSD'}
 
 #https://plotly.com/python/builtin-colorscales/#discrete-color-sequences
-vocs_color_pallet = {'Unassigned': 'Greys', 'DENV-1': 'YlOrBr', 'DENV-2': 'Oranges', 'DENV-3': 'algae', 'DENV-4': 'RdPu'}
+vocs_color_pallet = {'DENV-1': 'tealgrn',
+                     'DENV-2': 'teal',
+                     'DENV-3': 'algae',
+                     'DENV-4': 'blugrn',
+                     'Unassigned': 'greys'}
 
 
 ##### CLIMADE dicts ########
 dengue_variants = {"Unassigned", "DENV-1", "DENV-2", "DENV-3", "DENV-4"}
 
-dengue_variants_genotypes = {'Genotype I' : 'dodgerblue',
-                            'Genotype II' : 'green',
-                            'Genotype III' : 'blueviolet',
-                            'Genotype IV' : 'salmon',
-                            'Genotype V' : 'mintcream',
-                            'Genotype VI' : 'peru'}
+dengue_one = {'Genotype I', 'Genotype II', 'Genotype III', 'Genotype IV', 'Genotype V', 'Unassigned'}
+
+dengue_one_color = {'Genotype I': 'tealgrn',
+                    'Genotype II': 'teal',
+                    'Genotype III': 'algae',
+                    'Genotype IV': 'blugrn',
+                    'Genotype V': 'mint',
+                    'Unassigned': 'greys'}
+
+dengue_two = {'Genotype I', 'Genotype II', 'Genotype III', 'Genotype IV', 'Genotype V', 'Genotype VI', 'Unassigned'}
+
+dengue_two_color = {'Genotype I': 'tealgrn',
+                    'Genotype II': 'teal',
+                    'Genotype III': 'algae',
+                    'Genotype IV': 'blugrn',
+                    'Genotype V': 'mint',
+                    'Genotype VI': 'peach',
+                    'Unassigned': 'greys'}
+
+dengue_three = {'Genotype I', 'Genotype II', 'Genotype III', 'Genotype IV', 'Genotype V', 'Unassigned'}
+
+dengue_three_color = {'Genotype I': 'tealgrn',
+                    'Genotype II': 'teal',
+                    'Genotype III': 'algae',
+                    'Genotype IV': 'blugrn',
+                    'Genotype V': 'mint',
+                    'Unassigned': 'greys'}
+
+dengue_four = {'Genotype I', 'Genotype II', 'Unassigned'}
+
+dengue_four_color = {'Genotype I': 'tealgrn',
+                    'Genotype II': 'teal',
+                    'Unassigned': 'greys'}
 
 chikv_lineages = {"East-Central-South-African", "West African", "Asian Urban", "Indian Ocean", "Asian and Caribbean",
                   "Unassigned"}
 
+chikv_lineages_color = {'East-Central-South-African': 'tealgrn',
+                        'West African': 'algae',
+                        'Asian Urban': 'teal',
+                        'Indian Ocean': 'blugrn',
+                        'Asian and Caribbean': 'mint',
+                        'Unassigned': 'greys'}
+
 zika_lineages = {"African", "Asian"}
+
+zika_lineages_color = {'African': 'tealgrn',
+                       'Asian': 'algae'}

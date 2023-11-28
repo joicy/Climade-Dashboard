@@ -3,7 +3,8 @@ from source.pages import sidebar_dengue_1 as sd
 from source.pages.header import *
 from source.graphs.africa_map import *
 from source.graphs.variants_proportion import variants_bar_plot
-from source.graphs.countries_sequences import countries_with_sequences_chart, countries_with_sequences_chart_one_variant
+from source.graphs.other_countries_sequences import other_countries_with_sequences_chart
+
 from source.pages.tables import variant_summary_table as vst
 
 
@@ -50,7 +51,9 @@ def main():
     # Couting variants
     df_count = sd.new_build_df_count(df_africa)
     df_count_country = sd.new_build_df_count(df_africa, country=True)
-    variants_percentage, pivot_df = sd.new_build_variant_percentage(df_count)
+    other_df_count_country = sd.other_build_df_count(df_africa, country=True)
+    other_df_count = sd.other_build_df_count(df_africa)
+    variants_percentage, pivot_df = sd.new_build_variant_percentage(other_df_count)
     
 
     ### Filter and reset buttons ###
@@ -64,12 +67,10 @@ def main():
         df_count = sd.new_build_df_count(df_africa)
         variants_percentage, pivot_df = sd.new_build_variant_percentage(df_count)
 
+    # End of sidebar
     # Metrics
     sd.show_metrics(df_africa)
 
-    # End of sidebar
-    st.sidebar.header("About")
-    sd.about_section()
     # st.sidebar.header("Acknowledgment")
     # sd.acknowledgment_section(logo_path='img/gisaid_logo.png', link='https://www.gisaid.org/')
 
@@ -84,16 +85,16 @@ def main():
     c1.subheader("Genomes per country")
     map_option = c1.selectbox(
         'Metric',
-        ('Total of genomes', 'Genomes by variant'
+        ('Total number of genomes', 'Genomes by genotype'
          # 'Variants proportion'
          ))
-    if map_option == 'Total of genomes':
-        colorpath_africa_map(df_count_country, column=c1, color_pallet="speed")
-    elif map_option == 'Genomes by variant':
+    if map_option == 'Total number of genomes':
+        colorpath_africa_map(df_count_country, column=c1, color_pallet="Purp")
+    elif map_option == 'Genomes by genotype':
         # Multiselect to choose variants to show
-        voc_selected = c1.selectbox("Choose VOC to show", dengue_variants_genotypes)
-        df_count_map = sd.new_build_df_count(df_africa[df_africa['variant'] == voc_selected], True)
-        colorpath_africa_map(df_count_map, column=c1, color_pallet=vocs_color_pallet.get(voc_selected))
+        voc_selected = c1.selectbox("Choose genotype to show", dengue_one)
+        df_count_map = sd.new_build_df_count(df_africa[df_africa['lineage'] == voc_selected], True)
+        colorpath_africa_map(df_count_map, column=c1, color_pallet=dengue_one_color.get(voc_selected))
     # elif map_option == 'Variants proportion':
     #     c1.write(variants_percentage.head())
     #     scatter_africa_map(variants_percentage, column=c1, map_count_column='Count')
@@ -103,7 +104,7 @@ def main():
     variants_bar_plot(variants_percentage, c2, "Circulating Genotypes", pivot_df, "Genotype")
 
     ####### COUNTRIES WHITH SEQUENCE CHART #########
-    countries_with_sequences_chart(df_count_country, c2, "Genotype")
+    other_countries_with_sequences_chart(other_df_count_country, c2, "Genotype")
 
 if __name__ == "__main__":
     main()

@@ -41,7 +41,7 @@ def get_countries_choice(df_africa):
 
 @st.cache_data
 def get_variants(df_africa):
-    return df_africa['variant'].unique()
+    return df_africa['lineage'].unique()
 
 
 def get_lineages_choice(df_africa):
@@ -101,11 +101,21 @@ def new_build_df_count(dataframe, country=False):
 
     return df_count
 
+def other_build_df_count(dataframe, country=False):
+    dataframe["date_2weeks"] = pd.to_datetime(dataframe["date_2weeks"])
+    dataframe["date_2weeks"] = dataframe["date_2weeks"].dt.strftime("%Y")
+    if country:
+        other_df_count = dataframe.groupby(['country', 'lineage', 'date_2weeks']).size().reset_index(name='Count')
+    else:
+        other_df_count = dataframe.groupby(['lineage', 'date_2weeks']).size().reset_index(name='Count')
+
+    return other_df_count
+
 @st.cache_data
-def new_build_variant_percentage(df_count):
+def new_build_variant_percentage(other_df_count):
     # creating an iterable list to use when creating the trace
-    variant = list(df_count["variant"].unique())
-    pivot_df = df_count.pivot(index = "date_2weeks", columns = "variant", values = "Count")
+    variant = list(other_df_count['lineage'].unique())
+    pivot_df = other_df_count.pivot(index = "date_2weeks", columns="lineage", values = "Count")
     pivot_df.fillna(0, inplace = True)
     # now we need to calculate the proportions but first we have to calculate the totals
     pivot_df["Total"] = pivot_df.sum(axis = 1)
@@ -172,22 +182,6 @@ def show_metrics(df_africa):
     sequences = int(df_africa.shape[0])
     sd_col1.metric("Sequences selected", '{:,}'.format(sequences))
     sd_col2.metric("Countries selected", len(df_africa.country.unique()))
-
-
-def about_section():
-    st.sidebar.info("""
-    CLIMADE Africa dashboard was built using the SARS-CoV-2 Africa dashboard computational architecture
-    [Cite us](https://www.nature.com/articles/s41564-022-01276-9)
-    
-    CONTACT US:\n
-    21618488@sun.ac.za
-    joicy.xavier@ufvjm.edu.br 
-    
-    INTERPRET THIS DATA WITH CARE:\n
-    The data displayed on the dashboard is sourced from BV-BRC (https://www.bv-brc.org/)
-    
-    Figures inspired by Wilkinson et al. Science 2021
-    """)
 
 
 def acknowledgment_section(logo_path, link):
