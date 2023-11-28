@@ -65,12 +65,10 @@ def main():
         df_count = sd.new_build_df_count(df_africa)
         variants_percentage, pivot_df = sd.new_build_variant_percentage(df_count)
 
+    # End of sidebar
     # Metrics
     sd.show_metrics(df_africa)
 
-    # End of sidebar
-    st.sidebar.header("About")
-    sd.about_section()
     # st.sidebar.header("Acknowledgment")
     # sd.acknowledgment_section(logo_path='img/gisaid_logo.png', link='https://www.gisaid.org/')
 

@@ -77,8 +77,7 @@ def other_countries_with_sequences_chart(df_count, column, legend_title):
         custom_hovertemplate = '<b>Country: %{customdata[0]} <br>' + \
                                 'Date: %{customdata[5]} to %{customdata[6]} <br>' +\
                                 'Total of Genomes: %{customdata[3]} </b><br>' +\
-                                'Prevalent Genotype: %{customdata[2]} <br>' +\
-                                'Genomes per variant: %{customdata[4]} <br>'
+                                'Genomes per genotype: %{customdata[4]} <br>'
 
         country_lineages.update_traces(hovertemplate=custom_hovertemplate)
 

@@ -6,7 +6,7 @@ from datetime import timedelta, datetime
 from utils.dicts import main_lineages_color_scheme
 
 
-def countries_with_sequences_chart(df_count, column, legend_title):
+def countries_with_sequences_chart(df_count, column, legend_title, hover_info):
     c = column
     df_country_lineages = df_count.copy()
 
@@ -77,9 +77,8 @@ def countries_with_sequences_chart(df_count, column, legend_title):
         # creating standardize hover template
         custom_hovertemplate = '<b>Country: %{customdata[0]} <br>' + \
                                 'Date: %{customdata[5]} to %{customdata[6]} <br>' +\
-                                'Total of Genomes: %{customdata[3]} </b><br>' +\
-                                'Prevalent Variant: %{customdata[2]} <br>' +\
-                                'Genomes per variant: %{customdata[4]} <br>'
+                                'Total number of Genomes: %{customdata[3]} </b><br>' +\
+                                f'{hover_info}'+': %{customdata[4]} <br>'
 
         country_lineages.update_traces(hovertemplate=custom_hovertemplate)
 

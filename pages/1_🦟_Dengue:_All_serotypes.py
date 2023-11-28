@@ -75,12 +75,10 @@ def main():
     ###############################################################
     ###############################################################
 
+    # End of sidebar
     # Metrics
     sd.show_metrics(df_africa)
 
-    # End of sidebar
-    st.sidebar.header("About")
-    sd.about_section()
     # st.sidebar.header("Acknowledgment")
     # sd.acknowledgment_section(logo_path='img/gisaid_logo.png', link='https://www.gisaid.org/')
 
@@ -116,7 +114,7 @@ def main():
     variants_bar_plot(variants_percentage, c2, "Circulating Serotypes", pivot_df, "Serotype")
 
     ####### COUNTRIES WHITH SEQUENCE CHART #########
-    countries_with_sequences_chart(df_count_country, c2, "Serotype")
+    countries_with_sequences_chart(df_count_country, c2, "Serotype", "Genomes per serotype")
 
 if __name__ == "__main__":
     main()
