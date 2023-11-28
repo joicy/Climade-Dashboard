@@ -11,9 +11,9 @@ def other_countries_with_sequences_chart(df_count, column, legend_title):
     df_country_lineages = df_count.copy()
 
     df_country_lineages['date_initial'] = pd.to_datetime(df_country_lineages['date_2weeks']) - timedelta(days=14)
-    df_country_lineages['date_initial'] = df_country_lineages['date_initial'].dt.strftime('%d/%m')
+    df_country_lineages['date_initial'] = df_country_lineages['date_initial'].dt.strftime('%Y')
 
-    df_country_lineages['date_final'] = pd.to_datetime(df_country_lineages['date_2weeks']).dt.strftime('%d/%m/%Y')
+    df_country_lineages['date_final'] = pd.to_datetime(df_country_lineages['date_2weeks']).dt.strftime('%Y')
 
     ##### Processing df to show prevalent lineage
     # Total genomes column
@@ -76,7 +76,7 @@ def other_countries_with_sequences_chart(df_count, column, legend_title):
         # creating standardize hover template
         custom_hovertemplate = '<b>Country: %{customdata[0]} <br>' + \
                                 'Date: %{customdata[5]} to %{customdata[6]} <br>' +\
-                                'Total of Genomes: %{customdata[3]} </b><br>' +\
+                                'Total number of genomes: %{customdata[3]} </b><br>' +\
                                 'Genomes per genotype: %{customdata[4]} <br>'
 
         country_lineages.update_traces(hovertemplate=custom_hovertemplate)

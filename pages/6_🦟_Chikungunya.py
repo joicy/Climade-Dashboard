@@ -83,17 +83,17 @@ def main():
     c1.subheader("Genomes per country")
     map_option = c1.selectbox(
         'Metric',
-        ('Total of genomes', 'Genomes by lineage'
+        ('Total number of genomes', 'Genomes by lineage'
          # 'Variants proportion'
          ))
     
-    if map_option == 'Total of genomes':
-        colorpath_africa_map(df_count_country, column=c1, color_pallet="speed")
+    if map_option == 'Total number of genomes':
+        colorpath_africa_map(df_count_country, column=c1, color_pallet="Purp")
     elif map_option == 'Genomes by lineage':
         # Multiselect to choose variants to show
-        voc_selected = c1.selectbox("Choose lineages to show", dengue_variants_genotypes)
+        voc_selected = c1.selectbox("Choose lineage to show", chikv_lineages)
         df_count_map = sd.new_build_df_count(df_africa[df_africa['variant'] == voc_selected], True)
-        colorpath_africa_map(df_count_map, column=c1, color_pallet=vocs_color_pallet.get(voc_selected))
+        colorpath_africa_map(df_count_map, column=c1, color_pallet=chikv_lineages_color.get(voc_selected))
 
     ############ Second column ###############
     ####### Circulating lineages CHART ###########

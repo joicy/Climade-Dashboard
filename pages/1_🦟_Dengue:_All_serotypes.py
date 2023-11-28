@@ -94,12 +94,12 @@ def main():
     c1.subheader("Genomes per country")
     map_option = c1.selectbox(
         'Metric',
-        ('Total of genomes', 'Genomes by serotype'
+        ('Total number of genomes', 'Genomes by serotype'
          # 'Variants proportion'
          ))
-    if map_option == 'Total of genomes':
+    if map_option == 'Total number of genomes':
         # df_count_countries = sd.new_build_df_count(df_africa, country=True);
-        colorpath_africa_map(df_count_country, column=c1, color_pallet="speed")
+        colorpath_africa_map(df_count_country, column=c1, color_pallet="Purp")
     elif map_option == 'Genomes by serotype':
         # Multiselect to choose variants to show
         voc_selected = c1.selectbox("Choose Serotype to show", dengue_variants)
