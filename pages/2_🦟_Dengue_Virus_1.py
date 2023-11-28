@@ -50,7 +50,8 @@ def main():
     # Couting variants
     df_count = sd.new_build_df_count(df_africa)
     df_count_country = sd.new_build_df_count(df_africa, country=True)
-    variants_percentage, pivot_df = sd.new_build_variant_percentage(df_count)
+    other_df_count = sd.other_build_df_count(df_africa)
+    variants_percentage, pivot_df = sd.new_build_variant_percentage(other_df_count)
     
 
     ### Filter and reset buttons ###
@@ -84,14 +85,14 @@ def main():
     c1.subheader("Genomes per country")
     map_option = c1.selectbox(
         'Metric',
-        ('Total of genomes', 'Genomes by variant'
+        ('Total of genomes', 'Genomes by genotype'
          # 'Variants proportion'
          ))
     if map_option == 'Total of genomes':
         colorpath_africa_map(df_count_country, column=c1, color_pallet="speed")
     elif map_option == 'Genomes by variant':
         # Multiselect to choose variants to show
-        voc_selected = c1.selectbox("Choose VOC to show", dengue_variants_genotypes)
+        voc_selected = c1.selectbox("Choose genotype to show", dengue_variants_genotypes)
         df_count_map = sd.new_build_df_count(df_africa[df_africa['variant'] == voc_selected], True)
         colorpath_africa_map(df_count_map, column=c1, color_pallet=vocs_color_pallet.get(voc_selected))
     # elif map_option == 'Variants proportion':

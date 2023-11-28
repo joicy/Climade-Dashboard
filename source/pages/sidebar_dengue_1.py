@@ -101,11 +101,21 @@ def new_build_df_count(dataframe, country=False):
 
     return df_count
 
+def other_build_df_count(dataframe, country=False):
+    dataframe["date_2weeks"] = pd.to_datetime(dataframe["date_2weeks"])
+    dataframe["date_2weeks"] = dataframe["date_2weeks"].dt.strftime("%Y")
+    if country:
+        other_df_count = dataframe.groupby(['country', 'lineage', 'date_2weeks']).size().reset_index(name='Count')
+    else:
+        other_df_count = dataframe.groupby(['lineage', 'date_2weeks']).size().reset_index(name='Count')
+
+    return other_df_count
+
 @st.cache_data
-def new_build_variant_percentage(df_count):
+def new_build_variant_percentage(other_df_count):
     # creating an iterable list to use when creating the trace
-    variant = list(df_count["variant"].unique())
-    pivot_df = df_count.pivot(index = "date_2weeks", columns = "variant", values = "Count")
+    variant = list(other_df_count['lineage'].unique())
+    pivot_df = other_df_count.pivot(index = "date_2weeks", columns="lineage", values = "Count")
     pivot_df.fillna(0, inplace = True)
     # now we need to calculate the proportions but first we have to calculate the totals
     pivot_df["Total"] = pivot_df.sum(axis = 1)

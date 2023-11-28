@@ -50,7 +50,8 @@ def main():
     # Couting variants
     df_count = sd.new_build_df_count(df_africa)
     df_count_country = sd.new_build_df_count(df_africa, country=True)
-    variants_percentage, pivot_df = sd.new_build_variant_percentage(df_count)
+    other_df_count = sd.other_build_df_count(df_africa)
+    variants_percentage, pivot_df = sd.new_build_variant_percentage(other_df_count)
 
     ### Filter and reset buttons ###
     bt_col_1, bt_col_2 = st.sidebar.columns(2)
