@@ -87,7 +87,7 @@ with st.container():
 
   with col2:
       
-    bg = get_base64_of_bin_file("img/lucious_bg.png")
+    bg = get_base64_of_bin_file("img/bg2.png")
 
     col2_style = """
       <style>
