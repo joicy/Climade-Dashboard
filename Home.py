@@ -2,24 +2,112 @@ import streamlit as st
 from source.pages.header import *
 from config import *
 from utils.functions import *
+from PIL import Image
 
 st.set_page_config(
-        page_title="CLIMADE AFRICA DASHBOARD",
-        layout="wide",
-        initial_sidebar_state="expanded",
-        page_icon="img/cropped-ceri_branco-01-150x150.png"
-    )
+         page_title="CLIMADE AFRICA DASHBOARD",
+         layout="wide",
+         initial_sidebar_state="expanded",
+         page_icon="img/cropped-ceri_branco-01-150x150.png"
+     )
+
+
+page_style = """
+<style>
+ .main {
+    opacity: 0.8;
+    background-size: cover;
+    align: center;
+    justify: center;
+ }
+ [data-testid="stHeader"] {
+   background-color: rgba(0,0,0,0)
+ }
+</style>
+"""
+
+st.markdown(page_style, unsafe_allow_html=True)
+
+page_title = """
+  <div>
+      <h1 style="color: #195CA9; margin-top: 0; margin: 0 0 0 0; padding: 0 0 0 0;">CLIMADE AFRICA DASHBOARD</h1>
+      <strong style="color:green">Interpret this data with care</strong>
+  </div>
+  <br/>
+"""
+ 
+page_infos = """
+  <div>
+      <strong>INFOS</strong>
+      <p>The data displayed on the dashboard is sourced from <a href='https://www.bv-brc.org/'>BV-BRC</a></p>
+      <p>Figures on the dashboard were inspired by <a href='https://www.science.org/doi/full/10.1126/science.abj4336'>Wilkinson et al. Science 2021</a></p>
+      <p>The CLIMADE Africa dashboard was built using the <a href='https://github.com/BIA-lab/genomic-dash'>Genomic Dash Framework</a></p>
+  </div>
+  <br/>
+"""
+ 
+page_reference = """
+  <div>
+      <strong>CITE US:</strong>
+      <p>Xavier, J.S., Moir, M., Tegally, H. et al. SARS-CoV-2 Africa dashboard for real-time COVID-19 information. Nat Microbiol 8, 1–4 (2023). https://doi.org/10.1038/s41564-022-01276-9</p>
+  </div>
+  <br/>
+"""
+ 
+page_contacts = """
+  <div>
+      <strong>CONTACT US:</strong>
+      <ul>
+          <li>Nikita Sithram: <a>21618488@sun.ac.za</a></li>
+          <li>Joicy Xavier: <a>joicy.xavier@ufvjm.edu.br</a></li>
+      </ul>
+  </div>
+"""
+ 
+with st.container():
+  col1, col2 = st.columns((2,1))
+
+  with col1:
+
+    col1_style = """
+        <style>
+            div[data-testid="column"]:nth-of-type(1)
+            {
+              border-bottom: 2px solid grey;
+              padding: 0 2em 2em 0;
+            } 
+        </style>
+    """
+
+    st.markdown(col1_style,unsafe_allow_html=True)
+    st.markdown(page_title, unsafe_allow_html=True)
+    st.markdown(page_infos, unsafe_allow_html=True)
+    st.markdown(page_reference, unsafe_allow_html=True)
+    st.markdown(page_contacts, unsafe_allow_html=True)
+
+  with col2:
+      
+    bg = get_base64_of_bin_file("img/bg2.png")
+
+    col2_style = """
+      <style>
+          div[data-testid="column"]:nth-of-type(2)
+              {
+                text-align: center;
+                align: center;
+                background-image: url("data:image/png;base64,%s");
+                background-size: cover;
+              } 
+      </style>
+      """% bg
+    
+    st.markdown(col2_style,unsafe_allow_html=True)
+ 
+
+climade_logo = Image.open('img/climade_logo.png')
+st.image(image=climade_logo,width=150 ,use_column_width=False);
+
 
 st.markdown(css_changes, unsafe_allow_html=True)
 remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
-
-text = """# CLIMADE AFRICA DASHBOARD\n**INTERPRET THIS DATA WITH CARE:**\n
-       \nThe data displayed on the dashboard is sourced from [BV-BRC](https://www.bv-brc.org/).
-       Figures on the dashboard were inspired by [Wilkinson et al. Science 2021](https://www.science.org/doi/full/10.1126/science.abj4336).\n
-       \n The CLIMADE Africa dashboard was built using the SARS-CoV-2 Africa dashboard computational architecture [Cite us](https://www.nature.com/articles/s41564-022-01276-9).\n
-       \n**CONTACT US:**\n- Email: 21618488@sun.ac.za\n- Email: joicy.xavier@ufvjm.edu.br
-       """
-
-st.write(text)
-
 st.sidebar.success("Select an arbovirus above.")
