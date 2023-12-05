@@ -41,7 +41,7 @@ page_infos = """
       <strong>INFOS</strong>
       <p>The data displayed on the dashboard is sourced from <a href='https://www.bv-brc.org/'>BV-BRC</a></p>
       <p>Figures on the dashboard were inspired by <a href='https://www.science.org/doi/full/10.1126/science.abj4336'>Wilkinson et al. Science 2021</a></p>
-      <p>The CLIMADE Africa dashboard was built using the <a href='https://github.com/BIA-lab/genomic-dash'>Genomic Dash Framework</a> as reference</p>
+      <p>The CLIMADE Africa dashboard was built using the <a href='https://github.com/BIA-lab/genomic-dash'>Genomic Dash Framework</a></p>
   </div>
   <br/>
 """
@@ -87,7 +87,7 @@ with st.container():
 
   with col2:
       
-    bg = get_base64_of_bin_file("img/greenpeace_bg.png")
+    bg = get_base64_of_bin_file("img/lucious_bg.png")
 
     col2_style = """
       <style>
