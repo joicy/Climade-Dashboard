@@ -38,7 +38,7 @@ page_title = """
  
 page_infos = """
   <div>
-      <strong>INFOS</strong>
+      <strong>INFO</strong>
       <p>The data displayed on the dashboard is sourced from <a href='https://www.bv-brc.org/'>BV-BRC</a></p>
       <p>Figures on the dashboard were inspired by <a href='https://www.science.org/doi/full/10.1126/science.abj4336'>Wilkinson et al. Science 2021</a></p>
       <p>The CLIMADE Africa dashboard was built using the <a href='https://github.com/BIA-lab/genomic-dash'>Genomic Dash Framework</a></p>
@@ -49,7 +49,7 @@ page_infos = """
 page_reference = """
   <div>
       <strong>CITE US:</strong>
-      <p>Xavier, J.S., Moir, M., Tegally, H. et al. SARS-CoV-2 Africa dashboard for real-time COVID-19 information. Nat Microbiol 8, 1–4 (2023). https://doi.org/10.1038/s41564-022-01276-9</p>
+      <p>Xavier, J.S., Moir, M., Tegally, H., Sitharam, N. et al. SARS-CoV-2 Africa dashboard for real-time COVID-19 information. Nat Microbiol 8, 1–4 (2023). https://doi.org/10.1038/s41564-022-01276-9</p>
   </div>
   <br/>
 """
