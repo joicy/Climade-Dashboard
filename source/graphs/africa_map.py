@@ -26,7 +26,10 @@ def map_data(df):
 
     df_map = gdf.merge(df, left_on="sovereignt", right_on="country", how="outer")
     df_map = df_map[
-        ['date_2weeks', 'country', 'variant', 'sovereignt', 'Count', 'sov_a3']]
+        ['date_2weeks', 'variant', 'sovereignt', 'Count', 'sov_a3']]
+
+    # addding a country col
+    df_map["country"] = df_map["sovereignt"]
 
     # filling missing country codes
     # df_map['sov_a3'] = df_map['sov_a3'].astype(str)
@@ -46,7 +49,7 @@ def map_data(df):
     final_date = final_date.strftime('%Y-%m-%d')
 
     # Drop NA values
-    df_map.dropna(subset=['country', 'date_2weeks'], inplace=True)
+    # df_map.dropna(subset=['country', 'date_2weeks'], inplace=True)
 
     # convert column date to str
     df_map['date_2weeks'] = df_map['date_2weeks'].dt.strftime('%Y-%m-%d')
