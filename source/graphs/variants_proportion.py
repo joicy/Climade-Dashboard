@@ -32,7 +32,7 @@ def variants_bar_plot(variants_percentage, column, title, pivot_df, legend_title
             xaxis = dict(title = "Year"),
             yaxis = dict(title = "Proportion of Genomes",
                         tickformat = ".0%",
-                        hoverformat = "%"),
+                        hoverformat = ".2%"),
             legend = dict(
                 title = dict(text = legend_title, font = dict(size = 16)))
         )
