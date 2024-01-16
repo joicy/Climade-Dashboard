@@ -75,36 +75,36 @@ dengue_variants = {"Unassigned", "DENV-1", "DENV-2", "DENV-3", "DENV-4"}
 
 dengue_one = {'Genotype I', 'Genotype II', 'Genotype III', 'Genotype IV', 'Genotype V', 'Unassigned'}
 
-dengue_one_color = {'Genotype I': 'tealgrn',
-                    'Genotype II': 'teal',
-                    'Genotype III': 'algae',
-                    'Genotype IV': 'blugrn',
-                    'Genotype V': 'mint',
+dengue_one_color = {'Genotype I': 'blues',
+                    'Genotype II': 'Emrld',
+                    'Genotype III': 'Reds',
+                    'Genotype IV': 'Pinkyl',
+                    'Genotype V': 'Purp',
                     'Unassigned': 'greys'}
 
 dengue_two = {'Genotype I', 'Genotype II', 'Genotype III', 'Genotype IV', 'Genotype V', 'Genotype VI', 'Unassigned'}
 
-dengue_two_color = {'Genotype I': 'tealgrn',
-                    'Genotype II': 'teal',
-                    'Genotype III': 'algae',
-                    'Genotype IV': 'blugrn',
-                    'Genotype V': 'mint',
-                    'Genotype VI': 'peach',
+dengue_two_color = {'Genotype I': 'blues',
+                    'Genotype II': 'Emrld',
+                    'Genotype III': 'Reds',
+                    'Genotype IV': 'Pinkyl',
+                    'Genotype V': 'Purp',
+                    'Genotype VI': 'Burg',
                     'Unassigned': 'greys'}
 
 dengue_three = {'Genotype I', 'Genotype II', 'Genotype III', 'Genotype IV', 'Genotype V', 'Unassigned'}
 
-dengue_three_color = {'Genotype I': 'tealgrn',
-                    'Genotype II': 'teal',
-                    'Genotype III': 'algae',
-                    'Genotype IV': 'blugrn',
-                    'Genotype V': 'mint',
+dengue_three_color = {'Genotype I': 'blues',
+                    'Genotype II': 'Emrld',
+                    'Genotype III': 'Reds',
+                    'Genotype IV': 'Pinkyl',
+                    'Genotype V': 'Purp',
                     'Unassigned': 'greys'}
 
 dengue_four = {'Genotype I', 'Genotype II', 'Unassigned'}
 
-dengue_four_color = {'Genotype I': 'tealgrn',
-                    'Genotype II': 'teal',
+dengue_four_color = {'Genotype I': 'blues',
+                    'Genotype II': 'Emrld',
                     'Unassigned': 'greys'}
 
 chikv_lineages = {"East-Central-South-African", "West African", "Asian Urban", "Indian Ocean", "Asian and Caribbean",

@@ -4,6 +4,7 @@ from source.pages.header import *
 from source.graphs.africa_map import *
 from source.graphs.variants_proportion import variants_bar_plot
 from source.graphs.other_countries_sequences import other_countries_with_sequences_chart
+from source.pages.sidebar_dengue_1 import choose_colour_dengue_genotype
 from source.pages.tables import variant_summary_table as vst
 
 
@@ -87,7 +88,7 @@ def main():
          # 'Variants proportion'
          ))
     if map_option == 'Total number of genomes':
-        colorpath_africa_map(df_count_country, column=c1, color_pallet="Purp")
+        colorpath_africa_map(df_count_country, column=c1, color_pallet="sunsetdark")
     elif map_option == 'Genomes by genotype':
         # Multiselect to choose variants to show
         voc_selected = c1.selectbox("Choose genotype to show", dengue_two)
@@ -99,7 +100,7 @@ def main():
 
     ############ Second column ###############
     ####### Circulating lineages CHART ###########
-    variants_bar_plot(variants_percentage, c2, "Circulating Genotypes", pivot_df, "Genotype")
+    variants_bar_plot(variants_percentage, c2, "Circulating Genotypes", pivot_df, choose_colour_dengue_genotype)
 
     ####### COUNTRIES WHITH SEQUENCE CHART #########
     other_countries_with_sequences_chart(other_df_count_country, c2, "Genotype")
