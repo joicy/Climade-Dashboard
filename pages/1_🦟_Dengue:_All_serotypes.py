@@ -4,6 +4,7 @@ from source.pages.header import *
 from source.graphs.africa_map import *
 from source.graphs.variants_proportion import variants_bar_plot
 from source.graphs.countries_sequences import countries_with_sequences_chart
+from source.pages.sidebar_dengue_all_serotypes import choose_colour_dengue
 from source.pages.tables import variant_summary_table as vst
 
 
@@ -99,7 +100,7 @@ def main():
          ))
     if map_option == 'Total number of genomes':
         # df_count_countries = sd.new_build_df_count(df_africa, country=True);
-        colorpath_africa_map(df_count_country, column=c1, color_pallet="Purp")
+        colorpath_africa_map(df_count_country, column=c1, color_pallet="sunsetdark")
     elif map_option == 'Genomes by serotype':
         # Multiselect to choose variants to show
         voc_selected = c1.selectbox("Choose Serotype to show", dengue_variants)
@@ -111,10 +112,10 @@ def main():
 
     ############ Second column ###############
     ####### Circulating lineages CHART ###########
-    variants_bar_plot(variants_percentage, c2, "Circulating Serotypes", pivot_df, "Serotype")
+    variants_bar_plot(variants_percentage, c2, "Circulating Serotypes", pivot_df, choose_colour_dengue, "Serotype")
 
     ####### COUNTRIES WHITH SEQUENCE CHART #########
-    countries_with_sequences_chart(df_count_country, c2, "Serotype", "Genomes per serotype")
+    countries_with_sequences_chart(df_count_country, c2, discrete_colour_dengue, "Serotype", "Genomes per serotype")
 
 if __name__ == "__main__":
     main()

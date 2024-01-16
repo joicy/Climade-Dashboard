@@ -115,7 +115,7 @@ def other_build_df_count(dataframe, country=False):
 def new_build_variant_percentage(other_df_count):
     # creating an iterable list to use when creating the trace
     variant = list(other_df_count['lineage'].unique())
-    pivot_df = other_df_count.pivot(index = "date_2weeks", columns="lineage", values = "Count")
+    pivot_df = other_df_count.pivot(index="date_2weeks", columns="lineage", values = "Count")
     pivot_df.fillna(0, inplace = True)
     # now we need to calculate the proportions but first we have to calculate the totals
     pivot_df["Total"] = pivot_df.sum(axis = 1)
@@ -127,6 +127,24 @@ def new_build_variant_percentage(other_df_count):
     sort_key = dict(pivot_df[variants_percentage].sum())
     variants_percentage = sorted(variants_percentage, key = lambda k:sort_key[k], reverse = True)
     return variants_percentage, pivot_df
+
+
+def choose_colour_dengue_genotype(genotype):
+    if genotype == "percent_Genotype I":
+        return "blue"
+    elif genotype == "percent_Genotype II":
+        return "lightseagreen"
+    elif genotype == "percent_Genotype III":
+        return "red"
+    elif genotype == "percent_Genotype IV":
+        return "deeppink"
+    elif genotype == "percent_Genotype V":
+        return "mediumpurple"
+    elif genotype == "percent_Genotype VI":
+        return "maroon"
+    else:
+        return "grey"
+
 
 def reset_filters(df):
     # Countries filters

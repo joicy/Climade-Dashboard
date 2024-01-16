@@ -26,7 +26,10 @@ def map_data(df):
 
     df_map = gdf.merge(df, left_on="sovereignt", right_on="country", how="outer")
     df_map = df_map[
-        ['date_2weeks', 'country', 'variant', 'sovereignt', 'Count', 'sov_a3']]
+        ['date_2weeks', 'variant', 'sovereignt', 'Count', 'sov_a3']]
+
+    # addding a country col
+    df_map["country"] = df_map["sovereignt"]
 
     # filling missing country codes
     # df_map['sov_a3'] = df_map['sov_a3'].astype(str)
@@ -46,7 +49,7 @@ def map_data(df):
     final_date = final_date.strftime('%Y-%m-%d')
 
     # Drop NA values
-    df_map.dropna(subset=['country', 'date_2weeks'], inplace=True)
+    # df_map.dropna(subset=['country', 'date_2weeks'], inplace=True)
 
     # convert column date to str
     df_map['date_2weeks'] = df_map['date_2weeks'].dt.strftime('%Y-%m-%d')
@@ -248,9 +251,6 @@ def colorpath_africa_map(df_africa, column, color_pallet):
             fig_map.update_layout(height=600, margin={"r": 0, "t": 0, "l": 0, "b": 0},
                                   legend=dict(orientation='h')
                                   )
-            fig_map.update_layout(title_y=0.2, annotations=[dict(x=1, y=0, xref='paper', yref='paper',
-                                                                 text='Countries in YELLOW do not have any data submitted to BV-BRC',
-                                                                 showarrow=False)])
 
             # creating standardize hover template
             custom_hovertemplate = '<b>%{customdata[0]} </b><br><br>' + \

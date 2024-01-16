@@ -63,61 +63,67 @@ missing_country_codes = {'Guinea-Bissau': 'GNB', 'Mauritius': 'MUS', 'Republic o
                          'Eswatini': 'SWZ', 'Tanzania': 'TZA', 'South Sudan': 'SSD'}
 
 #https://plotly.com/python/builtin-colorscales/#discrete-color-sequences
-vocs_color_pallet = {'DENV-1': 'tealgrn',
-                     'DENV-2': 'teal',
-                     'DENV-3': 'algae',
-                     'DENV-4': 'blugrn',
+vocs_color_pallet = {'DENV-1': 'blues',
+                     'DENV-2': 'Emrld',
+                     'DENV-3': 'Reds',
+                     'DENV-4': 'Pinkyl',
                      'Unassigned': 'greys'}
 
 
 ##### CLIMADE dicts ########
 dengue_variants = {"Unassigned", "DENV-1", "DENV-2", "DENV-3", "DENV-4"}
 
+discrete_colour_dengue = {'DENV-1': 'blue',
+                         'DENV-2': 'lightseagreen',
+                         'DENV-3': 'red',
+                         'DENV-4': 'pink',
+                         'Unassigned': 'grey'}
+
 dengue_one = {'Genotype I', 'Genotype II', 'Genotype III', 'Genotype IV', 'Genotype V', 'Unassigned'}
 
-dengue_one_color = {'Genotype I': 'tealgrn',
-                    'Genotype II': 'teal',
-                    'Genotype III': 'algae',
-                    'Genotype IV': 'blugrn',
-                    'Genotype V': 'mint',
+dengue_one_color = {'Genotype I': 'blues',
+                    'Genotype II': 'Emrld',
+                    'Genotype III': 'Reds',
+                    'Genotype IV': 'Pinkyl',
+                    'Genotype V': 'Purp',
                     'Unassigned': 'greys'}
+
+discrete_colour_dengue_genotypes = {'Genotype I': 'blue',
+                                    'Genotype II': 'lightseagreen',
+                                    'Genotype III': 'red',
+                                    'Genotype IV': 'pink',
+                                    'Genotype V': 'mediumpurple',
+                                    'Genotype VI': 'maroon',
+                                    'Unassigned': 'grey'}
 
 dengue_two = {'Genotype I', 'Genotype II', 'Genotype III', 'Genotype IV', 'Genotype V', 'Genotype VI', 'Unassigned'}
 
-dengue_two_color = {'Genotype I': 'tealgrn',
-                    'Genotype II': 'teal',
-                    'Genotype III': 'algae',
-                    'Genotype IV': 'blugrn',
-                    'Genotype V': 'mint',
-                    'Genotype VI': 'peach',
-                    'Unassigned': 'greys'}
-
 dengue_three = {'Genotype I', 'Genotype II', 'Genotype III', 'Genotype IV', 'Genotype V', 'Unassigned'}
 
-dengue_three_color = {'Genotype I': 'tealgrn',
-                    'Genotype II': 'teal',
-                    'Genotype III': 'algae',
-                    'Genotype IV': 'blugrn',
-                    'Genotype V': 'mint',
-                    'Unassigned': 'greys'}
-
 dengue_four = {'Genotype I', 'Genotype II', 'Unassigned'}
-
-dengue_four_color = {'Genotype I': 'tealgrn',
-                    'Genotype II': 'teal',
-                    'Unassigned': 'greys'}
 
 chikv_lineages = {"East-Central-South-African", "West African", "Asian Urban", "Indian Ocean", "Asian and Caribbean",
                   "Unassigned"}
 
-chikv_lineages_color = {'East-Central-South-African': 'tealgrn',
-                        'West African': 'algae',
-                        'Asian Urban': 'teal',
-                        'Indian Ocean': 'blugrn',
-                        'Asian and Caribbean': 'mint',
+chikv_lineages_color = {'East-Central-South-African': 'blues',
+                        'West African': 'Emrld',
+                        'Asian Urban': 'Reds',
+                        'Indian Ocean': 'Pinkyl',
+                        'Asian and Caribbean': 'Purp',
                         'Unassigned': 'greys'}
+
+discrete_colour_chikv = {'ECSA': 'blue',
+                         'WA': 'lightseagreen',
+                         'AUL': 'red',
+                         'IOL': 'pink',
+                         'ACL': 'mediumpurple',
+                         'Unassigned': 'grey'}
 
 zika_lineages = {"African", "Asian"}
 
-zika_lineages_color = {'African': 'tealgrn',
-                       'Asian': 'algae'}
+zika_lineages_color = {'African': 'blues',
+                       'Asian': 'Emrld'}
+
+discrete_colour_zikv = {'African': 'blue',
+                        'Asian': 'lightseagreen',
+                        'Unassigned': 'grey'}
