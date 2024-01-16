@@ -251,9 +251,6 @@ def colorpath_africa_map(df_africa, column, color_pallet):
             fig_map.update_layout(height=600, margin={"r": 0, "t": 0, "l": 0, "b": 0},
                                   legend=dict(orientation='h')
                                   )
-            fig_map.update_layout(title_y=0.2, annotations=[dict(x=1, y=0, xref='paper', yref='paper',
-                                                                 text='Countries in YELLOW do not have any data submitted to BV-BRC',
-                                                                 showarrow=False)])
 
             # creating standardize hover template
             custom_hovertemplate = '<b>%{customdata[0]} </b><br><br>' + \
