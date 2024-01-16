@@ -6,6 +6,7 @@ from source.pages.header import *
 from source.graphs.africa_map import *
 from source.graphs.variants_proportion import variants_bar_plot
 from source.graphs.countries_sequences import countries_with_sequences_chart, countries_with_sequences_chart_one_variant
+from source.pages.sidebar_zika import choose_colour_zika
 from source.pages.tables import variant_summary_table as vst
 
 
@@ -89,7 +90,7 @@ def main():
          ))
     
     if map_option == 'Total number of genomes':
-        colorpath_africa_map(df_count_country, column=c1, color_pallet="Purp")
+        colorpath_africa_map(df_count_country, column=c1, color_pallet="sunsetdark")
     elif map_option == 'Genomes by lineage':
         # Multiselect to choose variants to show
         voc_selected = c1.selectbox("Choose lineage to show", zika_lineages)
@@ -101,7 +102,7 @@ def main():
 
     ############ Second column ###############
     ####### Circulating lineages CHART ###########
-    variants_bar_plot(variants_percentage, c2, "Circulating Lineages", pivot_df, "Lineage")
+    variants_bar_plot(variants_percentage, c2, "Circulating Lineages", pivot_df, choose_colour_zika)
 
     ####### COUNTRIES WHITH SEQUENCE CHART #########
     countries_with_sequences_chart(df_count_country, c2, "Lineage", "Genomes per lineage")

@@ -119,5 +119,5 @@ chikv_lineages_color = {'East-Central-South-African': 'blues',
 
 zika_lineages = {"African", "Asian"}
 
-zika_lineages_color = {'African': 'tealgrn',
-                       'Asian': 'algae'}
+zika_lineages_color = {'African': 'blues',
+                       'Asian': 'Emrld'}

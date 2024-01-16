@@ -112,6 +112,16 @@ def new_build_variant_percentage(df_count):
     variants_percentage = sorted(variants_percentage, key = lambda k:sort_key[k], reverse = True)
     return variants_percentage, pivot_df
 
+
+def choose_colour_zika(lineage):
+    if lineage == "percent_African":
+        return "blue"
+    elif lineage == "percent_Asian":
+        return "lightseagreen"
+    else:
+        return "grey"
+
+
 def reset_filters(df):
     # Countries filters
     if 'multiselect_regions' in st.session_state.keys():
