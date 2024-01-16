@@ -6,7 +6,7 @@ from datetime import timedelta, datetime
 from utils.dicts import main_lineages_color_scheme
 
 
-def other_countries_with_sequences_chart(df_count, column, legend_title):
+def other_countries_with_sequences_chart(df_count, column, color_function, legend_title):
     c = column
     df_country_lineages = df_count.copy()
 
@@ -59,7 +59,7 @@ def other_countries_with_sequences_chart(df_count, column, legend_title):
                                     title= '    ',
                                     custom_data=['country','date_2weeks', 'prevalent_lineage', 'total_genomes',
                                                  'genomes_per_lineage', 'date_initial', 'date_final'],
-                                    color_discrete_map=main_lineages_color_scheme,
+                                    color_discrete_map=color_function,
                                     stripmode='group').update_traces(jitter=1)
         country_lineages.update_traces(marker=dict(size=13, line=dict(width=0.5, color='#E5ECF6')))
         country_lineages.update_layout(legend=dict(

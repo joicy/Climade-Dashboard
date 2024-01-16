@@ -115,7 +115,7 @@ def main():
     variants_bar_plot(variants_percentage, c2, "Circulating Serotypes", pivot_df, choose_colour_dengue, "Serotype")
 
     ####### COUNTRIES WHITH SEQUENCE CHART #########
-    countries_with_sequences_chart(df_count_country, c2, "Serotype", "Genomes per serotype")
+    countries_with_sequences_chart(df_count_country, c2, discrete_colour_dengue, "Serotype", "Genomes per serotype")
 
 if __name__ == "__main__":
     main()

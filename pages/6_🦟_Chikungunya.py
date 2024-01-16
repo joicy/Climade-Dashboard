@@ -101,7 +101,7 @@ def main():
     variants_bar_plot(variants_percentage, c2, "Circulating Lineages", pivot_df, choose_colour_chik, "Lineage")
 
     ####### COUNTRIES WHITH SEQUENCE CHART #########
-    countries_with_sequences_chart(df_count_country, c2, "Lineage", "Genomes per lineage")
+    countries_with_sequences_chart(df_count_country, c2, discrete_colour_chikv, "Lineage", "Genomes per lineage")
 
 if __name__ == "__main__":
     main()
