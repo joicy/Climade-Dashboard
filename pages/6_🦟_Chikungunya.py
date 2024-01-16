@@ -93,7 +93,7 @@ def main():
     elif map_option == 'Genomes by lineage':
         # Multiselect to choose variants to show
         voc_selected = c1.selectbox("Choose lineage to show", chikv_lineages)
-        df_count_map = sd.new_build_df_count(df_africa[df_africa['variant'] == voc_selected], True)
+        df_count_map = sd.new_build_df_count(df_africa[df_africa['lineage'] == voc_selected], True)
         colorpath_africa_map(df_count_map, column=c1, color_pallet=chikv_lineages_color.get(voc_selected))
 
     ############ Second column ###############
