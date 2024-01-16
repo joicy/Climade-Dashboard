@@ -101,7 +101,7 @@ def main():
 
     ############ Second column ###############
     ####### Circulating lineages CHART ###########
-    variants_bar_plot(variants_percentage, c2, "Circulating Genotypes", pivot_df, choose_colour_dengue_genotype)
+    variants_bar_plot(variants_percentage, c2, "Circulating Genotypes", pivot_df, choose_colour_dengue_genotype, "Genotype")
 
     ####### COUNTRIES WHITH SEQUENCE CHART #########
     other_countries_with_sequences_chart(other_df_count_country, c2, "Genotype")
