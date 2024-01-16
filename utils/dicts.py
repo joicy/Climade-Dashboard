@@ -63,10 +63,10 @@ missing_country_codes = {'Guinea-Bissau': 'GNB', 'Mauritius': 'MUS', 'Republic o
                          'Eswatini': 'SWZ', 'Tanzania': 'TZA', 'South Sudan': 'SSD'}
 
 #https://plotly.com/python/builtin-colorscales/#discrete-color-sequences
-vocs_color_pallet = {'DENV-1': 'tealgrn',
-                     'DENV-2': 'teal',
-                     'DENV-3': 'algae',
-                     'DENV-4': 'blugrn',
+vocs_color_pallet = {'DENV-1': 'blues',
+                     'DENV-2': 'Emrld',
+                     'DENV-3': 'Reds',
+                     'DENV-4': 'Pinkyl',
                      'Unassigned': 'greys'}
 
 
@@ -110,11 +110,11 @@ dengue_four_color = {'Genotype I': 'tealgrn',
 chikv_lineages = {"East-Central-South-African", "West African", "Asian Urban", "Indian Ocean", "Asian and Caribbean",
                   "Unassigned"}
 
-chikv_lineages_color = {'East-Central-South-African': 'tealgrn',
-                        'West African': 'algae',
-                        'Asian Urban': 'teal',
-                        'Indian Ocean': 'blugrn',
-                        'Asian and Caribbean': 'mint',
+chikv_lineages_color = {'East-Central-South-African': 'blues',
+                        'West African': 'Emrld',
+                        'Asian Urban': 'Reds',
+                        'Indian Ocean': 'Pinkyl',
+                        'Asian and Caribbean': 'Purp',
                         'Unassigned': 'greys'}
 
 zika_lineages = {"African", "Asian"}

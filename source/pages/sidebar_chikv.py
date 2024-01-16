@@ -110,6 +110,22 @@ def new_build_variant_percentage(df_count):
     variants_percentage = sorted(variants_percentage, key = lambda k:sort_key[k], reverse = True)
     return variants_percentage, pivot_df
 
+
+def choose_colour_chik(lineage):
+    if lineage == "percent_ECSA":
+        return "blue"
+    elif lineage == "percent_WA":
+        return "lightseagreen"
+    elif lineage == "percent_AUL":
+        return "red"
+    elif lineage == "percent_IOL":
+        return "pink"
+    elif lineage == "percent_ACL":
+        return "purple"
+    else:
+        return "grey"
+
+
 def reset_filters(df):
     # Countries filters
     if 'multiselect_regions' in st.session_state.keys():

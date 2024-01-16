@@ -117,6 +117,19 @@ def new_build_variant_percentage(df_count):
     return variants_percentage, pivot_df
 
 
+def choose_colour_dengue(serotype):
+    if serotype == "percent_DENV-1":
+        return "blue"
+    elif serotype == "percent_DENV-2":
+        return "lightseagreen"
+    elif serotype == "percent_DENV-3":
+        return "red"
+    elif serotype == "percent_DENV-4":
+        return "pink"
+    else:
+        return "grey"
+
+
 def reset_filters(df):
     # Countries filters
     if 'multiselect_regions' in st.session_state.keys():
