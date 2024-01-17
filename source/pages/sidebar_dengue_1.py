@@ -137,7 +137,7 @@ def choose_colour_dengue_genotype(genotype):
     elif genotype == "percent_Genotype III":
         return "red"
     elif genotype == "percent_Genotype IV":
-        return "deeppink"
+        return "pink"
     elif genotype == "percent_Genotype V":
         return "mediumpurple"
     elif genotype == "percent_Genotype VI":
