@@ -64,6 +64,7 @@ def main():
     # # Button to call filtering function
     if bt_col_2.button("Filter data", key='button_filter'):
         df_africa = sd.filter_df_africa(countries_choice, lineages_choice, start_date, end_date, df_africa)
+        df_count_country = sd.new_build_df_count(df_africa, country=True)
         df_count = sd.new_build_df_count(df_africa)
         variants_percentage, pivot_df = sd.new_build_variant_percentage(df_count)
 

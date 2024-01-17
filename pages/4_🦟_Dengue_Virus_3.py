@@ -94,7 +94,7 @@ def main():
         # Multiselect to choose variants to show
         voc_selected = c1.selectbox("Choose genotype to show", dengue_three)
         df_count_map = sd.new_build_df_count(df_africa[df_africa['lineage'] == voc_selected], True)
-        colorpath_africa_map(df_count_map, column=c1, color_pallet=dengue_three_color.get(voc_selected))
+        colorpath_africa_map(df_count_map, column=c1, color_pallet=dengue_one_color.get(voc_selected))
     # elif map_option == 'Variants proportion':
     #     c1.write(variants_percentage.head())
     #     scatter_africa_map(variants_percentage, column=c1, map_count_column='Count')
