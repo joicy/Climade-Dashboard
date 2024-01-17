@@ -185,7 +185,7 @@ def filter_df_africa(countries_choice, lineages_choice, start_date, end_date, df
     df_africa = df_africa[mask_countries]
 
     # filter by variant
-    mask_lineages = df_africa['variant'].isin(lineages_choice)
+    mask_lineages = df_africa['lineage'].isin(lineages_choice)
     df_africa = df_africa[mask_lineages]
     df_africa.variant[df_africa.variant.isna()] = 'NA'
 
