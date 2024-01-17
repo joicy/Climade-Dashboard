@@ -23,7 +23,7 @@ def get_countries_choice(df_africa):
     elif selection == "Select region":
         aux_countries = []
         countries_selected = st.sidebar.multiselect('What region do you want to analyze?', countries_regions.keys(),
-                                                    default='Southern Africa', key='multiselect_regions',
+                                                    key='multiselect_regions',
                                                     on_change=warning_filter_data)
         display_countries = " and ".join([", ".join(countries_selected[:-1]), countries_selected[-1]] if len(
             countries_selected) > 2 else countries_selected)
@@ -32,7 +32,7 @@ def get_countries_choice(df_africa):
         countries_selected = aux_countries
     else:
         countries_selected = st.sidebar.multiselect('What countries do you want to analyze?', countries,
-                                                    default='South Africa', key='multiselect_countries')
+                                                    key='multiselect_countries')
         display_countries = " and ".join([", ".join(countries_selected[:-1]), countries_selected[-1]] if len(
             countries_selected) > 2 else countries_selected)
 
