@@ -235,42 +235,73 @@ def colorpath_africa_map(df_africa, column, color_pallet):
             # c.markdown("##### Cumulative genomes produced since {}".format(initial_date))
             c.caption("Showing cumulative numbers.")
 
-            fig_map = px.choropleth(df_map,
-                                    locations='country', geojson=africa_geojson, featureidkey="properties.sovereignt",
-                                    color='cum_counts',
-                                    hover_name='country', animation_frame="date_2weeks",
-                                    color_continuous_scale=color_pallet,
-                                    range_color=[0, max(df_map['cum_counts'])],
-                                    labels={'cum_counts': 'Number of genomes', 'date_2weeks': 'Date'},
-                                    custom_data=['country', 'cum_counts', 'date_initial', 'date_2weeks'],
-                                    title="Cumulative genomes produced since {}".format(initial_date)
-                                    )
-            fig_map.update_layout(geo_scope="africa", geo_resolution=50)
-            fig_map.update_geos(visible=False, showcoastlines=True, showcountries=True, showland=True,
-                                showsubunits=True, subunitcolor='#3E8989')
-            fig_map.update_layout(height=600, margin={"r": 0, "t": 0, "l": 0, "b": 0},
-                                  legend=dict(orientation='h')
-                                  )
+            unique_dates = df_map["date_2weeks"].unique()
 
-            # creating standardize hover template
-            custom_hovertemplate = '<b>%{customdata[0]} </b><br><br>' + \
-                                   '%{customdata[1]} genomes <br>from %{customdata[2]}' + \
-                                   ' to %{customdata[3]}<br>'
+            if len(unique_dates) > 1:
+                fig_map = px.choropleth(df_map,
+                                        locations='country', geojson=africa_geojson, featureidkey="properties.sovereignt",
+                                        color='cum_counts',
+                                        hover_name='country', animation_frame="date_2weeks",
+                                        color_continuous_scale=color_pallet,
+                                        range_color=[0, max(df_map['cum_counts'])],
+                                        labels={'cum_counts': 'Number of genomes', 'date_2weeks': 'Date'},
+                                        custom_data=['country', 'cum_counts', 'date_initial', 'date_2weeks'],
+                                        title="Cumulative genomes produced since {}".format(initial_date)
+                                        )
+                fig_map.update_layout(geo_scope="africa", geo_resolution=50)
+                fig_map.update_geos(visible=False, showcoastlines=True, showcountries=True, showland=True,
+                                    showsubunits=True, subunitcolor='#3E8989')
+                fig_map.update_layout(height=600, margin={"r": 0, "t": 0, "l": 0, "b": 0},
+                                      legend=dict(orientation='h')
+                                      )
 
-            fig_map.update_traces(hovertemplate=custom_hovertemplate)
-            for frame in fig_map.frames:
-                for data in frame.data:
-                    data.hovertemplate = custom_hovertemplate
+                # creating standardize hover template
+                custom_hovertemplate = '<b>%{customdata[0]} </b><br><br>' + \
+                                       '%{customdata[1]} genomes <br>from %{customdata[2]}' + \
+                                       ' to %{customdata[3]}<br>'
 
-            # starting animation from the last frame
-            fig_map2 = go.Figure()
-            for tr in fig_map.frames[-1].data:
-                fig_map2.add_trace(tr)
+                fig_map.update_traces(hovertemplate=custom_hovertemplate)
 
-            fig_map2.layout = fig_map.layout
-            fig_map2.frames = fig_map.frames
-            fig_map2.layout['sliders'][0]['active'] = len(fig_map.frames) - 1
-            c.plotly_chart(fig_map2, use_container_width=True)
+                for frame in fig_map.frames:
+                    for data in frame.data:
+                        data.hovertemplate = custom_hovertemplate
+
+                # starting animation from the last frame
+                fig_map2 = go.Figure()
+                for tr in fig_map.frames[-1].data:
+                    fig_map2.add_trace(tr)
+
+                fig_map2.layout = fig_map.layout
+                fig_map2.frames = fig_map.frames
+                fig_map2.layout['sliders'][0]['active'] = len(fig_map.frames) - 1
+                c.plotly_chart(fig_map2, use_container_width=True)
+
+            else:
+                fig_map = px.choropleth(df_map,
+                                        locations='country', geojson=africa_geojson,
+                                        featureidkey="properties.sovereignt",
+                                        color='cum_counts',
+                                        hover_name='country',
+                                        color_continuous_scale=color_pallet,
+                                        range_color=[0, max(df_map['cum_counts'])],
+                                        labels={'cum_counts': 'Number of genomes', 'date_2weeks': 'Date'},
+                                        custom_data=['country', 'cum_counts', 'date_initial', 'date_2weeks'],
+                                        title="Cumulative genomes produced since {}".format(initial_date)
+                                        )
+                fig_map.update_layout(geo_scope="africa", geo_resolution=50)
+                fig_map.update_geos(visible=False, showcoastlines=True, showcountries=True, showland=True,
+                                    showsubunits=True, subunitcolor='#3E8989')
+                fig_map.update_layout(height=600, margin={"r": 0, "t": 0, "l": 0, "b": 0},
+                                      legend=dict(orientation='h')
+                                      )
+
+                # creating standardize hover template
+                custom_hovertemplate = '<b>%{customdata[0]} </b><br><br>' + \
+                                       '%{customdata[1]} genomes <br>from %{customdata[2]}' + \
+                                       ' to %{customdata[3]}<br>'
+
+                fig_map.update_traces(hovertemplate=custom_hovertemplate)
+                c.plotly_chart(fig_map, use_container_width=True)
 
 
 # TODO: refatorar esse mapa com aprendizados do mapa acima

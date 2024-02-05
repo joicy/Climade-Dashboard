@@ -111,6 +111,23 @@ def other_build_df_count(dataframe, country=False):
 
     return other_df_count
 
+
+def df_count_map(dataframe, country=False):
+    dataframe["date_2weeks"] = pd.to_datetime(dataframe["date_2weeks"])
+    dataframe["date_2weeks"] = dataframe["date_2weeks"].dt.strftime("%Y")
+    if country:
+        other_df_count = dataframe.groupby(['country', 'lineage', 'date_2weeks']).size().reset_index(name='Count')
+        other_df_count['variant'] = other_df_count['lineage']
+        other_df_count = other_df_count.drop(['lineage'])
+
+    else:
+        other_df_count = dataframe.groupby(['lineage', 'date_2weeks']).size().reset_index(name='Count')
+        other_df_count['variant'] = other_df_count['lineage']
+        other_df_count = other_df_count.drop(['lineage'])
+
+    return other_df_count
+
+
 @st.cache_data
 def new_build_variant_percentage(other_df_count):
     # creating an iterable list to use when creating the trace
