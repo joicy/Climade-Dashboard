@@ -7,11 +7,32 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import plotly.figure_factory as ff
-import geopandas as gpd
+# import geopandas as gpd
 
 from utils.functions import *
 from utils.dicts import *
 
+def read_geojson(path: str) -> dict:
+    return json.load(open(path, "r", encoding="utf8"))
+
+
+def geojson_to_df(
+    geojson_dict: dict
+) -> pd.DataFrame:
+    
+    props_of_interest = ["sovereignt","sov_a3", "cartodb_id"]
+
+    filtered_geojson = []
+
+    for feature in geojson_dict['features']:
+
+        properties = feature['properties']
+
+        entry_dict = {prop: properties[prop] for prop in props_of_interest}
+        entry_dict["geometry"] = json.dumps(feature["geometry"])
+
+        filtered_geojson.append(dict(entry_dict))
+    return pd.DataFrame(filtered_geojson)
 
 @st.cache_data
 def map_data(df):
@@ -20,9 +41,11 @@ def map_data(df):
     # dropping white spaces in country column
     df['country'] = df['country'].str.lstrip()
     df['country'] = df['country'].str.rstrip()
+
     # Reading Africa map and joing with africa_df information
-    gdf = gpd.read_file('data/africa.geojson')
-    gdf.drop(columns=['created_at', 'updated_at'])
+    # gdf = gpd.read_file('data/africa.geojson')
+    # gdf.drop(columns=['created_at', 'updated_at'])
+    gdf = geojson_to_df(read_geojson('data/africa.geojson'))
 
     df_map = gdf.merge(df, left_on="sovereignt", right_on="country", how="outer")
     df_map = df_map[
