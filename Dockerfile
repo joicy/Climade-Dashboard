@@ -13,7 +13,9 @@ RUN apt-get update && apt-get install -y \
 
 COPY . .
 
-RUN pip3 install -r requirements.txt
+RUN python -m ensurepip --upgrade
+
+RUN pip install -r requirements.txt
 
 EXPOSE 8511
 
