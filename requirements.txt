@@ -1,7 +1,8 @@
+numpy==1.26.4
 streamlit==1.20.0
-pandas
+pandas==1.5.3
 xlrd==1.2.0
-geopandas
+# geopandas
 plotly==5.13.1
 geopy==2.3.0
-Pillow
+Pillow==10.3.0
