@@ -7,8 +7,8 @@ WORKDIR /Climade-Dashboard
 RUN apt-get update && apt-get install -y \
     build-essential \
     curl \
-    software-properties-common \
     git \
+    # python3-software-properties \
     && rm -rf /var/lib/apt/lists/*
 
 COPY . .
